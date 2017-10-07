@@ -8,4 +8,13 @@ Logo | Software | Description & Comments | Url
 ![](https://img.utdstc.com/icons/256/kingroot-android.png "KingRoot") | KingRoot | **Roots a phone.** | http://forum.xda-developers.com/android/apps-games/one-click-root-tool-android-2-x-5-0-t3107461
 ![](https://lh4.ggpht.com/vdK_CsMSsJoYvJpYgaj91fiJ1T8rnSHHbXL0Em378kQaaf_BGyvUek2aU9z2qbxJCAFV=w300-rw "Snapchat") | Snapchat | - | https://play.google.com/store/apps/details?id=com.snapchat.android
 ![](https://lh6.ggpht.com/k7Z4J1IIXXJnC2NRnFfJNlkn7kZge4Zx-Yv5uqYf4222tx74wXDzW24OvOxlcpw0KcQ=w300-rw "Google Drive") | Google Drive | - | https://play.google.com/store/apps/details?id=com.google.android.apps.docs
+![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter") | ZipRecruiter | Job Search by ZipRecruiter | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
 ![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
