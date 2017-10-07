@@ -6,6 +6,6 @@ Logo | Software | Description & Comments | Url
 ![](https://lh3.googleusercontent.com/3dvJqnc8hR9WFsjxjSN-dDXBiuk52lZAyrKiZM5jaaz3Jdk0wZ-YZIgzBergHxKMS3s=w300 "") | Algorithms and Data Structures C Offline Tutorial | - | https://play.google.com/store/apps/details?id=com.anees.algorithmsanddatastructures&hl=en
 ![](https://lh6.ggpht.com/K5l74O9_Ki0ibrho2jbUUjebS8XqFwksgQmvo2fSWZU0VbqBmTgyUG3goTyenOMJLrgv=w300 "") | AllBikesNow | - | https://play.google.com/store/apps/details?id=com.jcdecaux.allbikesnow&hl=en
 ![](https://img.utdstc.com/icons/256/kingroot-android.png "KingRoot") | KingRoot | **Roots a phone.** | http://forum.xda-developers.com/android/apps-games/one-click-root-tool-android-2-x-5-0-t3107461
-![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
+![](https://lh4.ggpht.com/vdK_CsMSsJoYvJpYgaj91fiJ1T8rnSHHbXL0Em378kQaaf_BGyvUek2aU9z2qbxJCAFV=w300-rw "Snapchat") | Snapchat | - | https://play.google.com/store/apps/details?id=com.snapchat.android
 ![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
 ![](https://exampleurloflogo "Example App Name") | App name | - | https://exampleurltodownload
