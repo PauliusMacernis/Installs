@@ -24,6 +24,37 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "ExampleAppName") | Droid info | Droid Hardware Info | https://play.google.com/store/apps/details?id=com.inkwired.droidinfo
 ![](https://exampleurloflogo "ExampleAppName") | Dropbox | - | https://play.google.com/store/apps/details?id=com.dropbox.android
 ![](https://exampleurloflogo "ExampleAppName") | Duolingo | - | https://play.google.com/store/apps/details?id=com.duolingo
+![](https://exampleurloflogo "ExampleAppName") | ElectroDroid | Collection of electronics tools and references | https://play.google.com/store/apps/details?id=it.android.demi.elettronica
+![](https://exampleurloflogo "ExampleAppName") | ELSA Speak | - | https://play.google.com/store/apps/details?id=us.nobarriers.elsa
+![](https://exampleurloflogo "ExampleAppName") | Endomondo | - | https://play.google.com/store/apps/details?id=com.endomondo.android
+![](https://exampleurloflogo "ExampleAppName") | English Grammar | English Grammar Handbook | https://play.google.com/store/apps/details?id=com.ssstudio.grammarhandbook
+![](https://exampleurloflogo "ExampleAppName") | English Teacher | - | https://play.google.com/store/apps/details?id=com.helloworld.englishteacher
+![](https://exampleurloflogo "ExampleAppName") | English Grammar Test | + | https://play.google.com/store/apps/details?id=english.grammar.test.app
+![](https://exampleurloflogo "ExampleAppName") | ES File Explorer | ES File Explorer File Manager. Browse LAN network, etc. | https://play.google.com/store/apps/details?id=com.estrongs.android.pop
+![](https://exampleurloflogo "ExampleAppName") | ESP 5 (6th sense or pure luck) | - | https://play.google.com/store/apps/details?id=com.vuifahgames.esp5
+![](https://exampleurloflogo "ExampleAppName") | Eventbrite | Local Events (e.g. Canada), tickets, etc. | https://play.google.com/store/apps/details?id=com.eventbrite.attendee
+![](https://exampleurloflogo "ExampleAppName") | Facebook | What is this? | https://play.google.com/store/apps/details?id=com.facebook.katana
+![](https://exampleurloflogo "ExampleAppName") | FastScanner | Scan to PDF | https://play.google.com/store/apps/details?id=com.coolmobilesolution.fastscannerfree
+![](https://exampleurloflogo "ExampleAppName") | Firefox | - | https://play.google.com/store/apps/details?id=org.mozilla.firefox
+![](https://exampleurloflogo "ExampleAppName") | Firefox Focus | Firefox Focus: The privacy browser | https://play.google.com/store/apps/details?id=org.mozilla.focus
+![](https://exampleurloflogo "ExampleAppName") | Flush | Crowdsourced Toilets | https://play.google.com/store/apps/details?id=toilet.samruston.com.toilet
+![](https://exampleurloflogo "ExampleAppName") | Radio Player Canada | Radio Player Canada - Free Internet Radio Canada | https://play.google.com/store/apps/details?id=com.appmind.radios.ca
+![](https://exampleurloflogo "ExampleAppName") | Foreca Weather | - | https://play.google.com/store/apps/details?id=com.foreca.android.weather
+![](https://exampleurloflogo "ExampleAppName") | GeeksforGeeks | Programming Algorithms | https://play.google.com/store/apps/details?id=free.programming.programming
+![](https://exampleurloflogo "ExampleAppName") | Gmail | - | https://play.google.com/store/apps/details?id=com.google.android.gm
+![](https://exampleurloflogo "ExampleAppName") | Google Text-to-speech | - | https://play.google.com/store/apps/details?id=com.google.android.tts
+![](https://exampleurloflogo "ExampleAppName") | Google+ | - | https://play.google.com/store/apps/details?id=com.google.android.apps.plus
+![](https://exampleurloflogo "ExampleAppName") | Hangouts | Google Hangouts | https://play.google.com/store/apps/details?id=com.google.android.talk
+![](https://exampleurloflogo "ExampleAppName") | HappyCow | HappyCow Find Vegan Food | https://play.google.com/store/apps/details?id=com.hcceg.veg.compassionfree
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
 ![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
 ![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
 ![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
