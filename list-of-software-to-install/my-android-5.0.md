@@ -46,26 +46,27 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "ExampleAppName") | Google+ | - | https://play.google.com/store/apps/details?id=com.google.android.apps.plus
 ![](https://exampleurloflogo "ExampleAppName") | Hangouts | Google Hangouts | https://play.google.com/store/apps/details?id=com.google.android.talk
 ![](https://exampleurloflogo "ExampleAppName") | HappyCow | HappyCow Find Vegan Food | https://play.google.com/store/apps/details?id=com.hcceg.veg.compassionfree
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | HD Camera | ??? HD Camera - Best camera with filters & panoramas | https://play.google.com/store/apps/details?id=filter.camera.snap.photo.video.panorama
+![](https://exampleurloflogo "ExampleAppName") | Hiking Project | The guide to the best hikes near you | https://play.google.com/store/apps/details?id=com.hikingproject.android
+![](https://exampleurloflogo "ExampleAppName") | IELTS NGOC BACH | - | https://play.google.com/store/apps/details?id=com.ngocbach.eilts
+![](https://exampleurloflogo "ExampleAppName") | Instagram | - | https://play.google.com/store/apps/details?id=com.instagram.android
+![](https://exampleurloflogo "ExampleAppName") | Investing | Stocks, Forex, Futures & News | https://play.google.com/store/apps/details?id=com.fusionmedia.investing
+![](https://exampleurloflogo "ExampleAppName") | KeePassDroid | An implementation of the KeePass Password Safe for Android | https://play.google.com/store/apps/details?id=com.android.keepass
+![](https://exampleurloflogo "ExampleAppName") | Khan Academy | - | https://play.google.com/store/apps/details?id=org.khanacademy.android
 ![](https://img.utdstc.com/icons/256/kingroot-android.png "KingRoot") | KingRoot | **Roots a phone.** | http://forum.xda-developers.com/android/apps-games/one-click-root-tool-android-2-x-5-0-t3107461
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
 ![](https://lh4.ggpht.com/vdK_CsMSsJoYvJpYgaj91fiJ1T8rnSHHbXL0Em378kQaaf_BGyvUek2aU9z2qbxJCAFV=w300-rw "Snapchat") | Snapchat | - | https://play.google.com/store/apps/details?id=com.snapchat.android
 ![](https://lh6.ggpht.com/k7Z4J1IIXXJnC2NRnFfJNlkn7kZge4Zx-Yv5uqYf4222tx74wXDzW24OvOxlcpw0KcQ=w300-rw "Google Drive") | Google Drive | - | https://play.google.com/store/apps/details?id=com.google.android.apps.docs
 ![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter") | ZipRecruiter | Job Search | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release
 ![](https://lh3.googleusercontent.com/xPgG18R6w5DejxQDGTPPdWPnT1uAdowsaQHtdFtbugRTaXsZTzehQwFTor7RHDj1HQxG=w300-rw "Freelancer - Hire & Find Jobs") | Freelancer | Hire & Find Projects | https://play.google.com/store/apps/details?id=com.freelancer.android.messenger
 ![](https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=w300-rw "WhatsApp Messenger") | WhatsApp | Messenger | https://play.google.com/store/apps/details?id=com.whatsapp
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
 ![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
