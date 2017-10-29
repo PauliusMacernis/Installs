@@ -96,9 +96,7 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "ExampleAppName") | Solar Activity | Solar Activity K-Index | https://play.google.com/store/apps/details?id=com.solarmonitor
 ![](https://exampleurloflogo "ExampleAppName") | Sound Meter | - | https://play.google.com/store/apps/details?id=com.soundmeter.app
 ![](https://exampleurloflogo "ExampleAppName") | Survival Manual | - | https://play.google.com/store/apps/details?id=org.ligi.survivalmanual
-![](https://exampleurloflogo "ExampleAppName") | Swedbank | 
-Swedbank Lietuva
- | https://play.google.com/store/apps/details?id=lt.swedbank.mobile
+![](https://exampleurloflogo "ExampleAppName") | Swedbank | Swedbank Lietuva | https://play.google.com/store/apps/details?id=lt.swedbank.mobile
 ![](https://exampleurloflogo "ExampleAppName") | TeamViewer | ? | https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile
 ![](https://exampleurloflogo "ExampleAppName") | Telegram | - | https://play.google.com/store/apps/details?id=org.telegram.messenger
 ![](https://exampleurloflogo "ExampleAppName") | The Great Trail | - | https://play.google.com/store/apps/details?id=ca.TransCanadaTrail.TheGreatTrail
@@ -117,9 +115,7 @@ Swedbank Lietuva
 ![](https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=w300-rw "WhatsApp Messenger") | WhatsApp | Messenger | https://play.google.com/store/apps/details?id=com.whatsapp
 ![](https://exampleurloflogo "ExampleAppName") | WiFiAnalyzer | - | https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer
 ![](https://exampleurloflogo "ExampleAppName") | Wish | Wish - Shopping Made Fun | https://play.google.com/store/apps/details?id=com.contextlogic.wish
-![](https://exampleurloflogo "ExampleAppName") | Word | 
-Microsoft Word
- | https://play.google.com/store/apps/details?id=com.microsoft.office.word
+![](https://exampleurloflogo "ExampleAppName") | Word | Microsoft Word  | https://play.google.com/store/apps/details?id=com.microsoft.office.word
 ![](https://exampleurloflogo "ExampleAppName") | YGPS | - | https://example.org
 ![](https://exampleurloflogo "ExampleAppName") | YouTube | - | https://play.google.com/store/apps/details?id=com.google.android.youtube
 ![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter") | ZipRecruiter | Job Search | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release
