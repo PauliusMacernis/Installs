@@ -100,7 +100,7 @@ Swedbank | Swedbank Lietuva | https://play.google.com/store/apps/details?id=lt.s
 TeamViewer | ? | https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile | ![](https://exampleurloflogo "ExampleAppName")
 Telegram | - | https://play.google.com/store/apps/details?id=org.telegram.messenger | ![](https://exampleurloflogo "ExampleAppName")
 The Great Trail | The Great Trail-Explore Canada | https://play.google.com/store/apps/details?id=ca.TransCanadaTrail.TheGreatTrail | ![](https://exampleurloflogo "ExampleAppName")
-Thermometer | - | https://exampleurltodownload | ![](https://exampleurloflogo "ExampleAppName")
+Thermometer | - | https://example.org | ![](https://exampleurloflogo "ExampleAppName")
 Todoist | Todoist: To-Do List, Task List | https://play.google.com/store/apps/details?id=com.todoist | ![](https://exampleurloflogo "ExampleAppName")
 Trafi | - | https://play.google.com/store/apps/details?id=com.trafi.android.tr | ![](https://exampleurloflogo "ExampleAppName")
 Translate | Google Translate | https://play.google.com/store/apps/details?id=com.google.android.apps.translate | ![](https://exampleurloflogo "ExampleAppName")
@@ -119,4 +119,4 @@ Word | Microsoft Word  | https://play.google.com/store/apps/details?id=com.micro
 YGPS | - | *https://example.org* | ![](https://exampleurloflogo "ExampleAppName") | 
 YouTube | - | https://play.google.com/store/apps/details?id=com.google.android.youtube | ![](https://exampleurloflogo "ExampleAppName")
 ZipRecruiter | Jobs in Canada, USA | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release | ![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter")
-AppName | - | https://exampleurltodownload | ![](https://exampleurloflogo "ExampleAppName")
+AppName | - | https://example.org | ![](https://exampleurloflogo "ExampleAppName")
