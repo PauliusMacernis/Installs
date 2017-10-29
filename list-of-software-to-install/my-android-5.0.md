@@ -1,4 +1,4 @@
-Logo | Software | Description & Comments | Url
+Software | Description & Comments | Url | Logo
 ------------ | ------------ | ------------- | -------------
 @Voice Aloud Reader | - | https://play.google.com/store/apps/details?id=com.hyperionics.avar&hl=en | ![](https://lh6.ggpht.com/LP6ZbrckzcFBlPuH-CEkAWXgh8StKg-3M-a-bPB8Lo2KITpDP6VBahC7MSbD9Vx4VKU=w300 "")
 Adobe Acrobat Reader | - | https://play.google.com/store/apps/details?id=com.adobe.reader&hl=en | ![](https://lh3.googleusercontent.com/k1vNtKXtkYmzT1YqEoJBF9-y8oiv7kCp3ldiwxgyNBlWCTgkUjElZCTG9S_8ClcFAN8R=w300 "")
@@ -11,7 +11,7 @@ AZ Screen Recorder | - | https://play.google.com/store/apps/details?id=com.hecor
 Azuon | Flight Search | https://play.google.com/store/apps/details?id=com.azuon | ![](https://exampleurloflogo "Example App Name")
 c:geo | - | https://play.google.com/store/apps/details?id=cgeo.geocaching | ![](https://exampleurloflogo "c:geo")
 Calculator | - | https://play.google.com/store/apps/details?id=com.google.android.calculator | ![](https://exampleurloflogo "Example App Name")
-Camera | HD Camera - Best camera with filters & panoramas | https://play.google.com/store/apps/details?id=filter.camera.snap.photo.video.panorama ![](https://lh3.googleusercontent.com/WGbdSiHWM7lvqYphPV5NjXAe_UyyLyv4IaDqhdIu35-d-UZWa4XzX5kbr_LMQFZEuyo=w300 "Example App Name")
+Camera | HD Camera - Best camera with filters & panoramas | https://play.google.com/store/apps/details?id=filter.camera.snap.photo.video.panorama | ![](https://lh3.googleusercontent.com/WGbdSiHWM7lvqYphPV5NjXAe_UyyLyv4IaDqhdIu35-d-UZWa4XzX5kbr_LMQFZEuyo=w300 "Example App Name")
 CCleaner | - | https://play.google.com/store/apps/details?id=com.piriform.ccleaner | ![](https://exampleurloflogo "Example App Name")
 Google Chrome | - | https://play.google.com/store/apps/details?id=com.android.chrome | ![](https://exampleurloflogo "Example App Name")
 CityBee | - | https://play.google.com/store/apps/details?id=com.primeleasing.citybee | ![](https://exampleurloflogo "ExampleAppName")
