@@ -39,12 +39,14 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "ExampleAppName") | Firefox | - | https://play.google.com/store/apps/details?id=org.mozilla.firefox
 ![](https://exampleurloflogo "ExampleAppName") | Firefox Focus | Firefox Focus: The privacy browser | https://play.google.com/store/apps/details?id=org.mozilla.focus
 ![](https://exampleurloflogo "ExampleAppName") | Flush | Crowdsourced Toilets | https://play.google.com/store/apps/details?id=toilet.samruston.com.toilet
+![](https://lh3.googleusercontent.com/xPgG18R6w5DejxQDGTPPdWPnT1uAdowsaQHtdFtbugRTaXsZTzehQwFTor7RHDj1HQxG=w300-rw "Freelancer - Hire & Find Jobs") | Freelancer | Hire & Find Projects | https://play.google.com/store/apps/details?id=com.freelancer.android.messenger
 ![](https://exampleurloflogo "ExampleAppName") | Radio Player Canada | Radio Player Canada - Free Internet Radio Canada | https://play.google.com/store/apps/details?id=com.appmind.radios.ca
 ![](https://exampleurloflogo "ExampleAppName") | Fongo | **Fongo - talk and text freely (Canada-wide)** | https://play.google.com/store/apps/details?id=com.fongo.dellvoice
 ![](https://exampleurloflogo "ExampleAppName") | Foreca Weather | - | https://play.google.com/store/apps/details?id=com.foreca.android.weather
 ![](https://exampleurloflogo "ExampleAppName") | French | Learn French Free | https://play.google.com/store/apps/details?id=com.metalanguage.frenchfree
 ![](https://exampleurloflogo "ExampleAppName") | GeeksforGeeks | Programming Algorithms | https://play.google.com/store/apps/details?id=free.programming.programming
 ![](https://exampleurloflogo "ExampleAppName") | Gmail | - | https://play.google.com/store/apps/details?id=com.google.android.gm
+![](https://lh6.ggpht.com/k7Z4J1IIXXJnC2NRnFfJNlkn7kZge4Zx-Yv5uqYf4222tx74wXDzW24OvOxlcpw0KcQ=w300-rw "Google Drive") | Google Drive | - | https://play.google.com/store/apps/details?id=com.google.android.apps.docs
 ![](https://exampleurloflogo "ExampleAppName") | Google Text-to-speech | - | https://play.google.com/store/apps/details?id=com.google.android.tts
 ![](https://exampleurloflogo "ExampleAppName") | Google+ | - | https://play.google.com/store/apps/details?id=com.google.android.apps.plus
 ![](https://exampleurloflogo "ExampleAppName") | Hangouts | Google Hangouts | https://play.google.com/store/apps/details?id=com.google.android.talk
@@ -57,19 +59,68 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "ExampleAppName") | KeePassDroid | An implementation of the KeePass Password Safe for Android | https://play.google.com/store/apps/details?id=com.android.keepass
 ![](https://exampleurloflogo "ExampleAppName") | Khan Academy | - | https://play.google.com/store/apps/details?id=org.khanacademy.android
 ![](https://img.utdstc.com/icons/256/kingroot-android.png "KingRoot") | KingRoot | **Roots a phone.** | http://forum.xda-developers.com/android/apps-games/one-click-root-tool-android-2-x-5-0-t3107461
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
-![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | Link2SD | - | https://play.google.com/store/apps/details?id=com.buak.Link2SD
+![](https://exampleurloflogo "ExampleAppName") | LinkedIn | - | https://play.google.com/store/apps/details?id=com.linkedin.android
+![](https://exampleurloflogo "ExampleAppName") | Linux Cheatsheet | - | https://play.google.com/store/apps/details?id=in.zakshay.linuxcheatsheet
+![](https://exampleurloflogo "ExampleAppName") | LunaSolCal Mobile | - | https://play.google.com/store/apps/details?id=com.vvse.lunasolcal
+![](https://exampleurloflogo "ExampleAppName") | Lynda.com | - | https://play.google.com/store/apps/details?id=com.lynda.android.root
+![](https://exampleurloflogo "ExampleAppName") | m.ticket | - | https://play.google.com/store/apps/details?id=lt.sisp.itero.ticket.client
+![](https://exampleurloflogo "ExampleAppName") | Machine Learning Advance | - | https://play.google.com/store/apps/details?id=com.sked.mladvance
+![](https://exampleurloflogo "ExampleAppName") | Mano BITĖ | - | https://example.org
+![](https://exampleurloflogo "ExampleAppName") | Maps (Google) | - | https://play.google.com/store/apps/details?id=com.google.android.apps.maps
+![](https://exampleurloflogo "ExampleAppName") | MAPS.ME | - | https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro
+![](https://exampleurloflogo "ExampleAppName") | MathsAp | - | https://play.google.com/store/apps/details?id=com.meritshine.mathfun
+![](https://exampleurloflogo "ExampleAppName") | Meetup | - | https://play.google.com/store/apps/details?id=com.meetup
+![](https://exampleurloflogo "ExampleAppName") | Messenger (Facebook) | - | https://play.google.com/store/apps/details?id=com.facebook.orca
+![](https://exampleurloflogo "ExampleAppName") | Mondly French | - | https://play.google.com/store/apps/details?id=com.atistudios.ispeak.fr
+![](https://exampleurloflogo "ExampleAppName") | MonTransit (+local addons) | - | https://play.google.com/store/apps/details?id=org.mtransit.android
+![](https://exampleurloflogo "ExampleAppName") | Music Folder Player Free | - | https://play.google.com/store/apps/details?id=de.zorillasoft.musicfolderplayer
+![](https://exampleurloflogo "ExampleAppName") | My ATMs | THE EXCHANGE® Network ATM Finder is an ATM locator for the banks and credit unions belonging to the Canadian EXCHANGE® ATM Network. | https://play.google.com/store/apps/details?id=com.exchange.ATMlocator
+![](https://exampleurloflogo "ExampleAppName") | Opera | - | https://play.google.com/store/apps/details?id=com.opera.browser
+![](https://lh4.ggpht.com/Coesqi5Re602ceBom4W6mKfV1BnEDm-OqID9s5v9tHndgx6_sBl3c_Zl4saSm6p6gQ=w300 "ExampleAppName") | Parama | - | https://play.google.com/store/apps/details?id=md.classic.hb.paramalithuanian.mobileapp
+![](https://exampleurloflogo "ExampleAppName") | Peach | - | https://play.google.com/store/apps/details?id=cool.peach
+![](https://exampleurloflogo "ExampleAppName") | Phone Tester | - | https://play.google.com/store/apps/details?id=com.mtorres.phonetester
+![](https://exampleurloflogo "ExampleAppName") | PHP Editor | - | https://play.google.com/store/apps/details?id=air.PHPEditor
+![](https://exampleurloflogo "ExampleAppName") | Pocket RFC | - | https://play.google.com/store/apps/details?id=com.verzitex.android.pocketrfc
+![](https://exampleurloflogo "ExampleAppName") | Podcast Addict | - | https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict
+![](https://exampleurloflogo "ExampleAppName") | Ponunciation for the TOEFL | - | https://play.google.com/store/apps/details?id=com.kappa.correctpronunciation
+![](https://exampleurloflogo "ExampleAppName") | QR & Barcode Scanner | - | https://play.google.com/store/apps/details?id=com.gamma.scan
+![](https://exampleurloflogo "ExampleAppName") | RegEx GUI | - | https://play.google.com/store/apps/details?id=com.gamma.scan
+![](https://exampleurloflogo "ExampleAppName") | Revolut | - | https://play.google.com/store/apps/details?id=com.revolut.revolut
+![](https://exampleurloflogo "ExampleAppName") | Ruler | - | https://play.google.com/store/apps/details?id=fr.ecp.ruler.app
+![](https://exampleurloflogo "ExampleAppName") | Safari Queue | - | https://play.google.com/store/apps/details?id=com.safariflow.queue
+![](https://exampleurloflogo "ExampleAppName") | Shazam | - | https://play.google.com/store/apps/details?id=com.shazam.android
+![](https://exampleurloflogo "ExampleAppName") | Sheets (Google) | - | https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets
+![](https://exampleurloflogo "ExampleAppName") | Skype | - | https://play.google.com/store/apps/details?id=com.skype.raider
 ![](https://lh4.ggpht.com/vdK_CsMSsJoYvJpYgaj91fiJ1T8rnSHHbXL0Em378kQaaf_BGyvUek2aU9z2qbxJCAFV=w300-rw "Snapchat") | Snapchat | - | https://play.google.com/store/apps/details?id=com.snapchat.android
-![](https://lh6.ggpht.com/k7Z4J1IIXXJnC2NRnFfJNlkn7kZge4Zx-Yv5uqYf4222tx74wXDzW24OvOxlcpw0KcQ=w300-rw "Google Drive") | Google Drive | - | https://play.google.com/store/apps/details?id=com.google.android.apps.docs
-![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter") | ZipRecruiter | Job Search | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release
-![](https://lh3.googleusercontent.com/xPgG18R6w5DejxQDGTPPdWPnT1uAdowsaQHtdFtbugRTaXsZTzehQwFTor7RHDj1HQxG=w300-rw "Freelancer - Hire & Find Jobs") | Freelancer | Hire & Find Projects | https://play.google.com/store/apps/details?id=com.freelancer.android.messenger
+![](https://exampleurloflogo "ExampleAppName") | Solar Activity | Solar Activity K-Index | https://play.google.com/store/apps/details?id=com.solarmonitor
+![](https://exampleurloflogo "ExampleAppName") | Sound Meter | - | https://play.google.com/store/apps/details?id=com.soundmeter.app
+![](https://exampleurloflogo "ExampleAppName") | Survival Manual | - | https://play.google.com/store/apps/details?id=org.ligi.survivalmanual
+![](https://exampleurloflogo "ExampleAppName") | Swedbank | 
+Swedbank Lietuva
+ | https://play.google.com/store/apps/details?id=lt.swedbank.mobile
+![](https://exampleurloflogo "ExampleAppName") | TeamViewer | ? | https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile
+![](https://exampleurloflogo "ExampleAppName") | Telegram | - | https://play.google.com/store/apps/details?id=org.telegram.messenger
+![](https://exampleurloflogo "ExampleAppName") | The Great Trail | - | https://play.google.com/store/apps/details?id=ca.TransCanadaTrail.TheGreatTrail
+![](https://exampleurloflogo "ExampleAppName") | Thermometer | The Great Trail-Explore Canada | https://exampleurltodownload
+![](https://exampleurloflogo "ExampleAppName") | Todoist | Todoist: To-Do List, Task List | https://play.google.com/store/apps/details?id=com.todoist
+![](https://exampleurloflogo "ExampleAppName") | Trafi | - | https://play.google.com/store/apps/details?id=com.trafi.android.tr
+![](https://exampleurloflogo "ExampleAppName") | Translate | Google Translate | https://play.google.com/store/apps/details?id=com.google.android.apps.translate
+![](https://exampleurloflogo "ExampleAppName") | TuneIn Radio | TuneIn Radio: Stream NFL, MLB, Music & Podcasts | https://play.google.com/store/apps/details?id=tunein.player
+![](https://exampleurloflogo "ExampleAppName") | Twitter | - | https://play.google.com/store/apps/details?id=com.twitter.android
+![](https://exampleurloflogo "ExampleAppName") | Uber | - | https://play.google.com/store/apps/details?id=com.ubercab
+![](https://exampleurloflogo "ExampleAppName") | Udacity | - | https://play.google.com/store/apps/details?id=com.udacity.android
+![](https://exampleurloflogo "ExampleAppName") | Udemy | Udemy Online Courses | https://play.google.com/store/apps/details?id=com.udemy.android
+![](https://exampleurloflogo "ExampleAppName") | Unit Converter | - | https://play.google.com/store/apps/details?id=com.tsang.alan.unitconverter
+![](https://exampleurloflogo "ExampleAppName") | Vaccine Schedules | CDC Vaccine Schedules | https://play.google.com/store/apps/details?id=gov.cdc.ncird.vaccineschedule
+![](https://exampleurloflogo "ExampleAppName") | Waze | Waze - GPS, Maps, Traffic Alerts & Live Navigation | https://play.google.com/store/apps/details?id=com.waze
 ![](https://lh6.ggpht.com/mp86vbELnqLi2FzvhiKdPX31_oiTRLNyeK8x4IIrbF5eD1D5RdnVwjQP0hwMNR_JdA=w300-rw "WhatsApp Messenger") | WhatsApp | Messenger | https://play.google.com/store/apps/details?id=com.whatsapp
+![](https://exampleurloflogo "ExampleAppName") | WiFiAnalyzer | - | https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer
+![](https://exampleurloflogo "ExampleAppName") | Wish | Wish - Shopping Made Fun | https://play.google.com/store/apps/details?id=com.contextlogic.wish
+![](https://exampleurloflogo "ExampleAppName") | Word | 
+Microsoft Word
+ | https://play.google.com/store/apps/details?id=com.microsoft.office.word
+![](https://exampleurloflogo "ExampleAppName") | YGPS | - | https://example.org
+![](https://exampleurloflogo "ExampleAppName") | YouTube | - | https://play.google.com/store/apps/details?id=com.google.android.youtube
+![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter") | ZipRecruiter | Job Search | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release
 ![](https://exampleurloflogo "ExampleAppName") | AppName | - | https://exampleurltodownload
