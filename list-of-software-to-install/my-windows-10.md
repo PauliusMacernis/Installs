@@ -90,6 +90,7 @@ Skype | - | https://www.skype.com
 SourceGear DiffMerge v4.2.0.697+ | - | https://sourcegear.com/diffmerge/
 SourceTree | - | https://www.sourcetreeapp.com/
 Telegram | - | https://telegram.org/
+Tor Browser | - | https://www.torproject.org/projects/torbrowser.html.en
 TurtoiseSVN | - | https://tortoisesvn.net/
 Total Commander | - | http://www.ghisler.com/
 Universal Code Lines Counter v1.1.6+ | - | http://www.ab-tools.com/de/software/universalcodelinescounter/
