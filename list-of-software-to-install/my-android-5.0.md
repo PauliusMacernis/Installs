@@ -118,5 +118,5 @@ Wish | Wish - Shopping Made Fun | https://play.google.com/store/apps/details?id=
 Word | Microsoft Word  | https://play.google.com/store/apps/details?id=com.microsoft.office.word | ![](https://exampleurloflogo "ExampleAppName")
 YGPS | - | *https://example.org* | ![](https://exampleurloflogo "ExampleAppName") | 
 YouTube | - | https://play.google.com/store/apps/details?id=com.google.android.youtube | ![](https://exampleurloflogo "ExampleAppName")
-ZipRecruiter | Job Search | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release | ![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter")
+ZipRecruiter | Job Search in Canada, USA | https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release | ![](https://lh3.googleusercontent.com/anoS3ctKg2hCMiI90vTKnTtywX9yMrdJHtYItZd1Lyyxx37pH6Olc15AInquhkIV73o=w300-rw "ZipRecruiter")
 AppName | - | https://exampleurltodownload | ![](https://exampleurloflogo "ExampleAppName")
