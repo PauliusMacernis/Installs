@@ -11,6 +11,7 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "Example App Name") | Azuon | Flight Search | https://play.google.com/store/apps/details?id=com.azuon
 ![](https://exampleurloflogo "c:geo") | c:geo | - | https://play.google.com/store/apps/details?id=cgeo.geocaching
 ![](https://exampleurloflogo "Example App Name") | Calculator | - | https://play.google.com/store/apps/details?id=com.google.android.calculator
+![](https://lh3.googleusercontent.com/WGbdSiHWM7lvqYphPV5NjXAe_UyyLyv4IaDqhdIu35-d-UZWa4XzX5kbr_LMQFZEuyo=w300 "Example App Name") | Camera | HD Camera - Best camera with filters & panoramas | https://play.google.com/store/apps/details?id=filter.camera.snap.photo.video.panorama
 ![](https://exampleurloflogo "Example App Name") | CCleaner | - | https://play.google.com/store/apps/details?id=com.piriform.ccleaner
 ![](https://exampleurloflogo "Example App Name") | Google Chrome | - | https://play.google.com/store/apps/details?id=com.android.chrome
 ![](https://exampleurloflogo "ExampleAppName") | CityBee | - | https://play.google.com/store/apps/details?id=com.primeleasing.citybee
@@ -39,7 +40,9 @@ Logo | Software | Description & Comments | Url
 ![](https://exampleurloflogo "ExampleAppName") | Firefox Focus | Firefox Focus: The privacy browser | https://play.google.com/store/apps/details?id=org.mozilla.focus
 ![](https://exampleurloflogo "ExampleAppName") | Flush | Crowdsourced Toilets | https://play.google.com/store/apps/details?id=toilet.samruston.com.toilet
 ![](https://exampleurloflogo "ExampleAppName") | Radio Player Canada | Radio Player Canada - Free Internet Radio Canada | https://play.google.com/store/apps/details?id=com.appmind.radios.ca
+![](https://exampleurloflogo "ExampleAppName") | Fongo | **Fongo - talk and text freely (Canada-wide)** | https://play.google.com/store/apps/details?id=com.fongo.dellvoice
 ![](https://exampleurloflogo "ExampleAppName") | Foreca Weather | - | https://play.google.com/store/apps/details?id=com.foreca.android.weather
+![](https://exampleurloflogo "ExampleAppName") | French | Learn French Free | https://play.google.com/store/apps/details?id=com.metalanguage.frenchfree
 ![](https://exampleurloflogo "ExampleAppName") | GeeksforGeeks | Programming Algorithms | https://play.google.com/store/apps/details?id=free.programming.programming
 ![](https://exampleurloflogo "ExampleAppName") | Gmail | - | https://play.google.com/store/apps/details?id=com.google.android.gm
 ![](https://exampleurloflogo "ExampleAppName") | Google Text-to-speech | - | https://play.google.com/store/apps/details?id=com.google.android.tts
