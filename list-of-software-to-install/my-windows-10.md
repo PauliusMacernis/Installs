@@ -1,3 +1,5 @@
+# Software #
+
 Software | Description & Comments | Url
 ------------ | ------------- | -------------
 µTorrent | BitTorrent client | http://www.utorrent.com/intl/en/downloads/complete/track/stable/os/windows
@@ -108,14 +110,18 @@ WMA To MP3 v10.1.1.a | - | http://www.wma-to-mp3.org/download-wma-to-mp3-convert
 Zend Studio IDE | - | http://www.zend.com/en/products/studio
 NAME | - | URL
 
-
-
+  
+# Drivers #
+  
 Drivers | Description & Comments | Url
 ------------ | ------------- | -------------
 Asus X550L | - | https://www.asus.com/Laptops/X550LB/
 Canon MP240 | - | https://www.usa.canon.com/internet/portal/us/home/support/details/printers/support-inkjet-printer/mp-series/pixma-mp240
 Wacom Bamboo | - | http://bamboo.wacom.com/
 
+  
+# Other #
+  
 Drivers | Description & Comments | Url
 ------------ | ------------- | -------------
 Windows Updates | - | ms-settings:windowsupdate
