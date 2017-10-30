@@ -12,6 +12,7 @@ Brackets IDE | - | http://brackets.io/
 CCleaner | - | https://www.piriform.com/ccleaner
 Composer | - | https://getcomposer.org/
 CPUID CPU-Z | - | https://www.cpuid.com/softwares/cpu-z.html
+CutePDF Writer | Really? I think PDFCreator by PdfForge is better. | http://www.cutepdf.com/Products/CutePDF/writer.asp
 Easy Thumbnails | - | https://www.fookes.com/easy-thumbnails
 Eyes Relax | Reminder for eyes | https://themech.net/eyesrelax/
 ESET Online Scanner | - | https://www.eset.com/online-scanner/
