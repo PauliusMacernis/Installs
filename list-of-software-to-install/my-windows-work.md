@@ -26,6 +26,7 @@ Git | - | http://msysgit.github.io
 Grammarly | English language writing-enhancement platform | https://www.grammarly.com/
 LibIconv for Windows 1.9.2 | LibIconv: convert between character encodings | http://gnuwin32.sourceforge.net/packages/libiconv.htm
 Google Chrome | - | https://www.google.com/chrome/browser/desktop/index.html
+GSplit | GSplit is a free file splitter that splits any file into smaller files called pieces. | https://www.gdgsoft.com/gsplit/
 HeidiSQL | - | https://www.heidisql.com/
 InfraRecorder | A free CD/DVD burning solution | http://infrarecorder.org/
 IrfanView | Graphic viewer, converter  | http://www.irfanview.com/
