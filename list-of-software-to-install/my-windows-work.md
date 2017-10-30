@@ -9,6 +9,7 @@ Adobe Flash Player | - | https://get.adobe.com/flashplayer/
 Android Studio | - | https://developer.android.com/index.html
 ArgoUML | - | http://argouml.tigris.org/
 Brackets IDE | - | http://brackets.io/
+CCleaner | - | https://www.piriform.com/ccleaner
 Composer | - | https://getcomposer.org/
 CPUID CPU-Z | - | https://www.cpuid.com/softwares/cpu-z.html
 Easy Thumbnails | - | https://www.fookes.com/easy-thumbnails
