@@ -38,6 +38,7 @@ Free Image to PDF Converter 1.2.0 | by Bestxsoftware | http://www.softpedia.com/
 GIMP | GNU Image Manipulation Program | https://www.gimp.org/
 Git Extensions 2.48 | Really? | https://github.com/gitextensions/gitextensions
 Git | - | http://msysgit.github.io
+Grammarly | English language writing-enhancement platform | https://www.grammarly.com/
 LibIconv for Windows 1.9.2 | LibIconv: convert between character encodings | http://gnuwin32.sourceforge.net/packages/libiconv.htm
 Google Chrome | - | https://www.google.com/chrome/browser/desktop/index.html
 Google Earth Pro | Pro, not regular! | https://earth.google.com/download-earth.html
