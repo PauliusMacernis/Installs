@@ -23,6 +23,7 @@ File Encoding Checker | - | http://encodingchecker.codeplex.com/
 FileZilla Client | - | https://filezilla-project.org/download.php
 GIMP | GNU Image Manipulation Program | https://www.gimp.org/
 Git | - | http://msysgit.github.io
+Grammarly | English language writing-enhancement platform | https://www.grammarly.com/
 LibIconv for Windows 1.9.2 | LibIconv: convert between character encodings | http://gnuwin32.sourceforge.net/packages/libiconv.htm
 Google Chrome | - | https://www.google.com/chrome/browser/desktop/index.html
 HeidiSQL | - | https://www.heidisql.com/
