@@ -123,6 +123,7 @@ Drivers | Description & Comments | Url
 Asus X550L | - | https://www.asus.com/Laptops/X550LB/
 Canon MP240 | - | https://www.usa.canon.com/internet/portal/us/home/support/details/printers/support-inkjet-printer/mp-series/pixma-mp240
 Wacom Bamboo | - | http://bamboo.wacom.com/
+BLU 5 phone | - | https://androidmtk.com/download-blu-usb-drivers
 
   
 # Other #
