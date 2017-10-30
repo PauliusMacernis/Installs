@@ -48,6 +48,7 @@ MySQL Workbench CE | - | https://dev.mysql.com/downloads/workbench/
 Mozilla Firefox | - | https://www.mozilla.org/en-US/firefox/new/
 Mozilla Thunderbird | Mail software | https://www.mozilla.org/en-US/thunderbird/
 NetBeans IDE | - | https://netbeans.org/downloads/
+Node.js | - | https://nodejs.org/en/
 Notepad++ | +Plugins: Plugin manager, Poor Man's T-SQL Formatter, NppFTP | https://notepad-plus-plus.org/ , https://ashkulz.github.io/NppFTP/ , https://github.com/TaoK/PoorMansTSqlFormatter
 OpenOffice | - | https://www.openoffice.org/
 OpenOffice Language Pack (Lithuanian) | - | https://www.openoffice.org/download/index.html
