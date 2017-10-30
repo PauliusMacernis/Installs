@@ -58,8 +58,8 @@ LinuxLive USB Creator | - | http://www.linuxliveusb.com/
 Matai v1.0 | Matavimo vienetų konvertavimui | http://darkasoft.tinkle.lt/
 MD5 & SHA Checksum Utility | CRC32, MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hashes of single or multiple files | https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
 Microsoft .NET Framework | What about Xamarin? | https://www.microsoft.com/net/download
-Microsoft Office Professional Plus 2013 | - | https://microsoft-office.en.softonic.com/
-Microsoft Office Language Pack 2013 - Lithuanian/Lietuviu k. | - | https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
+Microsoft Office Professional Plus 2013+ | - | https://microsoft-office.en.softonic.com/
+Microsoft Office Language Pack 2013+ - Lithuanian/Lietuviu k. | - | https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
 Microsoft Silverlight | - | https://www.microsoft.com/silverlight/
 Microsoft SQL Server | - | https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 Microsoft Visual Studio | Ultimate | https://www.visualstudio.com
