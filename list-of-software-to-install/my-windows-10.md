@@ -14,6 +14,7 @@ AP Tuner | - | http://www.aptuner.com
 Arduino | - | https://www.arduino.cc/
 ArgoUML | - | http://argouml.tigris.org/
 AVG PC TuneUp | - | https://www.avg.com/avg-pctuneup
+Azuon | Searches multiple airports within any specified date range | http://azuon.com/
 BadCopy Pro | - | http://www.jufsoft.com/badcopy/
 Business Plan Pro 15 | - | http://www.paloalto.com/business_plan_software
 Composer | - | https://getcomposer.org/
@@ -55,6 +56,7 @@ LibreOffice | Free Office Suite | https://www.libreoffice.org/
 Liepa TTS | TTS (Text To Speech) synthesis engine for Lithuanian language. The underlying core synhesizer is LIEPA speach synthesizer. | https://github.com/aleksas/laba-diena-tts
 LinuxLive USB Creator | - | http://www.linuxliveusb.com/
 Matai v1.0 | Matavimo vienetų konvertavimui | http://darkasoft.tinkle.lt/
+MD5 & SHA Checksum Utility | CRC32, MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hashes of single or multiple files | https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
 Microsoft .NET Framework | What about Xamarin? | https://www.microsoft.com/net/download
 Microsoft Office Professional Plus 2013 | - | https://microsoft-office.en.softonic.com/
 Microsoft Office Language Pack 2013 - Lithuanian/Lietuviu k. | - | https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
