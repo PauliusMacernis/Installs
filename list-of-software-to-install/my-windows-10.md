@@ -80,6 +80,7 @@ OpenOffice | - | https://www.openoffice.org/
 OpenOffice Language Pack (Lithuanian) | - | https://www.openoffice.org/download/index.html
 Opera | - | http://www.opera.com/
 Oracle VM VirtualBox | - | https://www.virtualbox.org/
+Oracle VM VirtualBox Extension Pack | Support for USB 2.0 and USB 3.0 devices, VirtualBox RDP, disk encryption, NVMe and PXE boot for Intel cards. | https://www.virtualbox.org/wiki/Downloads
 PDFCreator | Print to PDF | http://www.pdfforge.org/pdfcreator
 PDFsam | PDFsam Basic is free and open source desktop application to split, merge, extract pages, rotate and mix PDF files  | http://pdfsam.org/
 Prezi | Prezi Next is everything you need for your most dynamic and engaging presentations ever. | https://prezi.com/
