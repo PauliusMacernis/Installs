@@ -25,7 +25,6 @@ Easy Thumbnails | - | https://www.fookes.com/easy-thumbnails
 EasyMiner | - | https://sourceforge.net/projects/easyminer/
 EclipseCrossword | The way to create crossword puzzles | http://www.eclipsecrossword.com/
 Eyes Relax | Reminder for eyes | https://themech.net/eyesrelax/
-Microsoft Visual Studio | - | https://www.visualstudio.com/
 ESET Online Scanner | - | https://www.eset.com/online-scanner/
 Evince | A document viewer for: PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books (cbr,cbz,cb7 and cbt), etc. | https://wiki.gnome.org/Apps/Evince/Downloads
 ExamDiff 1.9 | - | http://www.prestosoft.com/edp_examdiff.asp
