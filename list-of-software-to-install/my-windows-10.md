@@ -82,7 +82,7 @@ PDFsam | PDFsam Basic is free and open source desktop application to split, merg
 Prezi | Prezi Next is everything you need for your most dynamic and engaging presentations ever. | https://prezi.com/
 Fiddler | Free Web Debugging Proxy - Telerik | https://www.telerik.com/fiddler
 PuTTY v0.63+ | PuTTY is a free implementation of SSH and Telnet for Windows and Unix platforms, along with an xterm terminal emulator. | https://www.chiark.greenend.org.uk/~sgtatham/putty/
-Quick HTML Color Picker 1.0 | - | https://quick-html-color-picker.en.uptodown.com/windows
+Quick HTML Color Picker 1.0 | by allgraphicstools | https://quick-html-color-picker.en.uptodown.com/windows
 QuickTime | - | https://support.apple.com/downloads/quicktime
 RealPlayer | - | http://www.real.com/
 Safari | - | https://support.apple.com/downloads/safari
