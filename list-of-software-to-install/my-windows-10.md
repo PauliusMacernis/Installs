@@ -74,6 +74,7 @@ Mozilla Firefox | - | https://www.mozilla.org/en-US/firefox/new/
 Mozilla Thunderbird | Mail software | https://www.mozilla.org/en-US/thunderbird/
 Nero Burning ROM v2015+ | - | http://www.nero.com/eng/products/nero-burning-rom/?vlang=gb
 NetBeans IDE | - | https://netbeans.org/downloads/
+Node.js | - | https://nodejs.org/en/
 Nokia Connectivity Cable Driver v7.1.172.0+ | - | https://nokia-connectivity-cable-driver.en.uptodown.com/windows
 Nokia PC Suite v7.1.180.94+ | Is the source safe? | http://www.freesoftwarefiles.com/mobile/nokia-pc-suite-free-download/
 Nokia Suite v3.8.54.0+ | Is the source valid? | https://www.microsoft.com/en-us/download/details.aspx?id=51237
