@@ -43,6 +43,7 @@ LibIconv for Windows 1.9.2 | LibIconv: convert between character encodings | htt
 Google Chrome | - | https://www.google.com/chrome/browser/desktop/index.html
 Google Earth Pro | Pro, not regular! | https://earth.google.com/download-earth.html
 Google Talk Plugin | - | https://tools.google.com/dlpage/hangoutplugin
+GSplit | GSplit is a free file splitter that splits any file into smaller files called pieces. | https://www.gdgsoft.com/gsplit/
 HeidiSQL | - | https://www.heidisql.com/
 hMailServer | Free open source email server for Microsoft Windows. | https://www.hmailserver.com/
 htm2chm | - | http://appnee.com/htm2chm/
