@@ -3,18 +3,14 @@
 Software | Description & Comments | Url
 ------------ | ------------- | -------------
 7-Zip | - | http://7-zip.org/download.html
-ABBYY eFormFiller 2.5 v6 | „ABBYY eFormFiller2.5“ tinka tiek Valstybinei mokesčių inspekcijai, tiek Valstybinio socialinio draudimo fondo valdybai prie Socialinės apsaugos ir darbo ministerijos (toliau – Sodra) teikiamų dokumentų formoms užpildyti. Atkreipiame dėmesį, kad Lietuvos statistikos departamento platinama „ABBYY eFormFiller 2.5 v7“ programos versija yra tinkama ne visiems Valstybinės mokesčių inspekcijos sukurtiems formų šablonams užpildyti, todėl rekomenduojame naudoti „ABBYY eFormFiller 2.5 v6“ programos versiją. | https://deklaravimas.vmi.lt/lt/Apie_formu_teikima/Apie_formu_teikima_1/Formu_pildymo_programa.aspx
 Adobe Acrobat Reader DC | Viewing, printing, and annotating PDFs | https://get.adobe.com/reader/
 Adobe Flash Player | - | https://get.adobe.com/flashplayer/
 Android Studio | - | https://developer.android.com/index.html
 ArgoUML | - | http://argouml.tigris.org/
-Brackets IDE | - | http://brackets.io/
 CCleaner | - | https://www.piriform.com/ccleaner
 Composer | - | https://getcomposer.org/
 CPUID CPU-Z | - | https://www.cpuid.com/softwares/cpu-z.html
-CutePDF Writer | Really? I think PDFCreator by PdfForge is better. | http://www.cutepdf.com/Products/CutePDF/writer.asp
 Easy Thumbnails | - | https://www.fookes.com/easy-thumbnails
-Eyes Relax | Reminder for eyes | https://themech.net/eyesrelax/
 ESET Online Scanner | - | https://www.eset.com/online-scanner/
 Evince | A document viewer for: PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books (cbr,cbz,cb7 and cbt), etc. | https://wiki.gnome.org/Apps/Evince/Downloads
 ExamDiff 1.9 | - | http://www.prestosoft.com/edp_examdiff.asp
@@ -28,7 +24,6 @@ LibIconv for Windows 1.9.2 | LibIconv: convert between character encodings | htt
 Google Chrome | - | https://www.google.com/chrome/browser/desktop/index.html
 GSplit | GSplit is a free file splitter that splits any file into smaller files called pieces. | https://www.gdgsoft.com/gsplit/
 HeidiSQL | - | https://www.heidisql.com/
-IIS | Really? | https://www.iis.net/
 InfraRecorder | A free CD/DVD burning solution | http://infrarecorder.org/
 IrfanView | Graphic viewer, converter  | http://www.irfanview.com/
 Java Runtime Environment (JRE) | - | https://java.com/download
@@ -43,12 +38,11 @@ Microsoft Office Professional Plus 2013+ | - | https://microsoft-office.en.softo
 Microsoft Office Language Pack 2013+ - Lithuanian/Lietuviu k. | - | https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
 Microsoft Silverlight | - | https://www.microsoft.com/silverlight/
 Microsoft SQL Server | - | https://www.microsoft.com/en-us/sql-server/sql-server-downloads
-Microsoft Visual Studio | Ultimate | https://www.visualstudio.com
+Microsoft Visual Studio | - | https://www.visualstudio.com
 MySQL Workbench CE | - | https://dev.mysql.com/downloads/workbench/
 Mozilla Firefox | - | https://www.mozilla.org/en-US/firefox/new/
 Mozilla Thunderbird | Mail software | https://www.mozilla.org/en-US/thunderbird/
 NetBeans IDE | - | https://netbeans.org/downloads/
-Node.js | - | https://nodejs.org/en/
 Notepad++ | +Plugins: Plugin manager, Poor Man's T-SQL Formatter, NppFTP | https://notepad-plus-plus.org/ , https://ashkulz.github.io/NppFTP/ , https://github.com/TaoK/PoorMansTSqlFormatter
 OpenOffice | - | https://www.openoffice.org/
 OpenOffice Language Pack (Lithuanian) | - | https://www.openoffice.org/download/index.html
@@ -68,7 +62,6 @@ SourceGear DiffMerge v4.2.0.697+ | - | https://sourcegear.com/diffmerge/
 SourceTree | - | https://www.sourcetreeapp.com/
 SSH Secure Shell Client for Windows | - | http://www.ohlone.edu/org/webcenter/sftptutorial/windowssftp-downloadinstall.html , http://www2.ohlone.edu/downloads/SSHSecureShellClient-3.2.9.exe
 SQL Toolbelt Essentials v1.8.2.791+ by Redgate | SQL Compare 12.0+, SQL Data Compare 12.0+, SQL Prompt 7.2+ (really?) | https://www.red-gate.com/products/sql-development/sql-toolbelt/
-Sublime IDE | - | https://www.sublimetext.com/
 TeamViewer | - | https://www.teamviewer.com/
 Telegram | - | https://telegram.org/
 Tor Browser | - | https://www.torproject.org/projects/torbrowser.html.en
@@ -80,5 +73,4 @@ Wampserver | Really? | http://www.wampserver.com/
 Windows 7 USB/DVD Download Tool | - | http://wudt.codeplex.com/ , https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool
 WinMerge v2.14.0+ | WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files. | http://winmerge.org/
 Wireshark | Wireshark is the world’s foremost and widely-used network protocol analyzer. | https://www.wireshark.org/
-Zend Studio IDE | Really? | http://www.zend.com/en/products/studio
 NAME | - | URL
