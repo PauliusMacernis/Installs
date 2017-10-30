@@ -63,6 +63,7 @@ Skype | - | https://www.skype.com
 SourceGear DiffMerge v4.2.0.697+ | - | https://sourcegear.com/diffmerge/
 SourceTree | - | https://www.sourcetreeapp.com/
 SSH Secure Shell Client for Windows | - | http://www.ohlone.edu/org/webcenter/sftptutorial/windowssftp-downloadinstall.html , http://www2.ohlone.edu/downloads/SSHSecureShellClient-3.2.9.exe
+SQL Toolbelt Essentials by redgate | SQL Compare 12.0+, SQL Data Compare 12.0+, SQL Prompt 7.2+ (really?) | https://www.red-gate.com/products/sql-development/sql-toolbelt/
 Telegram | - | https://telegram.org/
 Tor Browser | - | https://www.torproject.org/projects/torbrowser.html.en
 TurtoiseSVN | - | https://tortoisesvn.net/
