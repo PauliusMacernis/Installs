@@ -16,6 +16,7 @@ ArgoUML | - | http://argouml.tigris.org/
 AVG PC TuneUp | - | https://www.avg.com/avg-pctuneup
 Azuon | Searches multiple airports within any specified date range | http://azuon.com/
 BadCopy Pro | - | http://www.jufsoft.com/badcopy/
+Brackets IDE | - | http://brackets.io/
 Business Plan Pro 15 | - | http://www.paloalto.com/business_plan_software
 Composer | - | https://getcomposer.org/
 CPUID CPU-Z | - | https://www.cpuid.com/softwares/cpu-z.html
