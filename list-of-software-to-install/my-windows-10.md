@@ -21,6 +21,7 @@ Business Plan Pro 15 | - | http://www.paloalto.com/business_plan_software
 CCleaner | - | https://www.piriform.com/ccleaner
 Composer | - | https://getcomposer.org/
 CPUID CPU-Z | - | https://www.cpuid.com/softwares/cpu-z.html
+CutePDF Writer | Really? I think PDFCreator by PdfForge is better. | http://www.cutepdf.com/Products/CutePDF/writer.asp
 DVD Decrypter | - | http://www.dvddecrypter.org.uk/
 Easy Thumbnails | - | https://www.fookes.com/easy-thumbnails
 EasyMiner | - | https://sourceforge.net/projects/easyminer/
