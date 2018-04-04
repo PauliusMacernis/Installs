@@ -100,6 +100,7 @@
 	- "Winetricks" > Install ##or alternative: `sudo apt-get install winetricks`
 	- "Winetricks" > Install a font > OK > Select all > OK ## or alternative: `winetricks allfonts`
 	- `winetricks dotnet45 && winetricks gdiplus && winetricks vcrun2008` (this is needed for Azuon)
+	- `rm -rf ~/.wine && WINEARCH=win32 WINEPREFIX=~/.wine winecfg` (this is needed for Azuon)
 
 - // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK)
 
