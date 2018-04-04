@@ -98,3 +98,5 @@
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
+	
+- `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
