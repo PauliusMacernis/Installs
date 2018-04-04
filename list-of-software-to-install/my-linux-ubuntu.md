@@ -109,7 +109,11 @@
 	- `winetricks dotnet45 && winetricks gdiplus && winetricks vcrun2008` (this is needed for Azuon)
 	- `rm -rf ~/.wine && WINEARCH=win32 WINEPREFIX=~/.wine winecfg` (this is needed for Azuon)
 
-- // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK)
+- // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK):
+	- vc2005express
+	- vc2005expresssp1
+	- vc2008express
+	- vc2010express
 
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
