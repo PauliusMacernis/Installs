@@ -61,6 +61,7 @@
 	- `sudo apt-get install git`
 	- "FileZilla"
 	- "KDiff3"
+	- "NetBeans"
 		
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -104,6 +105,12 @@
 		- http://encodingchecker.codeplex.com/
 		- https://www.heidisql.com/
 		- https://www.ytddownloader.com/
+		- https://github.com/aleksas/laba-diena-tts
+		- https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
+		- https://www.microsoft.com/net/download
+		- https://microsoft-office.en.softonic.com/
+		- https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
+		- https://www.visualstudio.com
 		- 
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
