@@ -97,4 +97,4 @@
 
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
-	- ...
+	- [a relative link](my-windows-10.md)
