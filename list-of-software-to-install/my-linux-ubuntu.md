@@ -99,13 +99,19 @@
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
 	- // Do we need this? // Wine + Mono
-		- `sudo dpkg --add-architecture i386 ` If 64 bit, enable 32 bit architecture (if you haven't already)
+		- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
+		- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
+		- `sudo rm -rf /var/lib/apt/lists/*`
+		- `sudo apt clean`
+		- `sudo apt autoremove`
+		- `sudo apt update`
+		- `sudo dpkg --add-architecture i386` If 64 bit, enable 32 bit architecture (if you haven't already)
 		- `wget -nc https://dl.winehq.org/wine-builds/Release.key`
 		- `sudo apt-key add Release.key`
 		- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
 		- `sudo apt-get update`
 		- `sudo apt-get install --install-recommends winehq-stable`
-		- `winecfg` + install gecko stuff if asked
+		- `sudo dpkg --configure -a`
 		- 
 
 - "Wine"
