@@ -62,6 +62,8 @@
 	- "FileZilla"
 	- "KDiff3"
 	- "NetBeans"
+	- "GtkHash"
+	- "Telegram"
 		
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -101,6 +103,8 @@
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
+		- http://argouml.tigris.org/
+		- http://azuon.com/
 		- http://www.prestosoft.com/edp_examdiff.asp
 		- http://encodingchecker.codeplex.com/
 		- https://www.heidisql.com/
@@ -111,6 +115,20 @@
 		- https://microsoft-office.en.softonic.com/
 		- https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
 		- https://www.visualstudio.com
-		- 
+		- https://notepad-plus-plus.org/
+		- https://ashkulz.github.io/NppFTP/
+		- https://github.com/TaoK/PoorMansTSqlFormatter
+		- http://www.pdfforge.org/pdfcreator
+		- https://www.telerik.com/fiddler
+		- https://quick-html-color-picker.en.uptodown.com/windows
+		- https://sourcegear.com/diffmerge/
+		- https://www.sourcetreeapp.com/
+		- https://www.torproject.org/projects/torbrowser.html.en
+		- https://www.vidyo.com/
+		- https://vistanita-duplicate-finder.soft32.com/
+		- https://www.videolan.org/vlc/index.html
+		- http://winmerge.org/
+		- https://www.wireshark.org/
+		- https://androidmtk.com/download-blu-usb-drivers
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
