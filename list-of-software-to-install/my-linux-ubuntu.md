@@ -99,14 +99,15 @@
 	- `winecfg` (Select your windows environment from here)
 	- "Winetricks" > Install ##or alternative: `sudo apt-get install winetricks`
 	- "Winetricks" > Install a font > OK > Select all > OK ## or alternative: `winetricks allfonts`
+	- `winetricks dotnet45 && winetricks gdiplus && winetricks vcrun2008` (this is needed for Azuon)
 
 - // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK)
 
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
-		- http://argouml.tigris.org/
-		- http://azuon.com/
+		- // http://argouml.tigris.org/
+		- // http://azuon.com/
 		- http://www.prestosoft.com/edp_examdiff.asp
 		- http://encodingchecker.codeplex.com/
 		- https://www.heidisql.com/
