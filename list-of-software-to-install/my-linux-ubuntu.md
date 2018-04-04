@@ -98,7 +98,7 @@
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
-	- // Do we need this? // Wine + Mono
+	- Wine + Mono
 		- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
 		- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
 		- `sudo rm -rf /var/lib/apt/lists/*`
@@ -112,7 +112,14 @@
 		- `sudo apt-get update`
 		- `sudo apt-get install --install-recommends winehq-stable`
 		- `sudo dpkg --configure -a`
-		- 
+		- `mono --version`
+		- `wine --version`
+	- .NET Framework to Wine:
+		- `mkdir ~/software/windows/windows-dot-net`
+		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=30653 to `~/software/windows/windows-dot-net`
+		- `cd ~/software/windows/windows-dot-net`
+		- `wine start dotNetFx45_Full_setup.exe`
+		
 
 - "Wine"
 	- Install
