@@ -84,13 +84,20 @@
 
 - Install additional software manualy:
 	- SmartGit: 
-		- mkdir ~/software/smartgit
+		- `mkdir ~/software/smartgit`
 		- Download from `https://www.syntevo.com/smartgit/download/`
 		- Extract the content to `~/software/smartgit`
 		- (Follow `~/software/smartgit/readme-linux.txt`)
 		- `~/software/smartgit/bin/smartgit.sh`
 		- `~/software/smartgit/bin/add-menuitem.sh`
 		- `update-java-alternatives --list`
+	- ArgoUML:
+		- `mkdir ~/software/argouml`
+		- Download from `http://argouml.tigris.org/`
+		- Extract the content to `~/software/argouml`
+		- (Follow `~/software/argouml/README.txt`)
+		- `java -jar ~/software/argouml/argouml.jar` will run the app
+	
 
 
 - "Wine"
@@ -107,7 +114,6 @@
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
-		- // http://argouml.tigris.org/
 		- // http://azuon.com/
 		- http://www.prestosoft.com/edp_examdiff.asp
 		- http://encodingchecker.codeplex.com/
