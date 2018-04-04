@@ -59,6 +59,8 @@
 	- "Skype"
 	- `sudo apt-get install openjdk-8-jre` (SmartGit will need this)
 	- `sudo apt-get install git`
+	- "FileZilla"
+	- "KDiff3"
 		
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -98,5 +100,10 @@
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
+		- http://www.prestosoft.com/edp_examdiff.asp
+		- http://encodingchecker.codeplex.com/
+		- https://www.heidisql.com/
+		- https://www.ytddownloader.com/
+		- 
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
