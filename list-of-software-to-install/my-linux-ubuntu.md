@@ -100,6 +100,8 @@
 	- "Winetricks" > Install ##or alternative: `sudo apt-get install winetricks`
 	- "Winetricks" > Install a font > OK > Select all > OK ## or alternative: `winetricks allfonts`
 
+- // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK)
+
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
