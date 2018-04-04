@@ -63,7 +63,7 @@
 	- "KDiff3"
 	- "NetBeans"
 	- "GtkHash"
-	- "Telegram"
+	- "Telegram" (Official desktop version of Telegram messaging app)
 		
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
