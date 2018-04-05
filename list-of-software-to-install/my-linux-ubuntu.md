@@ -150,7 +150,15 @@
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
-		- // http://azuon.com/downloads/Azuon.zip
+		- http://azuon.com/
+			- `cd ~/`
+			- `mkdir ~/software/windows/azuon`
+			- // Download `http://azuon.com/downloads/Azuon.zip`)
+			- `wget http://azuon.com/downloads/Azuon.zip -O temp-azuon.zip`
+			- // Extract `Azuon.zip` content to `~/software/windows/azuon`)
+			- `unzip ~/temp-azuon.zip -d ~/software/windows/azuon`
+			- `rm ~/temp-azuon.zip`
+			- `wine start WINEPREFIX=$HOME/software/windows/azuon/.wine /unix "$HOME/software/windows/azuon/Azuon.exe"`
 		- http://www.prestosoft.com/edp_examdiff.asp
 		- http://encodingchecker.codeplex.com/
 		- https://www.heidisql.com/
