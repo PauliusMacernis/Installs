@@ -64,6 +64,18 @@
 		- Move to workplace left > Change to "CTRL + ALT + 4"
 		- Move to workplace right > Change to "CTRL + ALT + 6"
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
+	- `touch ~/Templates/wine-programname.desktop` to create "New Document" on right mouse click in dir.
+		- Copy > Paste to `~/Templates/wine-programname.desktop`:
+		```
+		[Desktop Entry]
+		Name=The Programs Name
+		Comment=Information About The Program
+		Exec=wine "c:\full\path\to\the\program.exe"
+		Terminal=false
+		Type=Application
+		Icon=wine-notepad
+		Categories=Wine-Programs-Accessories;
+		```
 	- Ctrl+H to Show hidden files of the directory or: https://askubuntu.com/questions/470837/how-to-show-hidden-folders-in-ubuntu-14-04
 	
 - Install additional software via Ubuntu software center:
@@ -222,6 +234,7 @@
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/WinMerge/WinMergeU.exe`
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
+- Create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
