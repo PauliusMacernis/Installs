@@ -126,6 +126,13 @@
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
+	- PHPStorm:
+		- `mkdir ~/software/phpstorm`
+		- Download from https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=linux
+		- Extract the content to `~/software/phpstorm`
+		- (Follow `~/software/phpstorm/Install-Linux-tar.txt`)
+		- `cd ~/software/phpstorm/bin/`
+		- `./phpstorm.sh`
 	- youtube-dl (media downloader):
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
