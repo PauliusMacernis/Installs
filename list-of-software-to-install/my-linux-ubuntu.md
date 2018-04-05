@@ -99,31 +99,35 @@
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
 	- Wine + Mono
-		- // `sudo apt purge win*`
-		- // `sudo apt autoremove`
-		- // `sudo apt update`
-		- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
-		- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
-		- `sudo apt purge wine*`
-		- `sudo rm -rf /var/lib/apt/lists/*`
-		- `sudo rm -rf ~/.cache/wine`
-		- `sudo rm -rf ~/.cache/winetricks`
-		- `sudo apt clean`
-		- `sudo apt autoremove`
-		- `sudo apt update`
-		- `sudo dpkg --add-architecture i386` If 64 bit, enable 32 bit architecture (if you haven't already)
-		- `wget -nc https://dl.winehq.org/wine-builds/Release.key`
-		- `sudo apt-key add Release.key`
-		- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
-		- `sudo apt-get update`
-		- `sudo apt-get install --install-recommends winehq-stable`
-		- `sudo apt-get install --install-recommends winehq-stable`
-		- `sudo dpkg --configure -a`
-		- `mono --version`
-		- `wine --version`
-		- `sudo apt-get install winbind`
-		- `sudo apt autoremove`
-		- `sudo apt update`
+		- (Clean up if needed)
+			- `sudo apt purge win*`
+			- `sudo apt autoremove`
+			-  `sudo apt update`
+			- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
+			- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
+			- `sudo apt purge wine*`
+			- `sudo rm -rf /var/lib/apt/lists/*`
+			- `sudo rm -rf ~/.cache/wine`
+			- `sudo rm -rf ~/.cache/winetricks`
+			- `sudo apt clean`
+			- `sudo apt autoremove`
+			- `sudo apt update`
+		- (Add repository)
+			- `sudo dpkg --add-architecture i386` If 64 bit, enable 32 bit architecture (if you haven't already)
+			- `wget -nc https://dl.winehq.org/wine-builds/Release.key`
+			- `sudo apt-key add Release.key`
+			- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
+			- `sudo apt-get update`
+		- (Install)
+			- `sudo apt-get install --install-recommends winehq-stable`
+			- `sudo apt-get install --install-recommends winehq-stable`
+			- `sudo dpkg --configure -a`
+			- `mono --version`
+			- `wine --version`
+		- (Good to have as well)
+			- `sudo apt-get install winbind`
+			- `sudo apt autoremove`
+			- `sudo apt update`
 		- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts` or `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
 	- .NET Framework to Wine:
 		- `mkdir ~/software/windows/windows-dot-net`
