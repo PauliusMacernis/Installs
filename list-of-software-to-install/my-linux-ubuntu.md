@@ -156,6 +156,7 @@
 			- `sudo apt update`
 			- `winecfg` (Select your windows environment from here)
 				- Install all additional packages if asked before Wine configuration window opens up.
+			- `winecfg` > Drives > Add > H: > OK > Select `H:` > Browse... > Select /home/{user} dir > Apply > OK
 			- `winetricks`
 				- > Select the default wineprefix > OK > Install a font > OK > Select all 
 				- or alternative: `winetricks allfonts baekmuk cambria cjkfonts consolas constantia corefonts droid eufonts fakechinese fakejapanese fakejapanese_ipamona fakekorean ipamona liberation lucida opensymbol tahoma takao uff unifont wenquanyi`
@@ -183,6 +184,19 @@
 			- `cd ~/software/windows/encoding_checker`
 			- `unzip ~/software/windows/encoding_checker/releases/0/661fe6e2-7846-4be6-9b03-ed9346b255be -d ~/software/windows/encoding_checker`
 			- Test it: `wine start EncodingChecker.exe`
+			- `touch ~/wine-encodingchecker.desktop`
+			- Make the content of `*.desktop` file look like this:
+			```
+			[Desktop Entry]
+			Name=File Encoding Checker (via Wine)
+			Comment=File Encoding Checker is a GUI tool that allows you to validate the text encoding of one or more files. The tool can display the encoding for all selected files, or only the files that do not have the encodings you specify. File Encoding Checker requires .NET 2 or above to run.
+			Exec=wine "H:/software/windows/encoding_checker/EncodingChecker.exe"
+			Terminal=false
+			Type=Application
+			Icon=wine-file-encoding-checker
+			Categories=Wine-Programs-Accessories;
+			```
+			- `sudo mv ~/wine-encodingchecker.desktop /usr/share/applications/wine-encodingchecker.desktop`
 		- https://www.heidisql.com/
 			- `cd ~/`
 			- `mkdir ~/software/windows/HeidiSQL`
@@ -224,6 +238,19 @@
 			- Check `Run the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Vistanita/DF/vdf.exe`
+			- `touch ~/wine-vistanitaduplicatefinder.desktop`
+			- Make the content of `*.desktop` file look like this:
+			```
+			[Desktop Entry]
+			Name=Vistanita Duplicate Finder (via Wine)
+			Comment=Vistanita Duplicate Finder is a program which allows you to find duplicate files on your hard disk. It can compare all types of files even if they have different names. As it performs byte by byte comparison.
+			Exec=wine "C:/Program Files/Vistanita/DF/vdf.exe"
+			Terminal=false
+			Type=Application
+			Icon=wine-vistanita-duplicate-finder
+			Categories=Wine-Programs-Accessories;
+			```
+			- `sudo mv ~/wine-vistanitaduplicatefinder.desktop /usr/share/applications/wine-vistanitaduplicatefinder.desktop`
 		- http://winmerge.org/
 			- `mkdir ~/software/windows/winmerge`
 			- `wget http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe -O ~/software/windows/winmerge/WinMerge-Setup.exe`
@@ -234,7 +261,7 @@
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/WinMerge/WinMergeU.exe`
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
-- Create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
+- If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
