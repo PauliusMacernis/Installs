@@ -121,6 +121,7 @@
 		- `sudo apt-get install winbind`
 		- `sudo apt autoremove`
 		- `sudo apt update`
+		- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts` or `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
 	- .NET Framework to Wine:
 		- `mkdir ~/software/windows/windows-dot-net`
 		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=40779 to `~/software/windows/windows-dot-net`
@@ -146,7 +147,7 @@
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
-		- // http://azuon.com/
+		- // http://azuon.com/downloads/Azuon.zip
 		- http://www.prestosoft.com/edp_examdiff.asp
 		- http://encodingchecker.codeplex.com/
 		- https://www.heidisql.com/
