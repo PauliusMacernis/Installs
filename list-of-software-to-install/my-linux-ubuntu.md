@@ -141,7 +141,8 @@
 			- (Import Windows fonts if have any)
 				- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts`
 				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
-			- `sudo apt update`
+	- `sudo apt update`
+	- `sudo apt-get upgrade`
 
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
