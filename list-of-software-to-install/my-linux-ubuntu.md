@@ -81,11 +81,13 @@
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
 	- "MonoDevelop"
+	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
 	
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
 		- [Azuon](http://azuon.com/)
+		- [BLU drivers](https://androidmtk.com/download-blu-usb-drivers)
 
 - Install additional software manualy:
 	- SmartGit: 
@@ -208,14 +210,18 @@
 			- Check `Run the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Vistanita/DF/vdf.exe`
-		- https://www.videolan.org/vlc/index.html
 		- http://winmerge.org/
-		- https://www.wireshark.org/
-		- https://androidmtk.com/download-blu-usb-drivers
+			- `mkdir ~/software/windows/winmerge`
+			- `wget http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe -O ~/software/windows/winmerge/WinMerge-Setup.exe`
+			- `wine start /unix ~/software/windows/winmerge/WinMerge-Setup.exe`
+			- Answer questions of Install Wizzard
+			- Check `Launch the application` at the end of the installation.
+			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/WinMerge/WinMergeU.exe`
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
 
-###### Some other steps to consider:
+###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
 - https://www.microsoft.com/net/download
 - https://microsoft-office.en.softonic.com/
@@ -228,3 +234,4 @@
 - https://www.sourcetreeapp.com/
 - https://www.torproject.org/projects/torbrowser.html.en
 - https://www.vidyo.com/
+- https://www.wireshark.org/
