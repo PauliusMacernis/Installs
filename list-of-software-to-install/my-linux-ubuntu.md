@@ -67,6 +67,7 @@
 - Install additional software via Ubuntu software center:
 	- `sudo apt install net-tools` (for ifconfig to work)
 	- `sudo apt-get install traceroute` (for traceroute)
+	- `sudo apt-get install curl`
 	- "Emacs" (GNU Emacs GUI)
 	- "Gimp" (GNU Image Manipulation Program)
 	- "MySQL Workbench"
@@ -101,6 +102,10 @@
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
+	- youtube-dl (media downloader):
+		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
+		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
+		- Test it: `youtube-dl https://www.youtube.com/watch?v=FM7MFYoylVs`
 	- Wine + Mono
 		- (Clean up if needed)
 			- `sudo apt purge win*`
@@ -172,7 +177,6 @@
 			- Click `Run the application` button at the end of the installation.
 			- Right click with the mouse on Icon of HeidiSQL in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe`
-		- https://www.ytddownloader.com/
 		- https://github.com/aleksas/laba-diena-tts
 		- https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
 		- https://www.microsoft.com/net/download
