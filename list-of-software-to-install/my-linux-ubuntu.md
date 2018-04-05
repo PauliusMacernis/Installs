@@ -187,16 +187,27 @@
 			- Check `Run the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe`
-		- https://ashkulz.github.io/NppFTP/
-		- https://github.com/TaoK/PoorMansTSqlFormatter
-		- http://www.pdfforge.org/pdfcreator
-		- https://www.telerik.com/fiddler
-		- https://quick-html-color-picker.en.uptodown.com/windows
+		- (skip this, not working) https://quick-html-color-picker.en.uptodown.com/windows
+			- Download from (https://quick-html-color-picker.en.uptodown.com/windows) to `~/software/windows/quick-html-color-picker/quick-html-color-picker-1.0.exe`
+			- Test it: `wine start /unix ~/software/windows/quick-html-color-picker/quick-html-color-picker-1.0.exe`
 		- https://sourcegear.com/diffmerge/
-		- https://www.sourcetreeapp.com/
-		- https://www.torproject.org/projects/torbrowser.html.en
-		- https://www.vidyo.com/
+			- `cd ~/`
+			- `mkdir ~/software/windows/diffmerge`
+			- `cd ~/software/windows/diffmerge`
+			- `wget http://download.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi -O DiffMerge.msi` (32bit)
+			- `wine start DiffMerge.msi`
+			- Answer questions of Install Wizzard
+			- Check `Run the application` at the end of the installation.
+			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/SourceGear/Common/DiffMerge/sgdm.exe`
 		- https://vistanita-duplicate-finder.soft32.com/
+			- `mkdir ~/software/windows/vistanita-duplicate-finder`
+			- Download from (https://vistanita-duplicate-finder.soft32.com/) to `~/software/windows/vistanita-duplicate-finder/vdf.exe`
+			- `wine start /unix ~/software/windows/vistanita-duplicate-finder/vdf.exe`
+			- Answer questions of Install Wizzard
+			- Check `Run the application` at the end of the installation.
+			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Vistanita/DF/vdf.exe`
 		- https://www.videolan.org/vlc/index.html
 		- http://winmerge.org/
 		- https://www.wireshark.org/
@@ -210,3 +221,10 @@
 - https://microsoft-office.en.softonic.com/
 - https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
 - https://www.visualstudio.com
+- https://ashkulz.github.io/NppFTP/
+- https://github.com/TaoK/PoorMansTSqlFormatter
+- http://www.pdfforge.org/pdfcreator
+- https://www.telerik.com/fiddler
+- https://www.sourcetreeapp.com/
+- https://www.torproject.org/projects/torbrowser.html.en
+- https://www.vidyo.com/
