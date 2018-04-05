@@ -270,6 +270,7 @@
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
 - If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
+- "Online Accounts" - add online accounts
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
