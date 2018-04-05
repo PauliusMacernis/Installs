@@ -175,14 +175,18 @@
 			- `wine start HeidiSQL_Setup.exe`
 			- Answer questions of Install Wizzard
 			- Click `Run the application` button at the end of the installation.
-			- Right click with the mouse on Icon of HeidiSQL in Ubuntu bar > `Add to Favorites`
+			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe`
-		- https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
-		- https://www.microsoft.com/net/download
-		- https://microsoft-office.en.softonic.com/
-		- https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
-		- https://www.visualstudio.com
 		- https://notepad-plus-plus.org/
+			- `cd ~/`
+			- `mkdir ~/software/windows/npp`
+			- `cd ~/software/windows/npp`
+			- `wget https://notepad-plus-plus.org/repository/7.x/7.5.6/npp.7.5.6.Installer.exe -O npp.exe` (32bit)
+			- `wine start npp.exe`
+			- Answer questions of Install Wizzard
+			- Check `Run the application` at the end of the installation.
+			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe`
 		- https://ashkulz.github.io/NppFTP/
 		- https://github.com/TaoK/PoorMansTSqlFormatter
 		- http://www.pdfforge.org/pdfcreator
@@ -202,3 +206,7 @@
 
 ###### Some other steps to consider:
 - https://github.com/aleksas/laba-diena-tts
+- https://www.microsoft.com/net/download
+- https://microsoft-office.en.softonic.com/
+- https://www.microsoft.com/lt-lt/download/details.aspx?id=35400
+- https://www.visualstudio.com
