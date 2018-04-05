@@ -148,8 +148,30 @@
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
 		- http://www.prestosoft.com/edp_examdiff.asp
+			- `mkdir ~/software/windows/ExamDiff`
+			- `cd ~/software/windows/ExamDiff`
+			- (Download the software to current dir)
+			- `wine start ed19_setup.exe`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/ExamDiff/ExamDiff.exe`
 		- http://encodingchecker.codeplex.com/
+			- `cd ~/`
+			- `wget https://codeplexarchive.blob.core.windows.net/archive/projects/EncodingChecker/EncodingChecker.zip -O encodingchecker.zip`
+			- `mkdir ~/software/windows/encoding_checker`
+			- `unzip ~/encodingchecker.zip -d ~/software/windows/encoding_checker`
+			- `rm ~/encodingchecker.zip`
+			- `cd ~/software/windows/encoding_checker`
+			- `unzip ~/software/windows/encoding_checker/releases/0/661fe6e2-7846-4be6-9b03-ed9346b255be -d ~/software/windows/encoding_checker`
+			- Test it: `wine start EncodingChecker.exe`
 		- https://www.heidisql.com/
+			- `cd ~/`
+			- `mkdir ~/software/windows/HeidiSQL`
+			- `cd ~/software/windows/HeidiSQL`
+			- `wget https://www.heidisql.com/installers/HeidiSQL_9.5.0.5196_Setup.exe -O HeidiSQL_Setup.exe`
+			- `wine start HeidiSQL_Setup.exe`
+			- Answer questions of Install Wizzard
+			- Click `Run the application` button at the end of the installation.
+			- Right click with the mouse on Icon of HeidiSQL in Ubuntu bar > `Add to Favorites`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe`
 		- https://www.ytddownloader.com/
 		- https://github.com/aleksas/laba-diena-tts
 		- https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
