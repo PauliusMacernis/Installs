@@ -137,7 +137,7 @@
 				- Install all additional packages if asked before Wine configuration window opens up.
 			- `winetricks`
 				- > Select the default wineprefix > OK > Install a font > OK > Select all 
-				- or alternative: `winetricks allfonts`
+				- or alternative: `winetricks allfonts baekmuk cambria cjkfonts consolas constantia corefonts droid eufonts fakechinese fakejapanese fakejapanese_ipamona fakekorean ipamona liberation lucida opensymbol tahoma takao uff unifont wenquanyi`
 			- (Import Windows fonts if have any)
 				- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts`
 				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
