@@ -80,7 +80,7 @@
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
 	- "MonoDevelop"
-	- "VirtualBox"
+	- "VirtualBox" (Run several virtual systems on a single host computer)
 	
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
