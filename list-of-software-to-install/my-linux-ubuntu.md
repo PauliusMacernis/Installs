@@ -134,6 +134,7 @@
 			- `sudo apt autoremove`
 			- `sudo apt update`
 			- `winecfg` (Select your windows environment from here)
+				- Install all additional packages if asked before Wine configuration window opens up.
 			- `winetricks`
 			- (Fonts)
 				- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts`
