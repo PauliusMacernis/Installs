@@ -99,6 +99,9 @@
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
 	- Wine + Mono
+		- // `sudo apt purge win*`
+		- // `sudo apt autoremove`
+		- // `sudo apt update`
 		- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
 		- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
 		- `sudo apt purge wine*`
@@ -113,8 +116,8 @@
 		- `sudo apt-key add Release.key`
 		- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
 		- `sudo apt-get update`
-		- `sudo apt-get install --install-recommends winehq-staging`
-		- `sudo apt-get install --install-recommends winehq-staging`
+		- `sudo apt-get install --install-recommends winehq-stable`
+		- `sudo apt-get install --install-recommends winehq-stable`
 		- `sudo dpkg --configure -a`
 		- `mono --version`
 		- `wine --version`
