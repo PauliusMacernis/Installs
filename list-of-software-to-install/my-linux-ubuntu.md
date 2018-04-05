@@ -28,6 +28,8 @@
 		- Downloads dir
 		- Home page
 		- Etc.
+- Install Google Chrome:
+	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 - Configure Ubuntu look and behaviour:
 	- // comment // https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
 	- `sudo nano /etc/systemd/logind.conf`
