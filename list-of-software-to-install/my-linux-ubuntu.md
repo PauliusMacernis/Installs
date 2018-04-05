@@ -177,7 +177,6 @@
 			- Click `Run the application` button at the end of the installation.
 			- Right click with the mouse on Icon of HeidiSQL in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe`
-		- https://github.com/aleksas/laba-diena-tts
 		- https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
 		- https://www.microsoft.com/net/download
 		- https://microsoft-office.en.softonic.com/
@@ -200,3 +199,6 @@
 		- https://androidmtk.com/download-blu-usb-drivers
 	
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
+
+###### Some other steps to consider:
+- https://github.com/aleksas/laba-diena-tts
