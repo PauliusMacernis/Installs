@@ -119,6 +119,7 @@
 		- `wine --version`
 	- .NET Framework to Wine:
 		- `sudo apt-get install winbind`
+		- `sudo apt autoremove`
 		- `mkdir ~/software/windows/windows-dot-net`
 		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=40779 to `~/software/windows/windows-dot-net`
 		- `cd ~/software/windows/windows-dot-net`
