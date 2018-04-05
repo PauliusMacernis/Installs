@@ -65,7 +65,7 @@
 		- Move to workplace right > Change to "CTRL + ALT + 6"
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
 	- `touch ~/Templates/wine-programname.desktop` to create "New Document" on right mouse click in dir.
-		- Copy > Paste to `~/Templates/wine-programname.desktop`:
+		- Copy > Paste the following code to `~/Templates/wine-programname.desktop`:
 		```
 		[Desktop Entry]
 		Name=The Programs Name
