@@ -101,7 +101,10 @@
 	- Wine + Mono
 		- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
 		- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
+		- `sudo apt purge wine*`
 		- `sudo rm -rf /var/lib/apt/lists/*`
+		- `sudo rm -rf ~/.cache/wine`
+		- `sudo rm -rf ~/.cache/winetricks`
 		- `sudo apt clean`
 		- `sudo apt autoremove`
 		- `sudo apt update`
@@ -115,19 +118,20 @@
 		- `mono --version`
 		- `wine --version`
 	- .NET Framework to Wine:
+		- `sudo apt-get install winbind`
 		- `mkdir ~/software/windows/windows-dot-net`
-		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=30653 to `~/software/windows/windows-dot-net`
+		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=40779 to `~/software/windows/windows-dot-net`
 		- `cd ~/software/windows/windows-dot-net`
 		- `wine start dotNetFx45_Full_setup.exe`
 		
 
-- "Wine"
+- // Do we need this? // "Wine"
 	- Install
 	- `Ctrl` + `Alt` + `T`
 	- `winecfg` (Select your windows environment from here)
 	- "Winetricks" > Install ##or alternative: `sudo apt-get install winetricks`
 	- "Winetricks" > Install a font > OK > Select all > OK ## or alternative: `winetricks allfonts`
-	- `winetricks dotnet45 && winetricks gdiplus && winetricks vcrun2008` (this is needed for Azuon)
+	- `cd ` (this is needed for Azuon)
 	- `rm -rf ~/.wine && WINEARCH=win32 WINEPREFIX=~/.wine winecfg` (this is needed for Azuon)
 
 - // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK):
