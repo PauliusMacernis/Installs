@@ -113,13 +113,15 @@
 		- `sudo apt-key add Release.key`
 		- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
 		- `sudo apt-get update`
-		- `sudo apt-get install --install-recommends winehq-stable`
+		- `sudo apt-get install --install-recommends winehq-staging`
+		- `sudo apt-get install --install-recommends winehq-staging`
 		- `sudo dpkg --configure -a`
 		- `mono --version`
 		- `wine --version`
-	- .NET Framework to Wine:
 		- `sudo apt-get install winbind`
 		- `sudo apt autoremove`
+		- `sudo apt update`
+	- .NET Framework to Wine:
 		- `mkdir ~/software/windows/windows-dot-net`
 		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=40779 to `~/software/windows/windows-dot-net`
 		- `cd ~/software/windows/windows-dot-net`
