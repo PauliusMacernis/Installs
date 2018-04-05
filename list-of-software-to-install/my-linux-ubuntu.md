@@ -109,7 +109,7 @@
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
 		- [Azuon](http://azuon.com/)
-		- [BLU drivers](https://androidmtk.com/download-blu-usb-drivers)
+		- [BLU Studio Energy 2 USB Driver](https://androidmtk.com/download-blu-usb-drivers)
 
 - Install additional software manualy:
 	- SmartGit: 
