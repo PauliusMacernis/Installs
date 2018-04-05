@@ -1,5 +1,20 @@
 - `sudo apt-get update`
 - Install KeePassX & load passwords (if have any)
+- Generate ssh keys:
+	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+	- `eval "$(ssh-agent -s)"`
+	- `ssh-add ~/.ssh/id_rsa` # Add your SSH private key to the ssh-agent (check the file name)
+- Make custom .bashrc file:
+	- `touch ~/.bash_custom`
+	- Add following lines to `~/.bachrc`:
+		```
+		# Custom definitions.
+		if [ -f ~/.bash_custom ]; then
+		    . ~/.bash_custom
+		fi
+		```
+	- `source ~/.bashrc`
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
@@ -65,23 +80,11 @@
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
 	- "MonoDevelop"
-		
-- Generate ssh keys:
-	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
-	- `eval "$(ssh-agent -s)"`
-	- `ssh-add ~/.ssh/id_rsa` # Add your SSH private key to the ssh-agent (check the file name)
-
-- Make custom .bashrc file:
-	- `touch ~/.bash_custom`
-	- Add following lines to `~/.bachrc`:
-		```
-		# Custom definitions.
-		if [ -f ~/.bash_custom ]; then
-		    . ~/.bash_custom
-		fi
-		```
-	- `source ~/.bashrc`
+	- "VirtualBox"
+	
+- Install software via VirtualBox:
+	- [Windows 10](https://www.microsoft.com/software-download/windows10)
+		- [Azuon](http://azuon.com/)
 
 - Install additional software manualy:
 	- SmartGit: 
@@ -118,52 +121,30 @@
 			- `sudo apt-key add Release.key`
 			- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
 			- `sudo apt-get update`
-			- Restart
+			- `reboot` (Restart the computer if were cleaning up)
 		- (Install)
-			- `sudo apt-get install --install-recommends winehq-stable`
-			- `sudo apt-get install --install-recommends winehq-stable`
+			- `sudo apt-get install --install-recommends winehq-staging`
+			- `sudo apt-get install --install-recommends winehq-staging`
 			- `sudo dpkg --configure -a`
 			- `mono --version`
 			- `wine --version`
-		- (Good to have as well)
+		- (Extras and Config)
 			- `sudo apt-get install winbind`
+			- `sudo apt-get install winetricks`
 			- `sudo apt autoremove`
 			- `sudo apt update`
-		- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts` or `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
-	- .NET Framework to Wine:
-		- `mkdir ~/software/windows/windows-dot-net`
-		- Download Microsoft .NET Framework 4.5: https://www.microsoft.com/en-us/download/details.aspx?id=40779 to `~/software/windows/windows-dot-net`
-		- `cd ~/software/windows/windows-dot-net`
-		- `wine start dotNetFx45_Full_setup.exe`
-		
-
-- // Do we need this? // "Wine"
-	- Install
-	- `Ctrl` + `Alt` + `T`
-	- `winecfg` (Select your windows environment from here)
-	- "Winetricks" > Install ##or alternative: `sudo apt-get install winetricks`
-	- "Winetricks" > Install a font > OK > Select all > OK ## or alternative: `winetricks allfonts`
-	- `winetricks dotnet45 && winetricks gdiplus && winetricks vcrun2008` (this is needed for Azuon)
-	- `rm -rf ~/.wine && WINEARCH=win32 WINEPREFIX=~/.wine winecfg` (this is needed for Azuon)
-
-- // Do we need this? // Install software vie "Winetricks" ("winetricks" > Install an application > OK > Check > OK):
-	- vc2005express
-	- vc2005expresssp1
-	- vc2008express
-	- vc2010express
+			- `winecfg` (Select your windows environment from here)
+			- `winetricks`
+			- (Fonts)
+				- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts`
+				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
+				- or "Winetricks" > Install a font > OK > Select all > OK 
+				- or alternative: `winetricks allfonts`
+			- `sudo apt update`
 
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
-		- http://azuon.com/
-			- `cd ~/`
-			- `mkdir ~/software/windows/azuon`
-			- // Download `http://azuon.com/downloads/Azuon.zip`)
-			- `wget http://azuon.com/downloads/Azuon.zip -O temp-azuon.zip`
-			- // Extract `Azuon.zip` content to `~/software/windows/azuon`)
-			- `unzip ~/temp-azuon.zip -d ~/software/windows/azuon`
-			- `rm ~/temp-azuon.zip`
-			- `wine start WINEPREFIX=$HOME/software/windows/azuon/.wine /unix "$HOME/software/windows/azuon/Azuon.exe"`
 		- http://www.prestosoft.com/edp_examdiff.asp
 		- http://encodingchecker.codeplex.com/
 		- https://www.heidisql.com/
