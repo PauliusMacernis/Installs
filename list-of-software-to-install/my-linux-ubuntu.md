@@ -133,6 +133,14 @@
 		- (Follow `~/software/phpstorm/Install-Linux-tar.txt`)
 		- `cd ~/software/phpstorm/bin/`
 		- `./phpstorm.sh`
+		- (Configure PHPStorm)
+		- File > Settings > Plugins > Install, enable and configure these:
+			- PHP Annotations
+			- Symfony Plugin
+			- PHP Toolbox
+			- SensioLabInsight (inspection)
+			- Lines Sorter
+			- Php Inspections (EA Extended)
 	- youtube-dl (media downloader):
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
