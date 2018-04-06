@@ -141,6 +141,7 @@
 			- SensioLabInsight (inspection)
 			- Lines Sorter
 			- Php Inspections (EA Extended)
+		- Change PHPStorm settings to prevent closing old tabs: File > Settings > Editor > General > Tabs > Tab Closing Policy > Tab limit: 999
 	- youtube-dl (media downloader):
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
@@ -149,7 +150,7 @@
 		- (Clean up if needed)
 			- `sudo apt purge win*`
 			- `sudo apt autoremove`
-			-  `sudo apt update`
+			- `sudo apt update`
 			- `sudo apt-add-repository --remove ppa:ubuntu-wine/ppa`
 			- `sudo apt purge winehq-stable wine-mono wine-gecko winetricks`
 			- `sudo apt purge wine*`
