@@ -64,7 +64,7 @@
 		- Move to workplace left > Change to "CTRL + ALT + 4"
 		- Move to workplace right > Change to "CTRL + ALT + 6"
 		- Hide all normal windows > Change to "SUPER + D"
-		- Switch windows > "ALT + TAB" (this will disable "Switch applications which is ok)
+		- Switch windows > "ALT + TAB" (this will disable "Switch applications" which is ok)
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
 	- `touch ~/Templates/wine-programname.desktop` to create "New Document" on right mouse click in dir.
 		- Copy > Paste the following code to `~/Templates/wine-programname.desktop`:
