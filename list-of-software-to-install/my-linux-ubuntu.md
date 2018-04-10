@@ -177,7 +177,7 @@
   		  sudo install /tmp/docker-machine /usr/local/bin/docker-machine
 		  ```
 		  
-		- `docker-machine version`
+		- `docker-machine --version`
 		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
 		  base=https://raw.githubusercontent.com/docker/machine/v0.14.0
