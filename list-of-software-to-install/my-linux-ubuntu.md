@@ -169,7 +169,7 @@
 		- Relaunch all launched terminals to utilize completion.
 		- `docker-compose --version`
 		- (Install Docker Machine: https://docs.docker.com/machine/install-machine/ )
-		- 
+		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
 		  base=https://github.com/docker/machine/releases/download/v0.14.0 &&
   		  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
@@ -177,7 +177,7 @@
 		  ```
 		  
 		- `docker-machine version`
-		- 
+		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
 		  base=https://raw.githubusercontent.com/docker/machine/v0.14.0
 		  for i in docker-machine-prompt.bash docker-machine-wrapper.bash docker-machine.bash
@@ -188,7 +188,7 @@
 		  
 		- `source /etc/bash_completion.d/docker-machine-prompt.bash`
 		- add `$(__docker_machine_ps1)` to `PS1` setting in `~/.bashrc`:  
-		  `PS1='[\u@\h \W$(__docker_machine_ps1)]\$ '`		
+		  `PS1='[\u@\h \W$(__docker_machine_ps1)]\$ '`  
 	- SmartGit: 
 		- `mkdir ~/software/smartgit`
 		- Download from `https://www.syntevo.com/smartgit/download/`
