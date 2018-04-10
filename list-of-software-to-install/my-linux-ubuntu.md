@@ -128,6 +128,17 @@
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
+	- Java JDK:
+		- `sudo apt-get update`
+		- `sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)
+		- `sudo apt-get update`
+		- `sudo apt-get install oracle-java8-installer` (or `sudo apt-get install oracle-java9-installer` for newer)
+		- Accept license terms
+		- (ignore this) `sudo apt install oracle-java8-set-default`
+		- `sudo update-alternatives --config java`
+		- Select java8-oracle version (default is fine if java8-oracle, e.g. manual mode)
+		- `java -version`
+		- `javac -version`
 	- PHPStorm:
 		- `mkdir ~/software/phpstorm`
 		- Download from https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=linux
