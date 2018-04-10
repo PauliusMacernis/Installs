@@ -151,7 +151,8 @@
 		- `sudo apt-get update`
 		- `sudo apt-get install docker-ce`
 		- `sudo docker run hello-world`
-		
+		- (Follow: https://docs.docker.com/install/linux/linux-postinstall/ )
+		- ...
 	- SmartGit: 
 		- `mkdir ~/software/smartgit`
 		- Download from `https://www.syntevo.com/smartgit/download/`
