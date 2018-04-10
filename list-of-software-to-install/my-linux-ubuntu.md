@@ -114,20 +114,6 @@
 		- [BLU Studio Energy 2 USB Driver](https://androidmtk.com/download-blu-usb-drivers)
 
 - Install additional software manualy:
-	- SmartGit: 
-		- `mkdir ~/software/smartgit`
-		- Download from `https://www.syntevo.com/smartgit/download/`
-		- Extract the content to `~/software/smartgit`
-		- (Follow `~/software/smartgit/readme-linux.txt`)
-		- `~/software/smartgit/bin/smartgit.sh`
-		- `~/software/smartgit/bin/add-menuitem.sh`
-		- `update-java-alternatives --list`
-	- ArgoUML:
-		- `mkdir ~/software/argouml`
-		- Download from `http://argouml.tigris.org/`
-		- Extract the content to `~/software/argouml`
-		- (Follow `~/software/argouml/README.txt`)
-		- `java -jar ~/software/argouml/argouml.jar` will run the app
 	- Java JDK:
 		- `sudo apt-get update`
 		- `sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)
@@ -139,6 +125,19 @@
 		- Select java8-oracle version (default is fine if java8-oracle, e.g. manual mode)
 		- `java -version`
 		- `javac -version`
+	- Docker CE:  
+		- ( Follow: https://docs.docker.com/install/linux/docker-ce/ubuntu/ )
+		- `sudo apt-get remove docker docker-engine docker.io`
+		- `sudo apt-get update`
+		- ...
+	- SmartGit: 
+		- `mkdir ~/software/smartgit`
+		- Download from `https://www.syntevo.com/smartgit/download/`
+		- Extract the content to `~/software/smartgit`
+		- (Follow `~/software/smartgit/readme-linux.txt`)
+		- `~/software/smartgit/bin/smartgit.sh`
+		- `~/software/smartgit/bin/add-menuitem.sh`
+		- `update-java-alternatives --list`
 	- PHPStorm:
 		- `mkdir ~/software/phpstorm`
 		- Download from https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=linux
@@ -155,6 +154,12 @@
 			- Lines Sorter
 			- Php Inspections (EA Extended)
 		- Change PHPStorm settings to prevent closing old tabs: File > Settings > Editor > General > Tabs > Tab Closing Policy > Tab limit: 999
+	- ArgoUML:
+		- `mkdir ~/software/argouml`
+		- Download from `http://argouml.tigris.org/`
+		- Extract the content to `~/software/argouml`
+		- (Follow `~/software/argouml/README.txt`)
+		- `java -jar ~/software/argouml/argouml.jar` will run the app
 	- youtube-dl (media downloader):
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
