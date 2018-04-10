@@ -162,6 +162,7 @@
 		- `echo manual | sudo tee /etc/init/docker.override` to disable loading Docker service via `upstart` on startup
 		- `sudo chkconfig docker off`  to disable loading Docker service via `chconfig` on startup
 		- `env | grep DOCKER_HOST` If this command returns a value, the Docker client is set to connect to a Docker daemon running on that host. If it is unset, the Docker client is set to connect to the Docker daemon running on the local host.
+		- `docker --version`
 		- (Install Docker Compose: https://docs.docker.com/compose/install/ )
 		- [Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose`
 		- `sudo chmod +x /usr/local/bin/docker-compose`
