@@ -187,7 +187,7 @@
 		  ```
 		  
 		- `source /etc/bash_completion.d/docker-machine-prompt.bash`
-		- add `$(__docker_machine_ps1)` to `PS1` setting in `~/.bashrc`:  
+		- add `$(__docker_machine_ps1)` to `PS1` setting in `~/.bashrc` or in the existing`~/.bash_custom` (preffered):  
 		  `PS1='[\u@\h \W$(__docker_machine_ps1)]\$ '`  
 	- SmartGit: 
 		- `mkdir ~/software/smartgit`
