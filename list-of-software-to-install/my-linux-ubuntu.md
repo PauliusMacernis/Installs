@@ -99,7 +99,10 @@
 	- "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
-	- `sudo apt install php`
+	- (Install PHP)
+		- `sudo apt install php`
+		- `sudo apt install php-xml`
+		- `sudo apt install php-mbstring`
 
 - Configure VirtualBox for Windows10 to host:
 	- "virtualBox"
