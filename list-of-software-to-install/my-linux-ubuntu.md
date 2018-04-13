@@ -111,15 +111,22 @@
 	- ...
 	- Right click on the new Machine > `Settings...` > `Shared Folders` > Select all folders you ACTUALLY need (e.g. `~/software`)
 	- ...
-	- Configure Windows:
-		- Download/Install/Configure Firefox: https://www.mozilla.org/en-US/firefox/new/
-		- Download/Install/Configure Microsoft Office: ...
-
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
+		- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+		- [Google Chrome](https://www.google.com/chrome/)
+		- [Filezilla FTP client](https://filezilla-project.org/)
+		- [7zip archive manager](https://www.7-zip.org/download.html)
+		- [Java SDK](https://www.oracle.com/technetwork/java/javase/downloads/)
+		- [Adobe PDF reader](https://get.adobe.com/reader/)
+		- [VLC media player](https://www.videolan.org/vlc/)
+		- [Microsoft Office: Word, Excel, etc.](https://www.microsoft.com/en-us/download/office.aspx)
+		- [CCleaner](https://www.ccleaner.com/ccleaner/download)
 		- [Azuon](http://azuon.com/)
-		- [BLU Studio Energy 2 USB Driver](https://androidmtk.com/download-blu-usb-drivers)
-
+		- (optional) https://www.avg.com/en-ww/tuneup-utilities
+		- (optional) https://www.adobe.com/creativecloud/
+		- (optional) https://www.daemon-tools.cc/products/dtLite
+		- (optional) [BLU Studio Energy 2 USB Driver](https://androidmtk.com/download-blu-usb-drivers)
 - Install additional software manualy:
 	- Java JDK:
 		- `sudo apt-get update`
