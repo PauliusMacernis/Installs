@@ -111,6 +111,9 @@
 	- ...
 	- Right click on the new Machine > `Settings...` > `Shared Folders` > Select all folders you ACTUALLY need (e.g. `~/software`)
 	- ...
+	- Configure Windows:
+		- Download/Install/Configure Firefox: https://www.mozilla.org/en-US/firefox/new/
+		- Download/Install/Configure Microsoft Office: ...
 
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
