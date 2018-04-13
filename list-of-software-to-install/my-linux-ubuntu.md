@@ -117,7 +117,7 @@
 		- [Google Chrome](https://www.google.com/chrome/)
 		- [Filezilla FTP client](https://filezilla-project.org/)
 		- [7zip archive manager](https://www.7-zip.org/download.html)
-		- [Java SDK](https://www.oracle.com/technetwork/java/javase/downloads/)
+		- [Java JRE](https://www.oracle.com/technetwork/java/javase/downloads/)
 		- [Adobe PDF reader](https://get.adobe.com/reader/)
 		- [VLC media player](https://www.videolan.org/vlc/)
 		- [Microsoft Office: Word, Excel, etc.](https://www.microsoft.com/en-us/download/office.aspx)
