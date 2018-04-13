@@ -99,6 +99,7 @@
 	- "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
+		- Go to the dir representing the same VirtualBox version and download `VBoxGuestAdditions_*.iso` file: http://download.virtualbox.org/virtualbox/
 	- (Install PHP)
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
