@@ -99,7 +99,6 @@
 	- "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
-		- Go to the dir representing the same VirtualBox version and download `VBoxGuestAdditions_*.iso` file: http://download.virtualbox.org/virtualbox/
 	- (Install PHP)
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
@@ -111,7 +110,7 @@
 	- Name: `Windows 10`, Type: `Microsoft Windows`, Version: `Windows 10 (64-bit)`
 	- ...
 	- Right click on the new Machine > `Settings...` > `Shared Folders` > Select all folders you ACTUALLY need (e.g. `~/software`)
-	- ...
+	- Open the Windows10 machine window and do `Devices` > `Insert Guest Additions CD image...` > `Download` > `Download` > `Insert` > Open the image via Windows file manager (run the downloaded and inserted CD image - .iso) > Install Guest Additions to WIndows OS by following the wizzard > reboot Windows10 VM after the install when asked to.
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
 		- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
