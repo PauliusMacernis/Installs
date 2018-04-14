@@ -81,6 +81,7 @@
 	- Ctrl+H to Show hidden files of the directory or: https://askubuntu.com/questions/470837/how-to-show-hidden-folders-in-ubuntu-14-04
 	
 - Install additional software via Ubuntu software center:
+	- `sudo apt install htop`
 	- `sudo apt install net-tools` (for ifconfig to work)
 	- `sudo apt-get install traceroute` (for traceroute)
 	- `sudo apt-get install curl`
