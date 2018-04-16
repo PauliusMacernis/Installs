@@ -3,7 +3,7 @@
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
-	- `eval "$(ssh-agent -s)"`
+	- `eval "$(ssh-agent -s)"` 
 	- `ssh-add ~/.ssh/id_rsa` # Add your SSH private key to the ssh-agent (check the file name)
 - Make custom .bashrc file:
 	- `touch ~/.bash_custom`
@@ -242,6 +242,17 @@
 		- Xdebug configuration:
 			- Install and enable `xdebug` inside Docker container or elsewhere by following: https://xdebug.org/docs/install
 			- Use the following settings in `xdebug.ini` (`php --ini` will help finding the file):
+                          
+               ```
+               [xdebug]
+               xdebug.default_enable=1
+               xdebug.remote_autostart=1
+               xdebug.remote_connect_back=1
+               xdebug.remote_port=9001
+               xdebug.remote_enable=1
+               xdebug.idekey=DOCKER_XDEBUG
+               ```
+                           
 			- File > Settings > Languages & Frameworks > PHP > Debug:
 				- Debug port: 9001
 			- Click the Xdebug bar (usually in the top right corner) drop-down and click `edit configurations...`
