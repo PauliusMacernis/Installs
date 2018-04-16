@@ -254,21 +254,17 @@
                ```
                            
 			- File > Settings > Languages & Frameworks > PHP > Debug:
-				- Debug port: 9001
+				- Debug port: `9001`
 			- Click the Xdebug bar (usually in the top right corner) drop-down and click `edit configurations...`
-			- Click the plus (`+`) button in the top left and select `PHP Web
-Page` to create a run configuration
-			- Give the application a name (i.e., `Localhost`),
-and then click the `...` button to add a server.
-			- Server Host: localhost
+			- Click the plus (`+`) button in the top left and select `PHP Web Page` to create a run configuration
+			- Give the application a name (i.e., `Localhost`), and then click the `...` button to add a server.
+			- Server Host: `localhost`
 			- Server Port `8080` (or any other port used to connect to the project, e.g. the case: `http://localhost:8080/test`)
 			- Server Debugger: `Xdebug`
 			- Use pat mappings (...) - `checked`. 
-			- Map your local project path to the path on the server (e.g. `/srv/app`) so Xdebug knows
-how to map files correctly
-			- Once you have configured the web server and run configuration, toggle the `start
-listening for PHP Debug Connections` icon
-		- Change PHPStorm settings to prevent closing old tabs: File > Settings > Editor > General > Tabs > Tab Closing Policy > Tab limit: 999
+			- Map your local project path to the path on the server (e.g. `/srv/app`) so Xdebug knows how to map files correctly
+			- Once you have configured the web server and run configuration, toggle the `start listening for PHP Debug Connections` icon
+		- Change PHPStorm settings to prevent closing old tabs: File > Settings > Editor > General > Tabs > Tab Closing Policy > Tab limit: `999`
 	- ArgoUML:
 		- `mkdir ~/software/argouml`
 		- Download from `http://argouml.tigris.org/`
