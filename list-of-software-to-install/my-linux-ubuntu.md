@@ -140,6 +140,29 @@
 		- Select java8-oracle version (default is fine if java8-oracle, e.g. manual mode)
 		- `java -version`
 		- `javac -version`
+	- IntelliJ IDEA:
+		- Download the installation pack (`tar.gz`): https://www.jetbrains.com/idea/download/#section=linux
+		- Extract it to `/home/paulius/software/intellij` or elsewhere.
+		- `cd /home/paulius/software/intellij/bin`
+		- `./idea.sh`
+		- Do not import settings (or import if you want) > OK
+		- Dracula theme (or any other theme you want) > Next
+		- Create a desktop entry for integration with system application menu: check, For all users: check > Next
+		- Create script for opening files and projects from the command line: check, `/usr/local/bin/idea` > Next
+		- Plugins (defaults are ok): Next
+		- Install Scala and IDE Features Trainer plugins > Start using IntelliJ IDEA
+		- Configure IntelliJ IDEA (`Configure` > `Project Defaults` > `Project Structure` > `Project Settings` > `Project`):
+			- Project SDK: `New...` > `JDK` > Select JDK we have installed, like `/usr/lib/jvm/java-8-oracle` > OK
+			- Project language level: `SDK default`
+			- `OK`
+		- Configure IntelliJ IDEA (`Configure` > `Settings`):
+			- `Editor` > `General` > `Auto import`:
+				- Add unambiguous imports on the fly: checked
+				- Optimize imports on the fly (for current project): checked
+				- `Apply`
+			- `Editor` > `General` > `Appearance`:
+				- Show line numbers: checked
+				- `OK`		
 	- Docker CE:  
 		- ( Follow: https://docs.docker.com/install/linux/docker-ce/ubuntu/ )
 		- `sudo apt-get remove docker docker-engine docker.io`
