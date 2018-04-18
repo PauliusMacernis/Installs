@@ -269,6 +269,7 @@
 			- SensioLabInsight (inspection)
 			- Lines Sorter
 			- Php Inspections (EA Extended)
+			- nginx support
 		- Xdebug configuration:
 			- Install and enable `xdebug` inside Docker container or elsewhere by following: https://xdebug.org/docs/install
 			- Use the following settings in `xdebug.ini` (`php --ini` will help finding the file):
