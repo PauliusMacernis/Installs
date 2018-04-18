@@ -92,6 +92,13 @@
 	- "Skype"
 	- `sudo apt-get install openjdk-8-jre` (SmartGit will need this)
 	- `sudo apt-get install git`
+		- (Configure Git globals)
+		- `git config --global user.name "Paulius Macernis"`
+		- `git config --global user.email sugalvojau@gmail.com`
+		- `touch ~/.gitignore`
+		- `git config --global core.excludesfile '~/.gitignore'`
+		- `echo "/.idea" >> ~/.gitignore`
+		- `git config --list`
 	- "FileZilla"
 	- "KDiff3"
 	- "NetBeans"
