@@ -97,6 +97,7 @@
 		- `git config --global user.email sugalvojau@gmail.com`
 		- `touch ~/.gitignore`
 		- `git config --global core.excludesfile '~/.gitignore'`
+		- `git config --global core.filemode false`
 		- `echo "/.idea" >> ~/.gitignore`
 		- `git config --list`
 	- "FileZilla"
