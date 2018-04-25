@@ -115,6 +115,7 @@
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
 		- `sudo apt install php-mbstring`
+		- `sudo apt install php-mcrypt`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
 - Configure VirtualBox for Windows10 to host:
