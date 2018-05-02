@@ -259,6 +259,12 @@
 		- `source /etc/bash_completion.d/docker-machine-prompt.bash`
 		- add `$(__docker_machine_ps1)` to `PS1` setting in `~/.bashrc` or in the existing`~/.bash_custom` (preffered):  
 		  `PS1='[\u@\h \W$(__docker_machine_ps1)]\$ '`  
+	- Rancher Compose:
+		- Download the latest Rancher Compose from https://github.com/rancher/rancher-compose/releases (e.g. https://github.com/rancher/rancher-compose/releases/download/v0.12.5/rancher-compose-linux-amd64-v0.12.5.tar.gz ) to the place of your choice (e.g. `~/Desktop`), extract it.
+		- Adapt the following to the path of the downloaded Rancher Compose and run: `sudo cp path/to/rancher-compose /usr/local/bin/rancher-compose` (e.g. `sudo cp /home/paulius/Desktop/rancher-compose-linux-amd64-v0.12.5/rancher-compose-v0.12.5/rancher-compose /usr/local/bin/rancher-compose`)
+		- `sudo chmod u+x /usr/local/bin/rancher-compose`
+		- `rancher-compose --help`
+		- `rancher-compose --version`
 	- Composer (PHP dependency manager):
 		- `cd ~`
 		- (Follow: https://getcomposer.org/download/ )
