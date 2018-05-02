@@ -5,6 +5,18 @@
 	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 	- `eval "$(ssh-agent -s)"` 
 	- `ssh-add ~/.ssh/id_rsa` # Add your SSH private key to the ssh-agent (check the file name)
+- Config `ssh_config`:
+	- `touch ~/.ssh/config`
+	- Add the following to the file:
+    ```
+	Host a2
+	    Hostname nlss1.a2hosting.com
+	    User myusername
+        #IdentityFile ∼/.ssh/id_rsa
+	    Port 7822
+	    LocalForward localhost:3306 localhost:3306
+	    ForwardAgent yes
+	```
 - Make custom .bashrc file:
 	- `touch ~/.bash_custom`
 	- Add following lines to `~/.bachrc`:
