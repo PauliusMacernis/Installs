@@ -16,6 +16,12 @@
 	    Port 7822
 	    LocalForward localhost:3306 localhost:3306
 	    ForwardAgent yes
+	
+	Host rancher-server
+	    Hostname 167.99.46.128
+	    User root
+	    IdentityFile ∼/.ssh/id_rsa
+	    ForwardAgent yes
 	```
 - Make custom .bashrc file:
 	- `touch ~/.bash_custom`
