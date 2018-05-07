@@ -276,6 +276,12 @@
 		- `composer --version`
 		- `composer self-update`
 		- `composer --version`
+	- Install Yarn (https://yarnpkg.com)
+		- (Follow: https://yarnpkg.com/en/docs/install#debian-stable )
+		- `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+		- `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
+		- `sudo apt-get update && sudo apt-get install yarn`
+		- `yarn --version`
 	- SmartGit: 
 		- `mkdir ~/software/smartgit`
 		- Download from `https://www.syntevo.com/smartgit/download/`
