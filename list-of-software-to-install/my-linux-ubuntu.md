@@ -129,13 +129,18 @@
 	- "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
-	- (Install PHP)
+	- (PHP)
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
 		- `sudo apt install php-mbstring`
 		- `sudo apt install php-mcrypt`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
+	- (HipChat, follow: https://www.hipchat.com/downloads)
+		- `sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`
+		- `wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
+		- `sudo apt-get update`
+		- `sudo apt-get install hipchat4`
 - Configure VirtualBox for Windows10 to host:
 	- "virtualBox"
 	- New
