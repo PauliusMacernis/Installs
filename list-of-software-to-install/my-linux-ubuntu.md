@@ -12,7 +12,7 @@
 		- Downloads dir
 		- Home page
 		- Go to: `about:config`
-			- `network.dnsCacheExpiration`: `1`
+			- `network.dnsCacheExpiration`: `60`
 		- Etc.
 - Install Google Chrome:
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
