@@ -113,8 +113,8 @@
 			- Titlebar Buttons: Placement: `Right` (selected is darker)
 		> ...
 	- "Keyboard" > Navigation
-		- Move to workplace left > Change to `CTRL` + `ALT` + `4`. Change, because Ubuntu `CTRL` + `ALT` + `LEFT` is the same as navigation (back to previous code snippet) in PHPStorm. Seems that Ubuntu 18.04 LTS does not have this shortcut set anymore.
-		- Move to workplace right > Change to `CTRL` + `ALT` + `6`. Change, because Ubuntu `CTRL` + `ALT` + `RIGHT` is the same as navigation (forward to previous code snippet) in PHPStorm. Seems that Ubuntu 18.04 LTS does not have this shortcut set anymore.
+		- `Move to workplace left` > Change to `CTRL` + `ALT` + `4`. Change, because Ubuntu `CTRL` + `ALT` + `LEFT` is the same as navigation (back to previous code snippet) in PHPStorm. Seems that Ubuntu 18.04 LTS does not have this shortcut set anymore.
+		- `Move to workplace right` > Change to `CTRL` + `ALT` + `6`. Change, because Ubuntu `CTRL` + `ALT` + `RIGHT` is the same as navigation (forward to previous code snippet) in PHPStorm. Seems that Ubuntu 18.04 LTS does not have this shortcut set anymore.
 		- Hide all normal windows > Change to "SUPER + D"
 		- Switch windows > "ALT + TAB" (this will disable "Switch applications" which is ok)
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
