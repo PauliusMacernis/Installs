@@ -61,11 +61,9 @@
 		HandleLidSwitchDocked=ignore
   ```
 	- "Settings Power"
-  ```
-		Dim screen when inactive: Off
-		Blank screen: Never
-		When the Power Button is pressed: Power Off
-  ```
+		- Dim screen when inactive: `Off` (cannot find this on Ubuntu 18.04 LTS)
+		- Blank screen: `Never`
+		- When the Power Button is pressed: `Power Off`
 	- "Language" (?)
   ```
 		Input Sources > + > Lithuanian
