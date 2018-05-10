@@ -444,7 +444,6 @@
 				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
 	- `sudo apt update`
 	- `sudo apt-get upgrade`
-
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
@@ -542,6 +541,7 @@
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
 - If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
 - "Online Accounts" - add online accounts
+- `Tweaks` > `Startup Applications` and pick applications to startup on boot
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
