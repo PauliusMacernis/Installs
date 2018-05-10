@@ -183,6 +183,10 @@
 		- `wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
 		- `sudo apt-get update`
 		- `sudo apt-get install hipchat4`
+		- `sudo rm /opt/HipChat4/lib/libcrypto.so*` (see https://jira.atlassian.com/browse/HCPUB-6249 )
+		- `sudo ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /opt/HipChat4/lib/libcrypto.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )
+		- `sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )
+		- `sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so` (see https://jira.atlassian.com/browse/HCPUB-6249 )
 - Configure VirtualBox for Windows10 to host:
 	- "virtualBox"
 	- New
