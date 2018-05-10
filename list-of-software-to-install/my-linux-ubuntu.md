@@ -1,4 +1,5 @@
 - `sudo apt-get update`
+- `mkdir -p ~/dev ~/software virtualbox-shared`
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
