@@ -192,7 +192,12 @@
 	- New
 	- Name: `Windows 10`, Type: `Microsoft Windows`, Version: `Windows 10 (64-bit)`
 	- ...
-	- Right click on the new Machine > `Settings...` > `Shared Folders` > Select all folders you ACTUALLY need (e.g. `~/software`)
+	- Right click on the new Machine 
+		- `Settings...`
+			- `General` > `Advanced`
+				- `Shared Clipboard`: `Bidirectional`
+				- `Drag n drop`: `Bidirectional`
+			- `Shared Folders` > Select all folders you ACTUALLY need (e.g. `~/virtualbox-shared`), check `Auto-mount`
 	- Open the Windows10 machine window and do `Devices` > `Insert Guest Additions CD image...` > `Download` > `Download` > `Insert` > Open the image via Windows file manager (run the downloaded and inserted CD image - .iso) > Install Guest Additions to WIndows OS by following the wizzard > reboot Windows10 VM after the install when asked to.
 - Install software via VirtualBox:
 	- [Windows 10](https://www.microsoft.com/software-download/windows10)
