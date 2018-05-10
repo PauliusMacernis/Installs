@@ -164,7 +164,13 @@
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
 		- `sudo apt install php-mbstring`
-		- `sudo apt install php-mcrypt`
+		- `sudo apt-get install php-pear`
+		- `pecl help version`
+		- `sudo apt install php-mcrypt` (does not exist in Ubuntu 18.04 LTS because of PHP 7.2)
+		- `sudo apt install php-dev` (if Ubuntu 18.04 LTS)
+		- `sudo apt-get install libcurl4-openssl-dev` (if Ubuntu 18.04 LTS)
+		- `sudo pecl channel-update pecl.php.net`
+		- `sudo pecl install mcrypt-1.0.1` (get the latest version number: https://pecl.php.net/package/mcrypt) (if Ubuntu 18.04 LTS)
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
 	- (HipChat, follow: https://www.hipchat.com/downloads)
