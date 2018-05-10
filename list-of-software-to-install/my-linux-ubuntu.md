@@ -16,6 +16,7 @@
 		- Etc.
 - Install Google Chrome:
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
+	- Downloads dir
 	- Go to: `chrome://about` , `chrome://net-internals/`
 - Install KeePassX & load passwords (if have any)
 - Generate ssh keys:
