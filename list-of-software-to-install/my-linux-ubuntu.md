@@ -68,7 +68,7 @@
   ```
 		Input Sources > + > Lithuanian
   ```
-	- "Lanuage Support"
+	- "Language Support"
   ```
 		Language > Install / Remove Languages... > Lithuanian > Install	
 		Regional Formats > Dispplay numbers, dates and currency amounts...: Lietuvių > Apply System-Wide > Close
