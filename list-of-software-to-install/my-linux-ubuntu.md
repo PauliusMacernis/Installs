@@ -75,9 +75,42 @@
   ```
 	- `sudo apt-get install gnome-tweak-tool`
 	- "Tweaks"
-		> Power > Suspend when laptop lid is closed: Off
-		> Top Bar > ...
-		> Windows > ...
+		- Appearance:
+			- Animations: `Off`
+		- Desktop:
+			- Icons on Desktop: Show Icons: `On`
+			- Icons on Desktop: Home: `On`
+			- Icons on Desktop: Network Servers: `Off`
+			- Icons on Desktop: Trash: `On`
+			- Icons on Desktop: Mounted Volumes: `On`
+		- Extensions:
+			- Ubuntu appindicators: `Off`
+			- Ubuntu dock: `On`
+		- Power:
+			- Suspend when laptop lid is closed: `Off`  
+		- Startup Applications:
+			- `ignore-lid-switch-tweak` (ignore if does not exist)
+		- Top Bar
+			- Application Menu: `On`
+			- Battery Percentage: `On`
+			- Activities Overview Hot Center: `Off`
+			- Clock: Date: `On`
+			- Clock: Seconds: `On`
+			- Calendar: Week Numbers: `On`
+		- Windows
+			- Attach Modal Dialogs: `On`
+			- Resize with Secondary-Click: `On`
+			- Window Action Key: `Super`
+			- Window Focus: Click to focus: `Checked`
+			- Window Focus: Sloppy: `Not Checked`
+			- Window Focus: Secondary-Click: `Not Checked`
+			- Reise Windows When Focused: On (frozen)
+			- Titlebar Actions: Double-Click: `Toggle Maximize`
+			- Titlebar Actions: Middle-Click: `None`
+			- Titlebar Actions: Secondary-Click: `Menu`
+			- Titlebar Buttons: Maximize: `On`
+			- Titlebar Buttons: Minimize: `On`
+			- Titlebar Buttons: Placement: `Right` (selected is darker)
 		> ...
 	- "Keyboard" > Navigation
 		- // comment // Change, because Ubuntu CTRL + ALT + LEFT (RIGHT) is the same as navigation (back to previous code snippet) in PHPStorm.
