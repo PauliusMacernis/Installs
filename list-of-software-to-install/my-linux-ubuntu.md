@@ -173,8 +173,13 @@
 		- `sudo pecl install mcrypt-1.0.1` (get the latest version number: https://pecl.php.net/package/mcrypt) (if Ubuntu 18.04 LTS)
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
-	- (HipChat, follow: https://www.hipchat.com/downloads)
+	- (HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads)
 		- `sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`
+		- `wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
+		- `sudo apt-get update`
+		- `sudo apt-get install hipchat4`
+	- (HipChat for Ubuntu 18.04 LTS, follow: https://www.hipchat.com/downloads)
+		- `sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client xenial main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`
 		- `wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
 		- `sudo apt-get update`
 		- `sudo apt-get install hipchat4`
