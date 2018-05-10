@@ -277,7 +277,7 @@
    		  ```
 		  
 		- `sudo apt-get update`
-		- `sudo apt-get install docker-ce`
+		- `sudo apt-get install docker-ce`, if Ubuntu 18.04 LTS then: `sudo apt install docker`, `sudo apt install docker.io`
 		- `sudo docker run hello-world`
 		- (Follow: https://docs.docker.com/install/linux/linux-postinstall/ )
 		- `sudo groupadd docker`
