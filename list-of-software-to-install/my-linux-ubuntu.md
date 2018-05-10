@@ -1,4 +1,22 @@
 - `sudo apt-get update`
+- Install Firefox: 
+	- Login to Firefox with Firefox Account
+	- Install Addons: 
+		- https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
+		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
+		- https://addons.mozilla.org/en-US/firefox/addon/flagfox/
+		- https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/
+		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
+		- https://addons.mozilla.org/en-US/firefox/addon/lithuanian-spellcheck/
+	- Configure:
+		- Downloads dir
+		- Home page
+		- Go to: `about:config`
+			- `network.dnsCacheExpiration`: `1`
+		- Etc.
+- Install Google Chrome:
+	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
+	- Go to: `chrome://about` , `chrome://net-internals/`
 - Install KeePassX & load passwords (if have any)
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -33,24 +51,6 @@
 		fi
 		```
 	- `source ~/.bashrc`
-- Install Firefox: 
-	- Login to Firefox with Firefox Account
-	- Install Addons: 
-		- https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
-		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
-		- https://addons.mozilla.org/en-US/firefox/addon/flagfox/
-		- https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/
-		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
-		- https://addons.mozilla.org/en-US/firefox/addon/lithuanian-spellcheck/
-	- Configure:
-		- Downloads dir
-		- Home page
-		- Go to: `about:config`
-			- `network.dnsCacheExpiration`: `1`
-		- Etc.
-- Install Google Chrome:
-	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
-	- Go to: `chrome://about` , `chrome://net-internals/`
 - Configure Ubuntu look and behaviour:
 	- // comment // https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
 	- `sudo nano /etc/systemd/logind.conf`
