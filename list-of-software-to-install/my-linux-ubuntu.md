@@ -119,8 +119,8 @@
 		- Switch windows > "ALT + TAB" (this will disable "Switch applications" which is ok)
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
 	- `touch ~/Templates/wine-programname.desktop` to create "New Document" on right mouse click in dir.
-		- Copy > Paste the following code to `~/Templates/wine-programname.desktop` (no spaces in front of lines):
-		```
+		- Copy > Paste the following code to `~/Templates/wine-programname.desktop`:
+		 ```
 		[Desktop Entry]
 		Name=The Programs Name
 		Comment=Information About The Program
