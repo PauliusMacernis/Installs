@@ -60,11 +60,14 @@
 		HandlePowerKey=poweroff
 		HandleLidSwitch=ignore
 		HandleLidSwitchDocked=ignore
-  ```
+  ```	
+  	- "Settings" > `Privacy`:
+		- `Screen Lock`: `Off`
 	- "Settings Power"
 		- Dim screen when inactive: `Off` (cannot find this on Ubuntu 18.04 LTS)
 		- Blank screen: `Never`
 		- When the Power Button is pressed: `Power Off`
+	- 
 	- "Language" (?)
   ```
 		Input Sources > + > Lithuanian
@@ -421,6 +424,10 @@
 			- `wget -nc https://dl.winehq.org/wine-builds/Release.key`
 			- `sudo apt-key add Release.key`
 			- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
+			- (If Ubuntu 18.04 LTS)
+				- `sudo nano /etc/apt/sources.list`
+				- Change distro: `https://dl.winehq.org/wine-builds/debian/ beaver main` to `https://dl.winehq.org/wine-builds/debian/ artful main`
+			- `sudo apt install mono-runtime` (not sure if works on versions before 18.04 LTS)
 			- `sudo apt-get update`
 			- `reboot` (Restart the computer if were cleaning up)
 		- (Install)
