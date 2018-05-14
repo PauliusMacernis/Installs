@@ -1,6 +1,7 @@
 - `sudo apt-get update`
 - `sudo nano /etc/update-manager/release-upgrades`  
 and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
+- `sudo do-release-upgrade`
 - `sudo apt-get update`
 - `mkdir -p ~/dev ~/software virtualbox-shared`
 - Install Firefox: 
