@@ -23,7 +23,24 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 	- Downloads dir
 	- Go to: `chrome://about` , `chrome://net-internals/`
-- Install Postman: https://www.getpostman.com/apps
+- Install Postman: 
+        - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
+        - `sudo tar -xzf postman.tar.gz -C /opt`
+        - `rm postman.tar.gz`
+        - `sudo ln -s /opt/Postman/Postman /usr/bin/postman`
+	-
+	```
+   cat > ~/.local/share/applications/postman.desktop <<EOL
+   [Desktop Entry]
+   Encoding=UTF-8
+   Name=Postman
+   Exec=postman
+   Icon=/opt/Postman/resources/app/assets/icon.png
+   Terminal=false
+   Type=Application
+   Categories=Development;
+   EOL
+	```
 - Install KeePassX & load passwords (if have any)
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
