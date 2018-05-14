@@ -23,12 +23,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 	- Downloads dir
 	- Go to: `chrome://about` , `chrome://net-internals/`
-- Install Postman: 
-        - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
-        - `sudo tar -xzf postman.tar.gz -C /opt`
-        - `rm postman.tar.gz`
-        - `sudo ln -s /opt/Postman/Postman /usr/bin/postman`
-	-
+- Install Postman:
+    - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
+    - `sudo tar -xzf postman.tar.gz -C /opt`
+    - `rm postman.tar.gz`
+    - `sudo ln -s /opt/Postman/Postman /usr/bin/postman`
+    -
 	```
    cat > ~/.local/share/applications/postman.desktop <<EOL
    [Desktop Entry]
