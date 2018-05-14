@@ -24,6 +24,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Downloads dir
 	- Go to: `chrome://about` , `chrome://net-internals/`
 - Install Postman:
+    - `sudo apt install libgconf2-4` (dependency)
     - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
     - `sudo tar -xzf postman.tar.gz -C /opt`
     - `rm postman.tar.gz`
