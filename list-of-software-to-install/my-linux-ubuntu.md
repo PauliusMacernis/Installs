@@ -123,8 +123,6 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- "Settings" > Dock
 		- Icon size: `30`
 	- "Keyboard" > Navigation
-		- `Move to workplace left` > Change to `CTRL` + `ALT` + `4`. Change, because Ubuntu `CTRL` + `ALT` + `LEFT` is the same as navigation (back to previous code snippet) in PHPStorm. Seems that Ubuntu 18.04 LTS does not have this shortcut set anymore.
-		- `Move to workplace right` > Change to `CTRL` + `ALT` + `6`. Change, because Ubuntu `CTRL` + `ALT` + `RIGHT` is the same as navigation (forward to previous code snippet) in PHPStorm. Seems that Ubuntu 18.04 LTS does not have this shortcut set anymore.
 		- Hide all normal windows > Change to "SUPER + D"
 		- Switch windows > "ALT + TAB" (this will disable "Switch applications" which is ok)
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
@@ -399,6 +397,11 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Map your local project path to the path on the server (e.g. `/srv/app`) so Xdebug knows how to map files correctly
 			- Once you have configured the web server and run configuration, toggle the `start listening for PHP Debug Connections` icon
 		- Change PHPStorm settings to prevent closing old tabs: File > Settings > Editor > General > Tabs > Tab Closing Policy > Tab limit: `999`
+		- `File` > `Settings...` > `Keymap`. Check if keymaps are as expected. If not then edit the keymap of the interest. Keymap of PHPStorm may conflict with Keymap of Ubuntu ("Keyboard shortcuts").:
+			- Check `Main menu` > `Navigate` > `Back` 
+				- In case of Conflict with Ubuntu keymap: "Keyboard shortcuts" > `Move to workplace left` > Change to `CTRL` + `ALT` + `4` or other.
+			- Check `Main menu` > `Navigate` > `Forward`
+				- In case of Conflict with Ubuntu keymap: "Keyboard shortcuts" > `Move to workplace right` > Change to `CTRL` + `ALT` + `6` or other.
 	- ArgoUML:
 		- `mkdir ~/software/argouml`
 		- Download from `http://argouml.tigris.org/`
