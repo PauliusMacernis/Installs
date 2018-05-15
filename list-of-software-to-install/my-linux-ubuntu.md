@@ -4,6 +4,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - `sudo do-release-upgrade`
 - `sudo apt-get update`
 - `mkdir -p ~/dev ~/software virtualbox-shared`
+- "Settings" > `Region & Language` > Input Sources > `+` > Lithuanian (or other)
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
