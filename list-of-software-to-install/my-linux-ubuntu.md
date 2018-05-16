@@ -3,7 +3,11 @@
 and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
 - `sudo do-release-upgrade`
 - `sudo apt-get update`
-- (update GeForce drivers? https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
+- (update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
+	- `sudo apt install nvidia-cuda-toolkit`
+	- `nvcc -V`
+	- `sudo apt install clinfo`
+	- `clinfo`
 	- `ubuntu-drivers devices`
 	- Look for `driver   : nvidia-driver-390 - distro non-free recommended` or similar line.
 	- If driver recommendations are acceptable then run `sudo ubuntu-drivers autoinstall`. Otherwise, run `nvidia-driver-390` (according to the driver name found after `ubuntu-drivers devices`)
