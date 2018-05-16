@@ -3,6 +3,10 @@
 and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
 - `sudo do-release-upgrade`
 - `sudo apt-get update`
+- (update GeForce drivers? https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
+	- `ubuntu-drivers devices`
+	- Look for `driver   : nvidia-driver-390 - distro non-free recommended` or similar line.
+	- If driver recommendations are acceptable then run `sudo ubuntu-drivers autoinstall`. Otherwise, run `nvidia-driver-390` (according to the driver name found after `ubuntu-drivers devices`)
 - `mkdir -p ~/dev ~/software virtualbox-shared`
 - "Settings" > `Region & Language` > Input Sources > `+` > Lithuanian (or other)
 - Install Firefox: 
