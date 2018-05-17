@@ -170,6 +170,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	
 - Install additional software via Ubuntu software center:
 	- `sudo apt install htop`
+	- `sudo apt install tree`
 	- `sudo apt install xclip` (for usage like: `cat ~/.ssh/id_rsa.pub | xclip -sel clip`)
 	- `sudo apt install net-tools` (for ifconfig to work)
 	- `sudo apt-get install traceroute` (for traceroute)
