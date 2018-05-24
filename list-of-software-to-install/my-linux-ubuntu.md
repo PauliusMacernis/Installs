@@ -210,6 +210,23 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo apt-get install libcurl4-openssl-dev` (if Ubuntu 18.04 LTS)
 		- `sudo pecl channel-update pecl.php.net`
 		- `sudo pecl install mcrypt-1.0.1` (get the latest version number: https://pecl.php.net/package/mcrypt) (if Ubuntu 18.04 LTS)
+	- (Graphviz - Graph Visualization Software (http://www.graphviz.org/))
+		- `sudo apt install graphviz`
+	- (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
+		- `git clone https://github.com/jakobwesthoff/phuml`
+		- `cd phuml/src/app/`
+		- `./phuml -h`
+		- `./phuml -l`
+		- (test) `./phuml -r /var/www/php_app_folder -graphviz -createAssociations false -neato output_image.png`
+		- (make a symlink to `/usr/bin/phuml` or so?)
+	- (PhpDependencyAnalysis (https://github.com/mamuz/PhpDependencyAnalysis), requires Graphviz)
+		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda.pubkey`
+		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda`
+		- `chmod +x phpda`
+		- `sudo mv phpda /usr/bin/phpda`
+		- `sudo mv phpda.pubkey /usr/bin/phpda.pubkey`
+		- `sudo phpda update`
+		- `phpda --version`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
 	- (HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads)
