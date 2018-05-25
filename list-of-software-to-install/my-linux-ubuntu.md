@@ -227,6 +227,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo mv phpda.pubkey /usr/bin/phpda.pubkey`
 		- `sudo phpda update`
 		- `phpda --version`
+	- `sudo apt install cmake`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
 	- (HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads)
