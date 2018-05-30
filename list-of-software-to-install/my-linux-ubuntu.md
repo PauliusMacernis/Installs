@@ -254,6 +254,17 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo dpkg -i umbrello_18.04.1-0neon+16.04+xenial+build43_amd64.deb`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
+	- "Eclipse" (Extensible Tool Platform and Java IDE)
+		- (Papyrus)
+			- Help > Check for Updates...
+			- Help > Install new software... > 
+				- Work with: `http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/oxygen/` > Select all > Next
+				- Keep my installation the same and modify the items being installed to be compatible > Next
+				- Next
+				- Accept all licenses > Finish
+			- Help > Check for Updates...
+			- Do you trust these certificates? Select All > Accept selected
+			- Restart Now
 	- (HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads)
 		- `sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`
 		- `wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
