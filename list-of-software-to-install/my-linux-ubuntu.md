@@ -228,6 +228,30 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo phpda update`
 		- `phpda --version`
 	- `sudo apt install cmake`
+	- `sudo apt install devscripts`
+	- `sudo apt-get install debhelper`
+	- `sudo apt-get install extra-cmake-modules`
+	- `sudo apt-get install kdevelop-pg-qt`
+	- `sudo apt-get install kdevplatform-dev`
+	- `sudo apt-get install kdoctools-dev`
+	- `sudo apt-get install kinit-dev`
+	- `sudo apt-get install libboost-dev`
+	- `sudo apt-get install libkf5crash-dev`
+	- `sudo apt-get install libkf5kdelibs4support-dev`
+	- `sudo apt-get install libqt5svg5-dev`
+	- `sudo apt-get install libxml2-dev`
+	- `sudo apt-get install libxslt1-dev`
+	- `sudo apt-get install pkg-kde-tools`
+	- Install [Umbrello] (https://umbrello.kde.org/)
+		- `mkdir -p ~/software/umbrello`
+		- `cd ~/software/umbrello`
+		- `dget https://archive.neon.kde.org/user/pool/main/u/umbrello/umbrello_18.04.1-0neon+16.04+xenial+build43.dsc`
+		- `dpkg-source -x umbrello_18.04.1-0neon+16.04+xenial+build43.dsc`
+		- `cd umbrello-18.04.1/`
+		- `dch -i` (in case we want to change the changelog)
+		- `dpkg-buildpackage -rfakeroot`
+		- `cd ..`
+		- `sudo dpkg -i umbrello_18.04.1-0neon+16.04+xenial+build43_amd64.deb`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
 	- (HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads)
