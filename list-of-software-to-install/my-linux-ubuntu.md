@@ -678,3 +678,4 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - https://www.torproject.org/projects/torbrowser.html.en
 - https://www.vidyo.com/
 - https://www.wireshark.org/
+- http://www.sparxsystems.com/products/ea/
