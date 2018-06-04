@@ -32,6 +32,10 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 	- Downloads dir
 	- Go to: `chrome://about` , `chrome://net-internals/`
+- Install Flash
+	- `sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"`
+	- `sudo apt update`
+	- `sudo apt install adobe-flashplugin browser-plugin-freshplayer-pepperflash`
 - Install Postman:
     - `sudo apt install libgconf2-4` (dependency, applies for Ubuntu 18.04 LTS)
     - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
