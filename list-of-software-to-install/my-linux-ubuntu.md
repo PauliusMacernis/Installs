@@ -155,6 +155,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- "Settings" > Dock
 		- Icon size: `30`
 	- "Keyboard" > Navigation
+		- "+" >
+			- Name: `xkill`, Command: `xkill`, Schortcut: `Ctrl` + `Brake`
 		- Hide all normal windows > Change to "SUPER + D"
 		- Switch windows > "ALT + TAB" (this will disable "Switch applications" which is ok)
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
