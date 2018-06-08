@@ -183,6 +183,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install traceroute` (for traceroute)
 	- `sudo apt-get install curl`
 	- "Emacs" (GNU Emacs GUI)
+	- "KolourPaint" (Microsoft Paint-alike software)
 	- "Gimp" (GNU Image Manipulation Program)
 	- "MySQL Workbench"
 	- "Slack"
