@@ -180,6 +180,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt install htop`
 	- `sudo apt install atop`
 	- `sudo apt install tree`
+	- `sudo apt install nmap` (for pinging over network)
+	- `sudo apt-get install dnsutils` (mainly for having `dig`: https://linux.die.net/man/1/dig )
 	- `sudo apt install xclip` (for usage like: `cat ~/.ssh/id_rsa.pub | xclip -sel clip`)
 	- `sudo apt install net-tools` (for ifconfig to work)
 	- `sudo apt-get install traceroute` (for traceroute)
