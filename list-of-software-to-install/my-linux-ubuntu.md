@@ -189,6 +189,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- "Emacs" (GNU Emacs GUI)
 	- "KolourPaint" (Microsoft Paint-alike software)
 	- "Gimp" (GNU Image Manipulation Program)
+	- `sudo apt install mysql-server`
+	- (optional) `sudo mysql_secure_installation`
 	- "MySQL Workbench"
 	- "Slack"
 	- "Skype"
