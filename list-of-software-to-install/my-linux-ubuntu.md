@@ -281,20 +281,20 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `wget -O - https://packages.atlassian.com/api/gpg/key/public | sudo apt-key add -`
 		- `sudo apt-get update`
 		- `sudo apt-get install stride`
-	- ~~(HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads , Upgraded to Stride)
-		- ~~`sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`
-		- ~~`wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
-		- ~~`sudo apt-get update`
-		- ~~`sudo apt-get install hipchat4`
-	- ~~(HipChat for Ubuntu 18.04 LTS, follow: https://www.hipchat.com/downloads , Upgraded to Stride)
-		- ~~`sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client xenial main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`
-		- ~~`wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`
-		- ~~`sudo apt-get update`
-		- ~~`sudo apt-get install hipchat4`
-		- ~~`sudo rm /opt/HipChat4/lib/libcrypto.so*` (see https://jira.atlassian.com/browse/HCPUB-6249 )
-		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /opt/HipChat4/lib/libcrypto.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )
-		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )
-		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so` (see https://jira.atlassian.com/browse/HCPUB-6249 )
+	- ~~(HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads , Upgraded to Stride)~~
+		- ~~`sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`~~
+		- ~~`wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`~~
+		- ~~`sudo apt-get update`~~
+		- ~~`sudo apt-get install hipchat4`~~
+	- ~~(HipChat for Ubuntu 18.04 LTS, follow: https://www.hipchat.com/downloads , Upgraded to Stride)~~
+		- ~~`sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client xenial main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`~~
+		- ~~`wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`~~
+		- ~~`sudo apt-get update`~~
+		- ~~`sudo apt-get install hipchat4`~~
+		- ~~`sudo rm /opt/HipChat4/lib/libcrypto.so*` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
+		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /opt/HipChat4/lib/libcrypto.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
+		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
+		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
 	- (ignore)(Toggl Desktop tracker)
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-1_amd64.deb`
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/universe/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5ubuntu1_amd64.deb`
