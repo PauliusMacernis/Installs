@@ -179,6 +179,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - Install additional software via Ubuntu software center:
 	- `sudo apt install htop`
 	- `sudo apt install atop`
+	- `sudo apt-get install iotop` (for monitoring disk usage)
 	- `sudo apt install tree`
 	- `sudo apt install nmap` (for pinging over network)
 	- `sudo apt-get install dnsutils` (mainly for having `dig`: https://linux.die.net/man/1/dig )
