@@ -494,6 +494,9 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `~/software/smartgit/bin/add-menuitem.sh`
 		- `update-java-alternatives --list`
 	- PHPStorm:
+		- `sudo nano /etc/sysctl.conf`
+			- Add the line: `fs.inotify.max_user_watches = 524288`, save it.
+			- Apply the change: `sudo sysctl -p --system`
 		- `mkdir ~/software/phpstorm`
 		- Download from https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=linux
 		- Extract the content to `~/software/phpstorm`
