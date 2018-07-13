@@ -185,6 +185,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt install tree`
 	- `git --version` (git comes by default but lets be sure...)
 	- `sudo apt install gource` (http://gource.io/)
+	- `sudo apt-get install okular` 
+		- For PDF reading in black background: `Settings/Configure Okular.../Accessibility` by checking `Change colors` then `Color mode: Change Paper Color`
 	- `sudo apt install ruby`
 	- `sudo apt install nmap` (for pinging over network)
 	- `sudo apt-get install dnsutils` (mainly for having `dig`: https://linux.die.net/man/1/dig )
