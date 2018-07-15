@@ -263,6 +263,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install libxml2-dev`
 	- `sudo apt-get install libxslt1-dev`
 	- `sudo apt-get install pkg-kde-tools`
+	- `sudo apt-get install rlwrap` (Clojure dependency)
 	- Install Clojure (https://clojure.org/guides/getting_started#_installation_on_linux)
 		- (check the link above for the newer install instructions, the following instructions may be too old though) 
 		- `curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh`
