@@ -263,6 +263,11 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install libxml2-dev`
 	- `sudo apt-get install libxslt1-dev`
 	- `sudo apt-get install pkg-kde-tools`
+	- Install Clojure (https://clojure.org/guides/getting_started#_installation_on_linux)
+		- (check the link above for the newer install instructions, the following instructions may be too old though) 
+		- `curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh`
+		- `chmod +x linux-install-1.9.0.381.sh`
+		- `sudo ./linux-install-1.9.0.381.sh`
 	- Install Leiningen (https://leiningen.org/)
 		- Download the lein script: https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 		- Place it on your `$PATH` where your shell can find it (eg. into `/usr/bin` dir)
