@@ -263,6 +263,11 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install libxml2-dev`
 	- `sudo apt-get install libxslt1-dev`
 	- `sudo apt-get install pkg-kde-tools`
+	- Install Leiningen (https://leiningen.org/)
+		- Download the lein script: https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+		- Place it on your `$PATH` where your shell can find it (eg. into `/usr/bin` dir)
+    		- Set it to be executable (`sudo chmod a+x /usr/bin/lein`)
+    		- Run it (`lein`) and it will download the self-install package
 	- Install [Umbrello] (https://umbrello.kde.org/)
 		- `mkdir -p ~/software/umbrello`
 		- `cd ~/software/umbrello`
