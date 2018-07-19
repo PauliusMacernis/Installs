@@ -264,12 +264,20 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install libxslt1-dev`
 	- `sudo apt-get install pkg-kde-tools`
 	- (make screenshots every 300 seconds, it is every 5 minutes, - useful for tracking "what I was on during past time")
-		- `sudo apt-get install scrot`
+		- `sudo apt-get install scrot` (for printscreen)
+		- `sudo apt-get install fswebcam` (for webcam shots)
 		- `mkdir -p ~/Pictures/RegularScreenshots/` (for saving screenshots into)
+		- `mkdir -p ~/Pictures/RegularWebcam/` (for saving webcam shots into)
 		- `mkdir -p ~/Scripts/Autostart` (for the script doing screenshots)
 		- `touch ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `echo '#!/usr/bin/env bash' >> ~/Scripts/Autostart/RegularScreenshots.sh`
-		- `echo 'while true; do scrot -d 300 '"'"'%Y-%m-%d-%H:%M:%S.png'"'"' -e '"'"'mv $f ~/Pictures/RegularScreenshots/'"'"'; done'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo 'while true'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo 'do '  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo '  scrot '"'"'%Y-%m-%d-%H:%M:%S.png'"'"' -e '"'"'mv $f ~/Pictures/RegularScreenshots/'"'"' '  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo '  fswebcam -r 1280×720 --jpeg 85 -D 1 "$HOME/Pictures/RegularWebcam/%Y-%m-%d-%H:%M:%S.jpg"'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo '  sleep 3'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo 'done'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		
 		- `chmod +x ~/Scripts/Autostart/RegularScreenshots.sh`
 		- "startup app" (to open up "Startup Application Preferences")
 			- Add
