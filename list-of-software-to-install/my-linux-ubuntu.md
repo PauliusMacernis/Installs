@@ -269,7 +269,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `mkdir -p ~/Scripts/Autostart` (for the script doing screenshots)
 		- `touch ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `echo '#!/usr/bin/env bash' >> ~/Scripts/Autostart/RegularScreenshots.sh`
-		- `echo "while true; do scrot -d 300 '"'"'%Y-%m-%d-%H:%M:%S.png'"'"' -e '"'"'mv $f ~/Pictures/RegularScreenshots/'"'"'; done"  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo 'while true; do scrot -d 300 '"'"'%Y-%m-%d-%H:%M:%S.png'"'"' -e '"'"'mv $f ~/Pictures/RegularScreenshots/'"'"'; done'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `chmod +x ~/Scripts/Autostart/RegularScreenshots.sh`
 		- "startup app" (to open up "Startup Application Preferences")
 			- Add
