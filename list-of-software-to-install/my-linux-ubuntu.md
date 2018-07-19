@@ -263,6 +263,22 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install libxml2-dev`
 	- `sudo apt-get install libxslt1-dev`
 	- `sudo apt-get install pkg-kde-tools`
+	- (make screenshots every 300 seconds, it is every 5 minutes, - useful for tracking "what I was on during past time")
+		- `sudo apt-get install scrot`
+		- `mkdir -p ~/Pictures/RegularScreenshots/` (for saving screenshots into)
+		- `mkdir -p ~/Scripts/Autostart` (for the script doing screenshots)
+		- `touch ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo '#!/usr/bin/env bash' >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo "while true; do scrot -d 300 '%Y-%m-%d-%H:%M:%S.png' -e 'mv $f ~/Pictures/RegularScreenshots/'; done"  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `chmod +x ~/Scripts/Autostart/RegularScreenshots.sh`
+		- "startup app" (to open up "Startup Application Preferences")
+			- Add
+				- Name: `Regular Screenshots`
+				- Command: `~/Scripts/Autostart/RegularScreenshots.sh`
+				- Comment: `Constantly makes regular screenshots`
+				- Add
+			- Close
+		- (optional) Restart
 	- `sudo apt-get install rlwrap` (Clojure dependency)
 	- Install Clojure (https://clojure.org/guides/getting_started#_installation_on_linux)
 		- (check the link above for the newer install instructions, the following instructions may be too old though) 
