@@ -274,7 +274,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `echo 'while true'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `echo 'do '  >> ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `echo '  scrot '"'"'%Y-%m-%d-%H:%M:%S.png'"'"' -e '"'"'mv $f ~/Pictures/RegularScreenshots/'"'"' '  >> ~/Scripts/Autostart/RegularScreenshots.sh`
-		- `echo '  fswebcam -r 1280×720 --jpeg 85 -D 1 "$HOME/Pictures/RegularWebcam/%Y-%m-%d-%H:%M:%S.jpg"'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
+		- `echo '  fswebcam -r 1280x720 --jpeg 85 -D 1 "$HOME/Pictures/RegularWebcam/%Y-%m-%d-%H:%M:%S.jpg"'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `echo '  sleep 300'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
 		- `echo 'done'  >> ~/Scripts/Autostart/RegularScreenshots.sh`
 		
