@@ -738,6 +738,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
 - "Online Accounts" - add online accounts
 - `Tweaks` > `Startup Applications` and pick applications to startup on boot
+- `journalctl --verify` - Check the systemd journal file for internal consistency.
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
