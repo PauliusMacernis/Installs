@@ -533,6 +533,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `~/software/smartgit/bin/smartgit.sh`
 		- `~/software/smartgit/bin/add-menuitem.sh`
 		- `update-java-alternatives --list`
+		- `Repository` > `Add or Create...` for each project you are developing.
+		- `Git-Flow (arrow)` > `Configure...` > `Full (feature, release, hotfix, support branches` > `OK`
 	- PHPStorm:
 		- `sudo nano /etc/sysctl.conf`
 			- Add the line: `fs.inotify.max_user_watches = 524288`, save it.
@@ -768,6 +770,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - "Online Accounts" - add online accounts
 - `Tweaks` > `Startup Applications` and pick applications to startup on boot
 - `journalctl --verify` - Check the systemd journal file for internal consistency.
+- Set File default opening program by going to a file's (for example, any `.php` file) properties, going to the `open with` tab, and then setting the chosen app as default one for that file type. The next time clicking `open` on the file will result to file opening in the chosen app.
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
