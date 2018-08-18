@@ -554,6 +554,10 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Lines Sorter
 			- Php Inspections (EA Extended)
 			- nginx support
+		- (optional) File > Settings > Languages & Frameworks > PHP > Symfony
+			- Enable Plugin for this Project (check)
+		- (optional) File > Settings > Languages & Frameworks > PHP > Composer
+			- Path to composer.json (browse to composer.json of the PHP project)
 		- Xdebug configuration:
 			- Install and enable `xdebug` inside Docker container or elsewhere by following: https://xdebug.org/docs/install
 			- Use the following settings in `xdebug.ini` (`php --ini` will help finding the file):
