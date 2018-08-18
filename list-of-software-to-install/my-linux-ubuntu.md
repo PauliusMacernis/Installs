@@ -556,6 +556,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- nginx support
 		- (optional) File > Settings > Languages & Frameworks > PHP > Symfony
 			- Enable Plugin for this Project (check)
+			- Web directory: `web` (Symfony3), or `public` (Symfony4)
 		- (optional) File > Settings > Languages & Frameworks > PHP > Composer
 			- Path to composer.json (browse to composer.json of the PHP project)
 		- Xdebug configuration:
