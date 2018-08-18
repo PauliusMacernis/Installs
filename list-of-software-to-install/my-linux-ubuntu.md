@@ -638,6 +638,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- (Import Windows fonts if have any)
 				- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts`
 				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
+		- PHP Mess Detector ( https://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm )
+		- Any external tools? ( https://www.jetbrains.com/help/phpstorm/external-tools.html )
 	- `sudo apt update`
 	- `sudo apt-get upgrade`
 - Install software via Wine:
