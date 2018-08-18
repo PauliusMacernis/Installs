@@ -583,6 +583,31 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 				- In case of Conflict with Ubuntu keymap: "Keyboard shortcuts" > `Move to workplace left` > Change to `CTRL` + `ALT` + `4` or other.
 			- Check `Main menu` > `Navigate` > `Forward`
 				- In case of Conflict with Ubuntu keymap: "Keyboard shortcuts" > `Move to workplace right` > Change to `CTRL` + `ALT` + `6` or other.
+		- PHP CodeSniffer ( https://github.com/squizlabs/PHP_CodeSniffer )
+			- Go to `File` > `Settings...` > `Editor` > `Inspections` > `PHP` > `PHP Code Sniffer validation` (select this) > Coding standard:" (select the one you want to use)
+		- PHP Code Beautifier and Fixer ( `phpcbf` )
+			- Go to `File` > `Settings...` > `Tools` > `External Tools`
+			- Click on `+` to add one more tool, set requested settings as follows:
+				- Name: `phpcbf`
+				- Group: `External Tools`
+				- Description: `Fix PHP Codesniffer warnings using phpcbf`
+				- Tool Settings > Program: `/home/username/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcbf` (edit to meet you path to `phpcbf`)
+				- Tool Settings > Arguments: `--standard=symfony2 $FileDir$/$FileName$` (edit to the standard you want to use)
+				- Tool Settings > Working directory: `$ProjectFileDir$`
+				- Show in > Main menu: `checked`
+				- Show in > Editor menu: `checked`
+				- Show in > Project views: `checked`
+				- Show in > Search result: `checked`
+				- Advanced option > Synchronize files after execution: `checked`
+				- Advanced option > Open console for tool output: `checked`
+				- Advanced option > Make console active on message in stdout: `checked`
+				- Advanced option > Make console active on message in stderr: `checked`
+				- Output filters: `` (leave it empty)
+				- Save it by clicking `OK`
+		- Any other external tools? ( https://www.jetbrains.com/help/phpstorm/external-tools.html )
+		- Extra keyboard shortcut needed? For example, for `phpcbf`?
+			- `Settings` -> `Keymap`
+		- PHP Mess Detector ( https://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm )
 	- ArgoUML:
 		- `mkdir ~/software/argouml`
 		- Download from `http://argouml.tigris.org/`
@@ -638,8 +663,6 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- (Import Windows fonts if have any)
 				- Copy Windows fonts (if have any) to: `~/.wine/drive_c/windows/Fonts`
 				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
-		- PHP Mess Detector ( https://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm )
-		- Any external tools? ( https://www.jetbrains.com/help/phpstorm/external-tools.html )
 	- `sudo apt update`
 	- `sudo apt-get upgrade`
 - Install software via Wine:
