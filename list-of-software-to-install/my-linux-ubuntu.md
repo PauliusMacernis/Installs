@@ -604,6 +604,10 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 				- Advanced option > Make console active on message in stderr: `checked`
 				- Output filters: `` (leave it empty)
 				- Save it by clicking `OK`
+		- PHPStorm: install upsource plugin, connect to upsource.
+			- PHPStorm > Tools > Upsource > Connection: 
+				- Server URL: http://upsource.example.com:3333
+				- Disable SSL certificate validation: Checked (make sure you need this)
 		- Any other external tools? ( https://www.jetbrains.com/help/phpstorm/external-tools.html )
 		- Extra keyboard shortcut needed? For example, for `phpcbf`?
 			- `Settings` -> `Keymap`
