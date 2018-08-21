@@ -184,6 +184,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install iotop` (for monitoring disk usage)
 	- `sudo apt install tree`
 	- `git --version` (git comes by default but lets be sure...)
+		- `sudo apt install gitk`
 	- `sudo apt install gource` (http://gource.io/)
 	- `sudo apt-get install okular` 
 		- For PDF reading in black background: `Settings/Configure Okular.../Accessibility` by checking `Change colors` then `Color mode: Change Paper Color`
