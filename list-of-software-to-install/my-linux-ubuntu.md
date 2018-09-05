@@ -322,6 +322,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Help > Check for Updates...
 			- Do you trust these certificates? Select All > Accept selected
 			- Restart Now
+	- Vidyo (VidyoDesktopInstaller-ubuntu64-TAG_VD_3_6_3_017.deb)
+		- `sudo dpkg -i --ignore-depends=libqt4-gui VidyoDesktopInstaller-ubuntu64-TAG_VD_3_6_3_017.deb`
 	- (Stride)
 		- `sudo sh -c 'echo "deb https://packages.atlassian.com/debian/stride-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-stride.list'`
 		- `wget -O - https://packages.atlassian.com/api/gpg/key/public | sudo apt-key add -`
