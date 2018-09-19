@@ -322,7 +322,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Help > Check for Updates...
 			- Do you trust these certificates? Select All > Accept selected
 			- Restart Now
-	- Vidyo (VidyoDesktopInstaller-ubuntu64-TAG_VD_3_6_3_017.deb)
+	- Vidyo (16.10 - works, 18.04 - does not work)
 		- Download Vidyo installer (.deb) file from here: http://information-technology.web.cern.ch/services/fe/downloads/Vidyo
 		- Rename the file to `vidyodesktop.deb` and place under home (`~`) dir
 		- `cd ~`
