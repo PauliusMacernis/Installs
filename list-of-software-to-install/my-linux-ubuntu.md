@@ -323,7 +323,15 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Do you trust these certificates? Select All > Accept selected
 			- Restart Now
 	- Vidyo (VidyoDesktopInstaller-ubuntu64-TAG_VD_3_6_3_017.deb)
-		- `sudo dpkg -i --ignore-depends=libqt4-gui VidyoDesktopInstaller-ubuntu64-TAG_VD_3_6_3_017.deb`
+		- Download Vidyo installer (.deb) file from here: http://information-technology.web.cern.ch/services/fe/downloads/Vidyo
+		- Rename the file to `vidyodesktop.deb` and place under home (`~`) dir
+		- `cd ~`
+		- `dpkg-deb -x vidyodesktop.deb vidyobuild`
+		- `dpkg-deb --control vidyodesktop.deb vidyobuild/DEBIAN`
+		- `nano vidyobuild/DEBIAN/control`
+		- Replace the entire Depends: line by copying and pasting the following: `Depends: libxss1,libaudio2,libasound2,libqt4-network`
+		- `dpkg-deb -b vidyobuild vidyodesktop-custom.deb`
+		- `sudo dpkg -i vidyodesktop-custom.deb`
 	- (Stride)
 		- `sudo sh -c 'echo "deb https://packages.atlassian.com/debian/stride-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-stride.list'`
 		- `wget -O - https://packages.atlassian.com/api/gpg/key/public | sudo apt-key add -`
