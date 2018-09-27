@@ -781,6 +781,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/WinMerge/WinMergeU.exe`
 	
+- `sudo apt-get install ttf-mscorefonts-installer` (to install Microsoft fonts, for example "Times New Roman")
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
 - If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
 - "Online Accounts" - add online accounts
