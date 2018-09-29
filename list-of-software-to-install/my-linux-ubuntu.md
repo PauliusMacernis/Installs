@@ -1,6 +1,6 @@
 - `time sudo apt-get update`
 - `time sudo apt-get install apt-file`
-- `sudo apt-file update`
+- `time sudo apt-file update`
 - `sudo nano /etc/update-manager/release-upgrades`  
 and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
 - `sudo do-release-upgrade`
