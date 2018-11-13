@@ -176,7 +176,10 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		Icon=wine-notepad
 		Categories=Wine-Programs-Accessories;
 		```
-	- Ctrl+H to Show hidden files of the directory or: https://askubuntu.com/questions/470837/how-to-show-hidden-folders-in-ubuntu-14-04
+	- Ctrl+H to Show hidden files of the directory or: https://askubuntu.com/questions/470837/how-to-show-hidden-folders-in-ubuntu-14-04  
+	
+- Install clipboard manager:
+	- https://github.com/hluk/CopyQ/releases  
 	
 - Install additional software via Ubuntu software center:
 	- `sudo apt install htop`
