@@ -182,6 +182,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- https://github.com/hluk/CopyQ/releases  
 	
 - Install additional software via Ubuntu software center:
+	- `sudo apt-get install unrar`
+	- `sudo apt-get install file-roller`
 	- `sudo apt install htop`
 	- `sudo apt install atop`
 	- `sudo apt-get install iotop` (for monitoring disk usage)
