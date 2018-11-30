@@ -1,4 +1,5 @@
 - `time sudo apt-get update`
+- `time sudo apt update` 
 - `time sudo apt-get install apt-file`
 - `time sudo apt-file update`
 - `sudo nano /etc/update-manager/release-upgrades`  
