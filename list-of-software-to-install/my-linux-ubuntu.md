@@ -183,6 +183,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- https://github.com/hluk/CopyQ/releases  
 	
 - Install additional software via Ubuntu software center:
+	- `sudo apt install aptitude` - helps to resolve conflicts
+	- `sudo aptitude install npm` - install a package with aptitude
 	- `sudo apt-get install unrar`
 	- `sudo apt-get install file-roller`
 	- `sudo apt install htop`
