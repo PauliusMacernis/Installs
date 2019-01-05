@@ -185,7 +185,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - Install additional software via Ubuntu software center:
 	- `sudo apt install aptitude` - helps to resolve conflicts
 		- (optional) `sudo aptitude install npm` - install a package with aptitude
-	- NodeJS / npm:
+	- (optional) NodeJS / npm:
 		- `sudo apt install libssl1.0-dev`
 		- `sudo apt install nodejs-dev`
 		- `sudo apt install node-gyp`
