@@ -190,6 +190,17 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo apt install nodejs-dev`
 		- `sudo apt install node-gyp`
 		- `sudo apt install npm`
+	- (enable noise cancelation)
+		- `sudo nano /etc/pulse/default.pa` and add the following at the end:
+			```
+			### Enable Echo/Noise-Cancelation
+			load-module module-echo-cancel aec_method=webrtc aec_args="analog_gain_control=0
+			digital_gain_control=1" source_name=echoCancel_source sink_name=echoCancel_sink
+			set-default-source echoCancel_source
+			set-default-sink echoCancel_sink
+			```
+		- Restart computer
+		- Go to `Settings` > `Sound` > `Input` > pick the new device noticing noise cancelation as a feature
 	- `sudo apt-get install unrar`
 	- `sudo apt-get install file-roller`
 	- `sudo apt install htop`
