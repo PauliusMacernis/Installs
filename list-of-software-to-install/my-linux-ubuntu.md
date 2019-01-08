@@ -190,17 +190,21 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo apt install nodejs-dev`
 		- `sudo apt install node-gyp`
 		- `sudo apt install npm`
-	- (enable noise cancelation)
+	- Enable noise cancelation feature: https://github.com/alfredh/baresip/wiki/Using-PulseAudio:-module-echo-cancel
 		- `sudo nano /etc/pulse/default.pa` and add the following at the end:
 			```
 			load-module module-echo-cancel source_name=baresip aec_method=webrtc format=s16le rate=8000 channels=1
 			set-default-source baresip
 			set-default-sink 2
 			```
-		- Restart computer, or do the following:
+		- Restart pulseaudio:
 			- `pulseaudio -k`
 			- `pulseaudio --start`
-		- Go to `Settings` > `Sound` > `Input` > pick the new device noticing noise cancelation as a feature
+		- Verify if your sink and source was properly created:
+			- `pacmd list-sources`
+			- `pacmd list-sinks`
+			- (confirm if driver: `<module-echo-cancel.c>` was loaded in your default sink.)
+		- Go to `Settings` > `Sound` > `Input` > pick the new device noticing noise cancelation as a feature. If nothing new is in there or noise cancelation does not work properly then restart the computer and check this one again.
 	- `sudo apt-get install unrar`
 	- `sudo apt-get install file-roller`
 	- `sudo apt install htop`
