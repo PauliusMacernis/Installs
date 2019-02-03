@@ -207,6 +207,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- Go to `Settings` > `Sound` > `Input` > pick the new device noticing noise cancelation as a feature. If nothing new is in there or noise cancelation does not work properly then restart the computer and check this one again.
 	- `sudo apt-get install unrar`
 	- `sudo apt-get install file-roller`
+	- `sudo apt install glogg` - https://glogg.bonnefon.org/
 	- `sudo apt install htop`
 	- `sudo apt install atop`
 	- `sudo apt-get install iotop` (for monitoring disk usage)
