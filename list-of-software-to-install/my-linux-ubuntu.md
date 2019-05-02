@@ -826,6 +826,13 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - `Tweaks` > `Startup Applications` and pick applications to startup on boot
 - `journalctl --verify` - Check the systemd journal file for internal consistency.
 - Set File default opening program by going to a file's (for example, any `.php` file) properties, going to the `open with` tab, and then setting the chosen app as default one for that file type. The next time clicking `open` on the file will result to file opening in the chosen app.
+- Extend swap (optional):
+	- `grep SwapTotal /proc/meminfo` - Check the amount of swap available 
+	- `sudo swapoff -a` - Turn off all swap processes  
+	- `sudo dd if=/dev/zero of=/swapfile bs=1G count=16` - Resize the swap to 16 GB
+	- `sudo mkswap /swapfile` - Make the file usable as swap 
+	- `sudo swapon /swapfile` - Activate the swap file 
+	- `grep SwapTotal /proc/meminfo` - Check the amount of swap available 
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
