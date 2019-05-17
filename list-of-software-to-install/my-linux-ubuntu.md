@@ -678,6 +678,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
 		- Test it: `youtube-dl https://www.youtube.com/watch?v=FM7MFYoylVs`
+	- Chef Development Kit
+		- Download and install: https://downloads.chef.io/chefdk/3.9.0#ubuntu
 	- Wine + Mono
 		- (Clean up if needed)
 			- `sudo apt purge win*`
