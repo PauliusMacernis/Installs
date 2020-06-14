@@ -41,7 +41,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"`
 	- `sudo apt update`
 	- `sudo apt install adobe-flashplugin browser-plugin-freshplayer-pepperflash`
-- Install Postman:
+- Install Postman ( https://snapcraft.io/install/postman/ubuntu ) :
     - `sudo apt install libgconf2-4` (dependency, applies for Ubuntu 18.04 LTS)
     - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
     - `sudo tar -xzf postman.tar.gz -C /opt`
