@@ -212,6 +212,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install unrar`
 	- `sudo apt-get install file-roller`
 	- `sudo apt install glogg` - https://glogg.bonnefon.org/
+	- `sudo apt-get install fim` - fim - fbi (linux framebuffer imageviewer) improved
 	- `sudo apt install htop`
 	- `sudo apt install atop`
 	- `sudo apt-get install iotop` (for monitoring disk usage)
