@@ -836,6 +836,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo mkswap /swapfile` - Make the file usable as swap 
 	- `sudo swapon /swapfile` - Activate the swap file 
 	- `grep SwapTotal /proc/meminfo` - Check the amount of swap available 
+	
+###### Clean up
+
+- `sudo apt autoremove`
+- `sudo apt clean`
+
 
 ###### Some other software to consider:
 - https://github.com/aleksas/laba-diena-tts
