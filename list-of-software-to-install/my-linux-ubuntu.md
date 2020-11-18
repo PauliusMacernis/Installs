@@ -227,6 +227,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `sudo apt-get install dnsutils` (mainly for having `dig`: https://linux.die.net/man/1/dig )
 	- `sudo apt install xclip` (for usage like: `cat ~/.ssh/id_rsa.pub | xclip -sel clip`)
 	- "Flameshot" (for taking screenshots and draw something on it later on)
+	- "GNOME Clocks" - timer, world clock, alarms, stopwatch
 	- `sudo apt install net-tools` (for ifconfig to work)
 	- `sudo apt-get install traceroute` (for traceroute)
 	- `sudo apt-get install curl`
