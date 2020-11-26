@@ -861,3 +861,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - https://www.wireshark.org/
 - http://www.sparxsystems.com/products/ea/
 - https://www.arduino.cc/en/Main/Software
+
+###### "magic keys":
+- Terminal: Ctrl + L, Ctrl + R
+- Windows: "Windows" + arrow
