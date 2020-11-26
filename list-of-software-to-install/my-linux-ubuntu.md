@@ -863,5 +863,5 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - https://www.arduino.cc/en/Main/Software
 
 ###### "magic keys":
-- Terminal: Ctrl + L, Ctrl + R
+- Terminal: Ctrl + C, Ctrl + L, Ctrl + R
 - Windows: "Windows" + arrow
