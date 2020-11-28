@@ -90,7 +90,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		```
 		PS1='[\t\[$(tput sgr0)\] \u@\h \W$(__docker_machine_ps1)]\$ '
 		```
-	- Add following lines to `~/.bachrc`:
+	- Add following lines to `~/.bashrc`:
 		```
 		# Custom definitions.
 		if [ -f ~/.bash_custom ]; then
