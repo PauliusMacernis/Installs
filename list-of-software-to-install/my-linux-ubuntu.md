@@ -4,6 +4,8 @@
 - `time sudo apt-file update`
 - `sudo nano /etc/update-manager/release-upgrades`  
 and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
+- `sudo apt-get upgrade -y`
+- `sudo apt-get dist-upgrade`
 - `sudo do-release-upgrade`
 - `sudo apt-get update`
 - (If running on VirtualBox then install VirtualBox Guest Additions)
