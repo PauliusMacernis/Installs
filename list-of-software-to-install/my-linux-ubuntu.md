@@ -38,7 +38,15 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - Install Google Chrome:
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 	- Downloads dir
-	- Go to: `chrome://about` , `chrome://net-internals/`
+	- Go to, config: `chrome://about` , `chrome://net-internals/`
+	- Install Extensions: 
+		- https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb
+		- https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden
+		- https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj
+		- https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca
+		- https://chrome.google.com/webstore/detail/read-on-remarkable/bfhkfdnddlhfippjbflipboognpdpoeh
+		- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
+		- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
 - Install Flash
 	- `sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"`
 	- `sudo apt update`
