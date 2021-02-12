@@ -693,6 +693,11 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- Test it: `youtube-dl https://www.youtube.com/watch?v=FM7MFYoylVs`
 	- Chef Development Kit
 		- Download and install: https://downloads.chef.io/chefdk/3.9.0#ubuntu
+	- TBD: Anbox ( https://anbox.io/ ):
+		- Install Kernel Modules ( https://docs.anbox.io/userguide/install_kernel_modules.html )
+		- Other ( https://docs.anbox.io/userguide/install.html )
+	- TBD: Darling ( https://darlinghq.org/, https://docs.darlinghq.org/build-instructions.html )
+	- TBD: snap ( https://snapcraft.io/docs/getting-started#heading--install ) -- it may be installed by default already.
 	- Wine + Mono
 		- (Clean up if needed)
 			- `sudo apt purge win*`
