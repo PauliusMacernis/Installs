@@ -24,11 +24,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
 		- https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
-		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
+		- https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/
 		- https://addons.mozilla.org/en-US/firefox/addon/flagfox/
-		- https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/
-		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 		- https://addons.mozilla.org/en-US/firefox/addon/lithuanian-spellcheck/
+		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
+		- https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/
+		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
 	- Configure:
 		- Downloads dir
 		- Home page
@@ -47,6 +48,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://chrome.google.com/webstore/detail/read-on-remarkable/bfhkfdnddlhfippjbflipboognpdpoeh
 		- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
 		- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
+		- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
 - Install Flash
 	- `sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"`
 	- `sudo apt update`
@@ -70,7 +72,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
    Categories=Development;
    EOL
 	```
-- Install KeePassX & load passwords (if have any)
+- Install KeePassX or other password wallet & load passwords (if have any). 
 - Generate ssh keys:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
@@ -264,6 +266,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- "NetBeans"
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
+	- Sublime IDE
+	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
 	- "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
@@ -295,6 +299,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo mv phpda.pubkey /usr/bin/phpda.pubkey`
 		- `sudo phpda update`
 		- `phpda --version`
+	- (KCachegrind: https://kcachegrind.github.io - profile data visualization, e.g. PHP debugging)
 	- `sudo apt install cmake`
 	- `sudo apt install devscripts`
 	- `sudo apt-get install debhelper`
