@@ -885,3 +885,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 ###### "magic keys":
 - Terminal: Ctrl + C, Ctrl + L, Ctrl + R
 - Windows: "Windows" + arrow
+
+## 2021
+
+- Install AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install
+  - `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
+  - `unzip awscliv2.zip`
+  - `sudo ./aws/install`
+  - `aws --version` -- must be a version listed
+  - `which aws` -- must be one line output
