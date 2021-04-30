@@ -621,6 +621,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- Lines Sorter
 			- Php Inspections (EA Extended)
 			- nginx support
+			- https://www.tabnine.com/
 		- (optional) File > Settings > Languages & Frameworks > PHP > Symfony
 			- Enable Plugin for this Project (check)
 			- Web directory: `web` (Symfony3), or `public` (Symfony4)
