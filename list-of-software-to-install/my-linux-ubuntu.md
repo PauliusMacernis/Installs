@@ -1,3 +1,7 @@
+Before you even start with Ubuntu, you may test it or another distro, e.g. here: https://distrotest.net/
+
+Now, go on with the software install & config:
+
 - `time sudo apt-get update`
 - `time sudo apt update` 
 - `time sudo apt-get install apt-file`
@@ -8,6 +12,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - `sudo apt-get dist-upgrade`
 - `sudo do-release-upgrade`
 - `sudo apt-get update`
+- `sudo apt-mark showmanual` (optional) - this will list packages already installed manually, check if you are working on the clean machine :) 
 - (If running on VirtualBox then install VirtualBox Guest Additions)
 	- `sudo apt-get install virtualbox-guest-dkms`
 - (update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
