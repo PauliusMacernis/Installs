@@ -1,6 +1,6 @@
 Before you even start with Ubuntu, you may test it or another distro, e.g. here: https://distrotest.net/
 
-Now, go on with the software install & config:
+Now, go on with the Ubuntu software install & config:
 
 - `time sudo apt-get update`
 - `time sudo apt update` 
