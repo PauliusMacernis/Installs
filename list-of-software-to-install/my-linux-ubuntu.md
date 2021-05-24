@@ -906,3 +906,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - `sudo ./aws/install`
   - `aws --version` -- must be a version listed
   - `which aws` -- must be one line output
+- Install AWS ECS CLI: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI_installation.html
+  - `sudo curl -Lo /usr/local/bin/ecs-cli https://amazon-ecs-cli.s3.amazonaws.com/ecs-cli-linux-amd64-latest`
+  - `gpg --version` (you must have it already, if not - google on how to install it)
+  - `gpg --keyserver hkp://keys.gnupg.net --recv BCE9D9A42D51784F` (try once again if did not work from the 1st attempt)
+  - `curl -Lo ecs-cli.asc https://amazon-ecs-cli.s3.amazonaws.com/ecs-cli-linux-amd64-latest.asc`
+  - `gpg --verify ecs-cli.asc /usr/local/bin/ecs-cli`
+  - `sudo chmod +x /usr/local/bin/ecs-cli`
+  - `ecs-cli --version` (must work if installed correctly, e.g. should output `ecs-cli version 1.21.0 (bb0b8f0)` or similar)
+- TBD
