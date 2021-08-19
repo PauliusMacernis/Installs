@@ -916,9 +916,11 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - `ecs-cli --version` (must work if installed correctly, e.g. should output `ecs-cli version 1.21.0 (bb0b8f0)` or similar)
 - `mandb` - create or update the manual page index caches (relates to `man ...` command)
 - Consider "Open Visual Traceroute" - https://visualtraceroute.net/  
-- Install Go: https://golang.org/dl/ by following instructions under https://golang.org/doc/install
+- Install Go (https://golang.org/dl/) by following instructions under https://golang.org/doc/install
   - Download the latest `*.tar.gz` archive, it is currently `go1.17.linux-amd64.tar.gz`
   - `sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz`
-  - `sudo nano /etc/profile` and add the following new line at the very end for a system-wide installation: `export PATH=$PATH:/usr/local/go/bin`
+  - `sudo nano /etc/profile` and add the following new line at the very end for a system-wide installation: `export PATH=$PATH:/usr/local/go/bin
+  - `Ctrl` + `X` (Save), `Y` (Yes, save), `Enter` (Yes yes, save)
+  - `source /etc/profile`
   - `go version`
 - TBD
