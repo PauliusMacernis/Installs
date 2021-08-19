@@ -923,4 +923,21 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - `Ctrl` + `X` (Save), `Y` (Yes, save), `Enter` (Yes yes, save)
   - `source /etc/profile`
   - `go version`
+  - Install IDE and related plugins, e.g.:
+    - Visual Studio Code (https://code.visualstudio.com/)
+    - `File` > `Preferences` > `Extensions` > Find `Go` extension, click `Install`
+    - Install other extensions:
+      - Do `Ctrl` + `Shift` + `p` and look for the following extensions, install these too:
+      - `>GO: install/Update Tools`, sellect it and all "sub-extensions", click "ok", wait to be installed:
+        - `gopkgs`
+        - `go-outline`
+        - `gotests`
+        - `gomodifytags`
+        - `impl`
+        - `goplay`
+        - `dlv`
+        - `dlv-dap`
+        - `staticcheck`
+        - `gopls`
+      - 
 - TBD
