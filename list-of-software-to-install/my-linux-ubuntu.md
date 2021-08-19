@@ -939,5 +939,5 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
         - `dlv-dap`
         - `staticcheck`
         - `gopls`
-      - 
+      - Restart IDE
 - TBD
