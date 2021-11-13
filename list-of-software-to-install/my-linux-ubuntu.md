@@ -940,4 +940,5 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
         - `staticcheck`
         - `gopls`
       - Restart IDE
+- Install Anki: https://apps.ankiweb.net/
 - TBD
