@@ -35,6 +35,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 		- https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/
 		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
+		- https://addons.mozilla.org/lt/firefox/addon/saml-tracer/
 	- Configure:
 		- Downloads dir
 		- Home page
@@ -54,6 +55,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
 		- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
 		- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
+		- https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
 - Install Brave browser https://brave.com/linux/#release-channel-installation
 	- `sudo apt install apt-transport-https curl`
 	- `sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg`
