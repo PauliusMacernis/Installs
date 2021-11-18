@@ -943,4 +943,5 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
         - `gopls`
       - Restart IDE
 - Install Anki: https://apps.ankiweb.net/
+- Check for external IP: `curl ifconfig.me` ( taken from https://linuxcommandlibrary.com/basics )
 - TBD
