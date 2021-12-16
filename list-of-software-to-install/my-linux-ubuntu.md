@@ -948,6 +948,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
       - Extensions for JavaScript:
         - Material Icon Theme
         - Prettier Formatter for Visual Studio Code
+        - open in browser by TechER
       - Restart IDE
 - Install Anki: https://apps.ankiweb.net/
 - Check for external IP: `curl ifconfig.me` ( taken from https://linuxcommandlibrary.com/basics )
