@@ -932,6 +932,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
     - `File` > `Preferences` > `Extensions` > Find `Go` extension, click `Install`
     - Install other extensions:
       - Do `Ctrl` + `Shift` + `p` and look for the following extensions, install these too:
+      - Extensions for Golang:
       - `>GO: install/Update Tools`, sellect it and all "sub-extensions", click "ok", wait to be installed:
         - `gopkgs`
         - `go-outline`
@@ -943,6 +944,10 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
         - `dlv-dap`
         - `staticcheck`
         - `gopls`
+      - Restart IDE
+      - Extensions for JavaScript:
+        - Material Icon Theme
+        - Prettier Formatter for Visual Studio Code
       - Restart IDE
 - Install Anki: https://apps.ankiweb.net/
 - Check for external IP: `curl ifconfig.me` ( taken from https://linuxcommandlibrary.com/basics )
