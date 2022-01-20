@@ -37,6 +37,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
 		- https://addons.mozilla.org/lt/firefox/addon/saml-tracer/
 		- (optional) https://nighteye.app/
+	- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
 	- Configure:
 		- Downloads dir
 		- Home page
@@ -58,6 +59,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
 		- https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
 		- (optional) https://nighteye.app/
+	- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
 - Install Brave browser https://brave.com/linux/#release-channel-installation
 	- `sudo apt install apt-transport-https curl`
 	- `sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg`
