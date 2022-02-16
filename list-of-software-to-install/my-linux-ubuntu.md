@@ -225,6 +225,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo apt install npm`
 			- `sudo npm install -g n` , - see https://www.npmjs.com/package/n
 			- `sudo n lts`, - see https://www.npmjs.com/package/n
+			- `sudo npm install -g typescript`, - see https://www.typescriptlang.org/download  
 	- Enable noise cancelation feature: https://www.youtube.com/watch?v=gKsBAEnVxEA&t=196s , https://github.com/alfredh/baresip/wiki/Using-PulseAudio:-module-echo-cancel
 		- `sudo nano /etc/pulse/default.pa` and add the following at the end:
 			```
