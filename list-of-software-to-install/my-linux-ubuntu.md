@@ -956,5 +956,9 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
         - open in browser by TechER
       - Restart IDE
 - Install Anki: https://apps.ankiweb.net/
-- Check for external IP: `curl ifconfig.me` ( taken from https://linuxcommandlibrary.com/basics )
-- TBD
+- Check for external IP: `curl ifconfig.me` ( taken from https://linuxcommandlibrary.com/basics )  
+
+# 2022  
+
+- Install WebStorm: https://www.jetbrains.com/webstorm/  
+- TBD  
