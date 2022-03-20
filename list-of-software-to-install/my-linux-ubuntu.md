@@ -58,6 +58,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
 		- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
 		- https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
+		- https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
 		- (optional) https://nighteye.app/
 	- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
 - Install Brave browser https://brave.com/linux/#release-channel-installation
