@@ -1,6 +1,9 @@
 Before you even start with Ubuntu, you may test it or another distro, e.g. here: https://distrotest.net/
 
-Now, go on with the Ubuntu software install & config:
+In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EOL - End Of Life state), check this one:  
+- https://askubuntu.com/questions/1361262/how-upgrade-ubuntu-20-10-after-its-eol  
+
+Now, go on with the Ubuntu software install & config as usual:
 
 - `time sudo apt-get update`
 - `time sudo apt update` 
