@@ -967,5 +967,9 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 
 # 2022  
 
-- Install WebStorm: https://www.jetbrains.com/webstorm/  
-- TBD  
+- Install WebStorm: https://www.jetbrains.com/webstorm/   
+- Install JavaScript related tools:
+  - Node.js: https://nodejs.org/en/download/package-manager/ , https://github.com/nodesource/distributions/blob/master/README.md  
+  - nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
+  - Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
+- 
