@@ -972,4 +972,5 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - Node.js: https://nodejs.org/en/download/package-manager/ , https://github.com/nodesource/distributions/blob/master/README.md  
   - nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
   - Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
+  - `npm i -g nodemon` -- restart the application automatically whenever there is a change in the application
 - 
