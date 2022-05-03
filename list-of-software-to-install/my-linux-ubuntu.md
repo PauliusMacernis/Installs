@@ -1,8 +1,12 @@
+# Intro
+
 Before you even start with Ubuntu, you may test it or another distro, e.g. here: https://distrotest.net/
 
 In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EOL - End Of Life state - http://www.ubuntu.com/releaseendoflife), check:  
 - https://askubuntu.com/questions/1361262/how-upgrade-ubuntu-20-10-after-its-eol  
 - https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times  
+
+# Action
 
 
 Now, go on with the Ubuntu software install & config as usual:
