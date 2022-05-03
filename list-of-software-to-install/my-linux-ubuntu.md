@@ -37,8 +37,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
-		- https://www.momentumdash.com/download (+ login to your account)
-		- https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ (+ login to your account)
+		- https://www.momentumdash.com/download (+ login)
+		- https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ (+ login)
 		- https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
 		- https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/
 		- https://addons.mozilla.org/en-US/firefox/addon/flagfox/
@@ -57,22 +57,28 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- `network.dnsCacheExpiration`: `60`
 - Install Google Chrome:
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
-	- Downloads dir
-	- Go to, config: `chrome://about` , `chrome://net-internals/`
-	- Install Extensions: 
-		- https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb
-		- https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden
-		- https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj
-		- https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca
-		- https://chrome.google.com/webstore/detail/read-on-remarkable/bfhkfdnddlhfippjbflipboognpdpoeh
-		- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
-		- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
-		- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
-		- https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
-		- https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
-		- https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=pl
-		- (optional) https://nighteye.app/
-	- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
+	- Login / Create the profiles to be in use (e.g. Company#1, Company#2, Personal#1, etc.) and continue the configuration under **each** profile:
+		- Downloads dir
+		- Go to, config: `chrome://about` , `chrome://net-internals/`
+		- Install Extensions: 
+			- https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb
+			- https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden
+			- https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj
+			- https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca (+login)
+			- https://chrome.google.com/webstore/detail/read-on-remarkable/bfhkfdnddlhfippjbflipboognpdpoeh (+login)
+			- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
+			- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
+			- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
+			- https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
+			- https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en (+login)
+			- https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp
+			- (optional) https://nighteye.app/
+		- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
+		- Turn on/off the extensions you want to be active: chrome://extensions/
+	- Configure:
+		- Downloads dir location change?: chrome://settings/?search=Downloads
+		- Home page?: chrome://settings/onStartup
+		- More languages to be supported by Chrome's spell check?: chrome://settings/languages
 - Install Brave browser https://brave.com/linux/#release-channel-installation
 	- `sudo apt install apt-transport-https curl`
 	- `sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg`
