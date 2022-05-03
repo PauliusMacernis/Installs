@@ -188,14 +188,6 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - Install additional software via Ubuntu software center:
 	- `sudo apt install aptitude` - helps to resolve conflicts
 		- (optional) `sudo aptitude install npm` - install a package with aptitude
-	- (optional) NodeJS / npm:
-		- `sudo apt install libssl1.0-dev`
-		- `sudo apt install nodejs-dev`
-		- `sudo apt install node-gyp`
-		- `sudo apt install npm`
-			- `sudo npm install -g n` , - see https://www.npmjs.com/package/n
-			- `sudo n lts`, - see https://www.npmjs.com/package/n
-			- `sudo npm install -g typescript && tsc --version`, - see https://www.typescriptlang.org/download  
 	- Enable noise cancelation feature: https://www.youtube.com/watch?v=gKsBAEnVxEA&t=196s , https://github.com/alfredh/baresip/wiki/Using-PulseAudio:-module-echo-cancel
 		- `sudo nano /etc/pulse/default.pa` and add the following at the end:
 			```
@@ -932,6 +924,14 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 
 - Install WebStorm: https://www.jetbrains.com/webstorm/   
 - Install JavaScript related tools:
+  - (optional) NodeJS / npm:
+    - `sudo apt install libssl1.0-dev`
+    - `sudo apt install nodejs-dev`
+    - `sudo apt install node-gyp`
+    - `sudo apt install npm`
+    - `sudo npm install -g n` , - see https://www.npmjs.com/package/n
+    - `sudo n lts`, - see https://www.npmjs.com/package/n
+    - `sudo npm install -g typescript && tsc --version`, - see https://www.typescriptlang.org/download  
   - Node.js: https://nodejs.org/en/download/package-manager/ , https://github.com/nodesource/distributions/blob/master/README.md  
   - nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
   - Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
