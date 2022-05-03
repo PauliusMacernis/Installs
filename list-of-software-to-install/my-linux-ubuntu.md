@@ -259,8 +259,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `sudo apt-get install php-pear`
 		- `pecl help version`
 		- `sudo apt install php-mcrypt` (does not exist in Ubuntu 18.04 LTS because of PHP 7.2)
-		- `sudo apt install php-dev` (if Ubuntu 18.04 LTS)
-		- `sudo apt-get install libcurl4-openssl-dev` (if Ubuntu 18.04 LTS)
+		- `sudo apt install php-dev` (if Ubuntu 18.04 LTS+)
+		- `sudo apt-get install libcurl4-openssl-dev` (if Ubuntu 18.04 LTS+)
 		- `sudo pecl channel-update pecl.php.net`
 		- `sudo pecl install mcrypt-1.0.1` (get the latest version number: https://pecl.php.net/package/mcrypt) (if Ubuntu 18.04 LTS)
 	- (Graphviz - Graph Visualization Software (http://www.graphviz.org/))
