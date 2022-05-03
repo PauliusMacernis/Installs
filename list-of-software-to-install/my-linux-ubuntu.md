@@ -249,7 +249,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- "Telegram" (Official desktop version of Telegram messaging app)
 	- Sublime IDE
 	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
-	- "MonoDevelop"
+	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
 	- (PHP)
