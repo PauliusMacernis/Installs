@@ -24,7 +24,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - `sudo apt-mark showmanual` (optional) - this will list packages already installed manually, check if you are working on the clean machine :) 
 - (If running on VirtualBox then install VirtualBox Guest Additions)
 	- `sudo apt-get install virtualbox-guest-dkms`
-- (update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
+- (If running on the system with GeForce video card. Update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
 	- `sudo apt install nvidia-cuda-toolkit`
 	- `nvcc -V`
 	- `sudo apt install clinfo`
