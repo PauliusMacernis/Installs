@@ -33,7 +33,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Look for `driver   : nvidia-driver-390 - distro non-free recommended` or similar line.
 	- If driver recommendations are acceptable then run `sudo ubuntu-drivers autoinstall`. Otherwise, run `nvidia-driver-390` (according to the driver name found after `ubuntu-drivers devices`)
 - `mkdir -p ~/dev ~/software ~/virtualbox-shared`
-- "Settings" > `Region & Language` > Input Sources > `+` > Lithuanian (or other)
+- "Settings" > `Region & Language` > `Manage Installed Languages` > Install / Remove Languages... (select all languages you want to use and click Apply, OK, ...)
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
