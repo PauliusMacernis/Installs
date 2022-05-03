@@ -37,22 +37,24 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
+		- https://www.momentumdash.com/download (+ login to your account)
+		- https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ (+ login to your account)
 		- https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
 		- https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/
 		- https://addons.mozilla.org/en-US/firefox/addon/flagfox/
-		- https://addons.mozilla.org/en-US/firefox/addon/lithuanian-spellcheck/
+		- https://addons.mozilla.org/en-US/firefox/addon/ispell-lt/ (for the alternative way, right click on any textarea field in a webpage opened by Firefox and pick "Languages" > "Add Dictionaries..." > navigate to the language pack you want, and install each)
 		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
-		- https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/
-		- https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
-		- https://addons.mozilla.org/lt/firefox/addon/saml-tracer/
+		- ~~https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/~~
+		- (optional) https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
+		- (optional) https://addons.mozilla.org/lt/firefox/addon/saml-tracer/
 		- (optional) https://nighteye.app/
-	- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
+	- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/ , check about:preferences#search > Default search engine
+	- Turn on/off the extensions you want to be active (to open the Firefox extensions window: `Ctrl` + `Shift` + `A`)
 	- Configure:
-		- Downloads dir
-		- Home page
+		- Downloads dir (go to about:preferences#general > File and Applications > do the configuration)
+		- Home page (go to about:preferences#home )
 		- Go to: `about:config`
 			- `network.dnsCacheExpiration`: `60`
-		- Etc.
 - Install Google Chrome:
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 	- Downloads dir
