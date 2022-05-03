@@ -91,7 +91,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
     - `sudo apt install snapd`
     - `sudo snap install postman`
 - (optional) Install KeePassX or other password wallet & load passwords (if have any). 
-- Generate ssh keys (or copy > paste the old ones):
+- Generate ssh keys (or copy > paste the old ones), add it to ssh agent:
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 	- `eval "$(ssh-agent -s)"` 
@@ -116,7 +116,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	```
 - Make custom .bashrc file:
 	- `touch ~/.bash_custom`
-	- Add following lines to `~/.bash_custom`:
+	- Add following lines to `~/.bash_custom`, in case you are about to install Docker later on:
 		```
 		PS1='[\t\[$(tput sgr0)\] \u@\h \W$(__docker_machine_ps1)]\$ '
 		```
@@ -127,7 +127,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		    . ~/.bash_custom
 		fi
 		```
-	- `source ~/.bashrc`
+	- `source ~/.bashrc` (in case of error about Docker, run the command once again after the docker will be installed later on)
 - Configure Ubuntu look and behaviour:
 	- // comment // https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
 	- `sudo nano /etc/systemd/logind.conf`
