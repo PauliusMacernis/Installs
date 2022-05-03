@@ -132,68 +132,41 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		HandleLidSwitch=ignore
 		HandleLidSwitchDocked=ignore
   ```	
-  	- "Settings" > `Privacy`:
-		- `Screen Lock`: `Off`
+  	- "Settings" > `Privacy` > `Screen` > :
+  		- `Blank Screen Delay`: `Never`
+		- `Automatic Screen Lock`: `Off`
+		- `Show notifications on Lock Screen`: `Off`
 	- "Settings Power"
-		- Dim screen when inactive: `Off` (cannot find this on Ubuntu 18.04 LTS)
-		- Blank screen: `Never`
-		- When the Power Button is pressed: `Power Off`
+		- Dim screen when inactive: `Off`
+		- Screen Blank: `Never`
+		- Power Button behaviour: `Power Off`
 	- 
-	- "Language" (?)
+	- "Keyboard"
   ```
 		Input Sources > + > Lithuanian
   ```
-	- "Language Support"
+	- "Region & Language"
   ```
-		Language > Install / Remove Languages... > Lithuanian > Install	
-		Regional Formats > Dispplay numbers, dates and currency amounts...: Lietuvių > Apply System-Wide > Close
+		Manage Installed Languages > Language > Install / Remove Languages... > Lithuanian > Install	
+		Formats > Lietuva > Done
   ```
-	- `sudo apt-get install gnome-tweak-tool`
+	- `sudo apt-get install gnome-tweaks`
 	- "Tweaks"
-		- Appearance:
-			- Animations: `Off`
-		- Desktop:
-			- Icons on Desktop: Show Icons: `On`
-			- Icons on Desktop: Home: `On`
-			- Icons on Desktop: Network Servers: `Off`
-			- Icons on Desktop: Trash: `On`
-			- Icons on Desktop: Mounted Volumes: `On`
-		- Extensions:
-			- Ubuntu appindicators: `Off`
-			- Ubuntu dock: `On`
-		- Power:
-			- Suspend when laptop lid is closed: `Off`  
-		- Startup Applications:
-			- `ignore-lid-switch-tweak` (ignore if does not exist)
-		- Top Bar
-			- Application Menu: `On`
-			- Battery Percentage: `On`
-			- Activities Overview Hot Center: `Off`
-			- Clock: Date: `On`
-			- Clock: Seconds: `On`
-			- Calendar: Week Numbers: `On`
-		- Windows
-			- Attach Modal Dialogs: `On`
-			- Resize with Secondary-Click: `On`
-			- Window Action Key: `Super`
-			- Window Focus: Click to focus: `Checked`
-			- Window Focus: Sloppy: `Not Checked`
-			- Window Focus: Secondary-Click: `Not Checked`
-			- Reise Windows When Focused: On (frozen)
-			- Titlebar Actions: Double-Click: `Toggle Maximize`
-			- Titlebar Actions: Middle-Click: `None`
-			- Titlebar Actions: Secondary-Click: `Menu`
-			- Titlebar Buttons: Maximize: `On`
-			- Titlebar Buttons: Minimize: `On`
-			- Titlebar Buttons: Placement: `Right` (selected is darker)
-		> ...
-	- "Settings" > Dock
-		- Icon size: `30`
-	- "Keyboard" > Navigation
+		- General:
+			- Suspend when laptop lid is closed: Off
+		- Top Bar:
+			- Weekday: `On`
+			- Date: `On`
+			- Seconds: `On`
+			- Calendar: `Week Numbers`
+	- "Settings" > Appearance:
+		- Style: Dark
+		- Desktop Icons > Size: Small
+		- Dock > Icon size: `30`
+	- "Keyboard" > Keyboard Shortcuts > View and Customize Shortcuts > Custom Shortcuts:
 		- "+" >
 			- Name: `xkill`, Command: `xkill`, Schortcut: `Ctrl` + `Brake`
 		- Hide all normal windows > Change to "SUPER + D"
-		- Switch windows > "ALT + TAB" (this will disable "Switch applications" which is ok)
 	- `touch ~/Templates/Untitled\ Document` to create "New Document" on right mouse click in dir.
 	- `touch ~/Templates/wine-programname.desktop` to create "New Document" on right mouse click in dir.
 		- Copy > Paste the following code to `~/Templates/wine-programname.desktop`:
