@@ -85,31 +85,13 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list`
 	- `sudo apt update`
 	- `sudo apt install brave-browser`
-- Install Flash
-	- `sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"`
-	- `sudo apt update`
-	- `sudo apt install adobe-flashplugin browser-plugin-freshplayer-pepperflash`
+- `sudo apt install ubuntu-restricted-extras` (Adobe Flash, some forgoten codecs, fonts, etc. https://en.wikipedia.org/wiki/Ubuntu-restricted-extras )
 - Install Postman ( https://snapcraft.io/install/postman/ubuntu ) :
-    - `sudo apt install libgconf2-4` (dependency, applies for Ubuntu 18.04 LTS)
-    - `wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz`
-    - `sudo tar -xzf postman.tar.gz -C /opt`
-    - `rm postman.tar.gz`
-    - `sudo ln -s /opt/Postman/Postman /usr/bin/postman`
-    -
-	```
-   cat > ~/.local/share/applications/postman.desktop <<EOL
-   [Desktop Entry]
-   Encoding=UTF-8
-   Name=Postman
-   Exec=postman
-   Icon=/opt/Postman/resources/app/assets/icon.png
-   Terminal=false
-   Type=Application
-   Categories=Development;
-   EOL
-	```
-- Install KeePassX or other password wallet & load passwords (if have any). 
-- Generate ssh keys:
+    - `sudo apt update`
+    - `sudo apt install snapd`
+    - `sudo snap install postman`
+- (optional) Install KeePassX or other password wallet & load passwords (if have any). 
+- Generate ssh keys (or copy > paste the old ones):
 	- // comment // https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 	- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 	- `eval "$(ssh-agent -s)"` 
