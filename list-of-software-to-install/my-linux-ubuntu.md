@@ -187,7 +187,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	
 - Install additional software via Ubuntu software center:
 	- `sudo apt install aptitude` - helps to resolve conflicts
-	- Enable noise cancelation feature: https://www.youtube.com/watch?v=gKsBAEnVxEA&t=196s , https://github.com/alfredh/baresip/wiki/Using-PulseAudio:-module-echo-cancel
+	- (optional)(, e.g. in case you have issues with sound, incl. microphone): Enable noise cancelation feature: https://www.youtube.com/watch?v=gKsBAEnVxEA&t=196s , https://github.com/alfredh/baresip/wiki/Using-PulseAudio:-module-echo-cancel
 		- `sudo nano /etc/pulse/default.pa` and add the following at the end:
 			```
 			load-module module-echo-cancel source_name=baresip aec_method=webrtc format=s16le rate=8000 channels=1
