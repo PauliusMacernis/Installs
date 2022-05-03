@@ -183,7 +183,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- Ctrl+H to Show hidden files of the directory or: https://askubuntu.com/questions/470837/how-to-show-hidden-folders-in-ubuntu-14-04  
 	
 - Install clipboard manager:
-	- https://github.com/hluk/CopyQ/releases  
+	- https://github.com/hluk/CopyQ  
 	
 - Install additional software via Ubuntu software center:
 	- `sudo apt install aptitude` - helps to resolve conflicts
