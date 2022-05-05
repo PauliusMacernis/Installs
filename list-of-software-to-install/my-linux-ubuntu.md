@@ -917,17 +917,20 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 
 - Install WebStorm: https://www.jetbrains.com/webstorm/   
 - Install JavaScript related tools:
-  - (optional) `sudo aptitude install npm` - install a package with aptitude
-  - (optional) NodeJS / npm:
-    - `sudo apt install libssl1.0-dev`
-    - `sudo apt install nodejs-dev`
-    - `sudo apt install node-gyp`
+  - nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
+    - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
+  - npm:
     - `sudo apt install npm`
+  - NodeJS ( https://nodejs.org/en/download/package-manager/ , https://github.com/nodesource/distributions/blob/master/README.md )
     - `sudo npm install -g n` , - see https://www.npmjs.com/package/n
     - `sudo n lts`, - see https://www.npmjs.com/package/n
+  - TypeScript
     - `sudo npm install -g typescript && tsc --version`, - see https://www.typescriptlang.org/download  
-  - Node.js: https://nodejs.org/en/download/package-manager/ , https://github.com/nodesource/distributions/blob/master/README.md  
-  - nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
+  - (optional) other
+    - `sudo apt install libssl1.0-dev`
+    - `sudo apt install nodejs-dev`
+    - `sudo apt install node-gyp`    
+  - (optional) `sudo aptitude install npm` - install a package with aptitude  
   - Yarn (https://yarnpkg.com):
     - (Follow: https://yarnpkg.com/en/docs/install#debian-stable )
     - `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
