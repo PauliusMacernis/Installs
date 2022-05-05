@@ -940,4 +940,16 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
   - `npm i -g nodemon` -- restart the application automatically whenever there is a change in the application
 - ngrok https://dashboard.ngrok.com/get-started/setup
+- GUI customizations
+  - Add bookmarks to the file explorer left side (Ctrl + D), e.g.:
+    - `¬/dev`
+    - `~/software`
+    - `~/.ResponsibleTime`
+    - `~/.virtualbox-shared`
+    - Another HDD
+    - tmp
+    - .ssh
+    - memes
+    - BACKUP
+    - ...
 - 
