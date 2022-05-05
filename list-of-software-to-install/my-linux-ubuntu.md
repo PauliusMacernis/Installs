@@ -567,12 +567,6 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- `composer --version`
 		- `composer self-update`
 		- `composer --version`
-	- Yarn (https://yarnpkg.com):
-		- (Follow: https://yarnpkg.com/en/docs/install#debian-stable )
-		- `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
-		- `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
-		- `sudo apt-get update && sudo apt-get install yarn`
-		- `yarn --version`
 	- SmartGit: 
 		- `mkdir ~/software/smartgit`
 		- Download from `https://www.syntevo.com/smartgit/download/`
@@ -934,6 +928,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
     - `sudo npm install -g typescript && tsc --version`, - see https://www.typescriptlang.org/download  
   - Node.js: https://nodejs.org/en/download/package-manager/ , https://github.com/nodesource/distributions/blob/master/README.md  
   - nvm: https://github.com/nvm-sh/nvm#installing-and-updating  
+  - Yarn (https://yarnpkg.com):
+    - (Follow: https://yarnpkg.com/en/docs/install#debian-stable )
+    - `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+    - `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
+    - `sudo apt-get update && sudo apt-get install yarn`
+    - `yarn --version`
   - Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
   - `npm i -g nodemon` -- restart the application automatically whenever there is a change in the application
 - ngrok https://dashboard.ngrok.com/get-started/setup
