@@ -952,4 +952,4 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
     - memes
     - BACKUP
     - ...
-- 
+- "Settings" > `Displays` > `Night Light` > `On` (Schedule: Sunset to Sunrise)
