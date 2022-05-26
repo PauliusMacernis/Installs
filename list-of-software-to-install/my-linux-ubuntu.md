@@ -73,6 +73,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 			- https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en (+login)
 			- https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp
 			- (optional) https://nighteye.app/
+			- https://chrome.google.com/webstore/detail/scribe/okfkdaglfjjjfefdcppliegebpoegaii
 		- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
 		- Turn on/off the extensions you want to be active: chrome://extensions/
 	- Configure:
