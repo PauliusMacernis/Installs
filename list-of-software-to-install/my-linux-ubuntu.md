@@ -955,3 +955,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
     - BACKUP
     - ...
 - "Settings" > `Displays` > `Night Light` > `On` (Schedule: Sunset to Sunrise)
+
+- WoeUSB (to make bootable Windows ISOs on USB sticks)
+  - `sudo add-apt-repository ppa:tomtomtom/woeusb`
+  - `sudo apt update && sudo apt install woeusb-frontend-wxgtk`
