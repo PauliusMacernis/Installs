@@ -959,3 +959,7 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - WoeUSB (to make bootable Windows ISOs on USB sticks)
   - `sudo add-apt-repository ppa:tomtomtom/woeusb`
   - `sudo apt update && sudo apt install woeusb-frontend-wxgtk`
+- mhWaveEdit - edit sound
+  - `sudo apt-get install mhwaveedit`
+  - `sudo apt-get install lame vorbis-tools`
+  - `sudo apt-get install libsndfile1`
