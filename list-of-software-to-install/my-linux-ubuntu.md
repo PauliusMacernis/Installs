@@ -960,6 +960,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - `sudo add-apt-repository ppa:tomtomtom/woeusb`
   - `sudo apt update && sudo apt install woeusb-frontend-wxgtk`
 - Edit sound:
+  - ffmpeg (to convert mp3 to wav and alike)
+    - `sudo apt  install ffmpeg`
   - mhWaveEdit:
     - `sudo apt-get install mhwaveedit`
     - `sudo apt-get install lame vorbis-tools`
@@ -967,3 +969,13 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
   - Audacity
     - `sudo add-apt-repository ppa:ubuntuhandbook1/audacity`
     - `sudo apt update`
+  - snapd ("dependency" for mp3gain)
+    - `sudo apt update`
+    - `sudo apt install snapd`
+  - mp3gain (dependency for MP3 Diags)
+    - `sudo snap install mp3gain`
+  - MP3 Diags (for mp3 files to fix and normalize)
+    - `sudo apt-get update`
+    - `sudo apt-get install mp3diags`
+
+
