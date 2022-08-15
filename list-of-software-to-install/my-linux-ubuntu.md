@@ -62,12 +62,6 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 		- Downloads dir location change?: chrome://settings/?search=Downloads
 		- Home page?: chrome://settings/onStartup
 		- More languages to be supported by Chrome's spell check?: chrome://settings/languages
-- Install Brave browser https://brave.com/linux/#release-channel-installation
-	- `sudo apt install apt-transport-https curl`
-	- `sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg`
-	- `echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list`
-	- `sudo apt update`
-	- `sudo apt install brave-browser`
 
 Now, go on with the Ubuntu software install & config as usual:
 
@@ -95,6 +89,12 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 - `mkdir -p ~/dev ~/software ~/virtualbox-shared`
 - "Settings" > `Region & Language` > `Manage Installed Languages` > Install / Remove Languages... (select all languages you want to use and click Apply, OK, ...)
 - `sudo apt install ubuntu-restricted-extras` (Adobe Flash, some forgoten codecs, fonts, etc. https://en.wikipedia.org/wiki/Ubuntu-restricted-extras )
+- Install Brave browser https://brave.com/linux/#release-channel-installation
+	- `sudo apt install apt-transport-https curl`
+	- `sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg`
+	- `echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list`
+	- `sudo apt update`
+	- `sudo apt install brave-browser`
 - Install Postman ( https://snapcraft.io/install/postman/ubuntu ) :
     - `sudo apt update`
     - `sudo apt install snapd`
