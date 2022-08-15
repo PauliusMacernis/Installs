@@ -64,9 +64,20 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 		- Downloads dir location change?: chrome://settings/?search=Downloads
 		- Home page?: chrome://settings/onStartup
 		- More languages to be supported by Chrome's spell check?: chrome://settings/languages
-
+  
+Flatpack ( https://flatpak.org/setup/Ubuntu )
+  - `sudo apt install flatpak`
+  - `sudo add-apt-repository ppa:flatpak/stable`
+  - `sudo apt update`
+  - `sudo apt install flatpak`
+  - `sudo apt install gnome-software-plugin-flatpak`
+  - `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
+  - restart
+  
+? Kooha - Video recorder that works in Wayland environment
+- `sudo apt install flatpak`
+- `flatpak install https://dl.flathub.org/repo/appstream/io.github.seadve.Kooha.flatpakref` (pick y/yes all the times if requested)
 Now, go on with the Ubuntu software install & config as usual:
-
 - `time sudo apt-get update`
 - `time sudo apt update` 
 - `time sudo apt-get install apt-file`
