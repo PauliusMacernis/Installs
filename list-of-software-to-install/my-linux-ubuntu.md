@@ -7,33 +7,6 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 - https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times  
 
 # Action
-
-
-Now, go on with the Ubuntu software install & config as usual:
-
-- `time sudo apt-get update`
-- `time sudo apt update` 
-- `time sudo apt-get install apt-file`
-- `time sudo apt-file update`
-- `sudo nano /etc/update-manager/release-upgrades`  
-and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
-- `sudo apt-get upgrade -y`
-- `sudo apt-get dist-upgrade`
-- `sudo do-release-upgrade`
-- `sudo apt-get update`
-- `sudo apt-mark showmanual` (optional) - this will list packages already installed manually, check if you are working on the clean machine :) 
-- (If running on VirtualBox then install VirtualBox Guest Additions)
-	- `sudo apt-get install virtualbox-guest-dkms`
-- (If running on the system with GeForce video card. Update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
-	- `sudo apt install nvidia-cuda-toolkit`
-	- `nvcc -V`
-	- `sudo apt install clinfo`
-	- `clinfo`
-	- `ubuntu-drivers devices`
-	- Look for `driver   : nvidia-driver-390 - distro non-free recommended` or similar line.
-	- If driver recommendations are acceptable then run `sudo ubuntu-drivers autoinstall`. Otherwise, run `nvidia-driver-390` (according to the driver name found after `ubuntu-drivers devices`)
-- `mkdir -p ~/dev ~/software ~/virtualbox-shared`
-- "Settings" > `Region & Language` > `Manage Installed Languages` > Install / Remove Languages... (select all languages you want to use and click Apply, OK, ...)
 - Install Firefox: 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
@@ -42,8 +15,8 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 		- https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
 		- https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/
 		- https://addons.mozilla.org/en-US/firefox/addon/flagfox/
-		- https://addons.mozilla.org/en-US/firefox/addon/ispell-lt/ (for the alternative way, right click on any textarea field in a webpage opened by Firefox and pick "Languages" > "Add Dictionaries..." > navigate to the language pack you want, and install each)
-		- https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
+		- https://addons.mozilla.org/en-US/firefox/addon/ispell-lt/ (for the alternative way, right click on any textarea field in [any webpage](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea) opened by Firefox and pick "Languages" > "Add Dictionaries..." > navigate to the language pack you want, and install each)
+		- (optional) https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 		- ~~https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/~~
 		- (optional) https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/
 		- (optional) https://addons.mozilla.org/lt/firefox/addon/saml-tracer/
@@ -87,6 +60,32 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 	- `echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list`
 	- `sudo apt update`
 	- `sudo apt install brave-browser`
+
+Now, go on with the Ubuntu software install & config as usual:
+
+- `time sudo apt-get update`
+- `time sudo apt update` 
+- `time sudo apt-get install apt-file`
+- `time sudo apt-file update`
+- `sudo nano /etc/update-manager/release-upgrades`  
+and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
+- `sudo apt-get upgrade -y`
+- `sudo apt-get dist-upgrade`
+- `sudo do-release-upgrade`
+- `sudo apt-get update`
+- `sudo apt-mark showmanual` (optional) - this will list packages already installed manually, check if you are working on the clean machine :) 
+- (If running on VirtualBox then install VirtualBox Guest Additions)
+	- `sudo apt-get install virtualbox-guest-dkms`
+- (If running on the system with GeForce video card. Update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
+	- `sudo apt install nvidia-cuda-toolkit`
+	- `nvcc -V`
+	- `sudo apt install clinfo`
+	- `clinfo`
+	- `ubuntu-drivers devices`
+	- Look for `driver   : nvidia-driver-390 - distro non-free recommended` or similar line.
+	- If driver recommendations are acceptable then run `sudo ubuntu-drivers autoinstall`. Otherwise, run `nvidia-driver-390` (according to the driver name found after `ubuntu-drivers devices`)
+- `mkdir -p ~/dev ~/software ~/virtualbox-shared`
+- "Settings" > `Region & Language` > `Manage Installed Languages` > Install / Remove Languages... (select all languages you want to use and click Apply, OK, ...)
 - `sudo apt install ubuntu-restricted-extras` (Adobe Flash, some forgoten codecs, fonts, etc. https://en.wikipedia.org/wiki/Ubuntu-restricted-extras )
 - Install Postman ( https://snapcraft.io/install/postman/ubuntu ) :
     - `sudo apt update`
