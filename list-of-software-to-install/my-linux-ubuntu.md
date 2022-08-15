@@ -31,23 +31,31 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 - Install Google Chrome:
 	- Visit (https://www.google.com/chrome/), download, start instal by double clicking on the downloaded .deb package.
 	- Login / Create the profiles to be in use (e.g. Company#1, Company#2, Personal#1, etc.) and continue the configuration under **each** profile:
-		- Downloads dir
-		- Go to, config: `chrome://about` , `chrome://net-internals/`
+		- (optional) Downloads dir
+		- (optional) Go to & config: `chrome://about` , `chrome://net-internals/`
 		- Install Extensions: 
 			- https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb
-			- https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden
-			- https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj
 			- https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca (+login)
 			- https://chrome.google.com/webstore/detail/read-on-remarkable/bfhkfdnddlhfippjbflipboognpdpoeh (+login)
-			- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
 			- https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc
 			- https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid
-			- https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
 			- https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en (+login)
-			- https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp
-			- (optional) https://nighteye.app/
 			- https://chrome.google.com/webstore/detail/scribe/okfkdaglfjjjfefdcppliegebpoegaii
 			- https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp
+			- https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi
+			- https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp
+			- (optional) https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden
+			- (optional) https://chrome.google.com/webstore/detail/simplescraper-%E2%80%94-a-fast-an/lnddbhdmiciimpkbilgpklcglkdegdkg
+			- (optional) https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj
+			- (optional) https://chrome.google.com/webstore/detail/retailmenot-deal-finder%EF%B8%8F/jjfblogammkiefalfpafidabbnamoknm
+			- (optional) https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg
+			- (optional) https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch/related?hl=en
+			- (optional) https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp
+			- (optional) https://nighteye.app/ or https://chrome.google.com/webstore/detail/dark-mode-night-eye/alncdjedloppbablonallfbkeiknmkdi
+			- (optional) https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc
+			- (optional) https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl
+			- (optional) https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd
+			- (optional) https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa
 		- Add duckduckgo as the default search engine, in case privacy maters: https://duckduckgo.com/
 		- Turn on/off the extensions you want to be active: chrome://extensions/
 	- Configure:
