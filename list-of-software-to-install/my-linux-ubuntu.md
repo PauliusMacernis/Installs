@@ -6,7 +6,9 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 - https://askubuntu.com/questions/1361262/how-upgrade-ubuntu-20-10-after-its-eol  
 - https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times  
 
-# Action
+# Action  
+
+- "Settings" > "Appearance" > "Style" > "Dark"
 - Install Firefox (You most likely already have it. If not then check https://www.mozilla.org/en-US/firefox/new/ to obtain it): 
 	- Login to Firefox with Firefox Account
 	- Install Addons: 
