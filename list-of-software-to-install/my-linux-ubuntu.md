@@ -77,6 +77,8 @@ Flatpack ( https://flatpak.org/setup/Ubuntu ) - a dependency for Kooha
 Kooha ( https://github.com/SeaDve/Kooha ) - Video recorder that works in Wayland environment
 - `flatpak install flathub io.github.seadve.Kooha` (pick y/yes all the times if requested)
 - `flatpak run io.github.seadve.Kooha`  
+- While the item is open - right click on the item on the toolbar and pick "Add to Favorites"
+- Test by recording anything to make sure video and audio are ok
 
 Now, go on with the Ubuntu software install & config as usual:
 - `time sudo apt-get update`
