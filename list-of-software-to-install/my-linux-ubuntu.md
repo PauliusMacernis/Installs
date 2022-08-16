@@ -8,6 +8,42 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 
 # Action  
 
+Let's start with these basics:  
+
+- `time sudo apt-get update`
+- `time sudo apt update` 
+- `time sudo apt-get install apt-file`
+- `time sudo apt-file update`
+- `sudo nano /etc/update-manager/release-upgrades`  
+and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
+- `sudo apt-get upgrade -y`
+- `sudo apt-get dist-upgrade`
+- `sudo do-release-upgrade`
+- `sudo apt-get update`
+- `sudo apt-mark showmanual` (optional) - this will list packages already installed manually, check if you are working on the clean machine :) 
+
+Then make video recording working:  
+
+Flatpack ( https://flatpak.org/setup/Ubuntu ) - a dependency for Kooha
+  - In case you do have Flatpak, check for it:  
+    - `flatpak --version` 
+  - In case you don't have Flatpak, install it:  
+    - `sudo apt install flatpak`
+    - `sudo add-apt-repository ppa:flatpak/stable`
+    - `sudo apt update`
+    - `sudo apt install flatpak`
+    - `sudo apt install gnome-software-plugin-flatpak`
+    - `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
+    - restart
+  
+Kooha ( https://github.com/SeaDve/Kooha ) - Video recorder that works in Wayland environment
+- `flatpak install flathub io.github.seadve.Kooha` (pick y/yes all the times if requested)
+- `flatpak run io.github.seadve.Kooha`  
+- While the item is open - right click on the item on the toolbar and pick "Add to Favorites"
+- Test by recording anything to make sure video and audio are ok
+
+And then we go like that:  
+
 - "Settings" > "Appearance" > "Style" > "Dark"
 - Install Firefox (You most likely already have it. If not then check https://www.mozilla.org/en-US/firefox/new/ to obtain it): 
 	- Login to Firefox with Firefox Account
@@ -64,34 +100,8 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 		- Downloads dir location change?: chrome://settings/?search=Downloads
 		- Home page?: chrome://settings/onStartup
 		- More languages to be supported by Chrome's spell check?: chrome://settings/languages
-  
-Flatpack ( https://flatpak.org/setup/Ubuntu ) - a dependency for Kooha
-  - `sudo apt install flatpak`
-  - `sudo add-apt-repository ppa:flatpak/stable`
-  - `sudo apt update`
-  - `sudo apt install flatpak`
-  - `sudo apt install gnome-software-plugin-flatpak`
-  - `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-  - restart
-  
-Kooha ( https://github.com/SeaDve/Kooha ) - Video recorder that works in Wayland environment
-- `flatpak install flathub io.github.seadve.Kooha` (pick y/yes all the times if requested)
-- `flatpak run io.github.seadve.Kooha`  
-- While the item is open - right click on the item on the toolbar and pick "Add to Favorites"
-- Test by recording anything to make sure video and audio are ok
 
 Now, go on with the Ubuntu software install & config as usual:
-- `time sudo apt-get update`
-- `time sudo apt update` 
-- `time sudo apt-get install apt-file`
-- `time sudo apt-file update`
-- `sudo nano /etc/update-manager/release-upgrades`  
-and change `prompt=lts` to `prompt=normal` (this will change the awareness level of new releases from LTS to normal)
-- `sudo apt-get upgrade -y`
-- `sudo apt-get dist-upgrade`
-- `sudo do-release-upgrade`
-- `sudo apt-get update`
-- `sudo apt-mark showmanual` (optional) - this will list packages already installed manually, check if you are working on the clean machine :) 
 - (If running on VirtualBox then install VirtualBox Guest Additions)
 	- `sudo apt-get install virtualbox-guest-dkms`
 - (If running on the system with GeForce video card. Update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
