@@ -102,8 +102,6 @@ And then we go like that:
 		- More languages to be supported by Chrome's spell check?: chrome://settings/languages
 
 Now, go on with the Ubuntu software install & config as usual:
-- (If running on VirtualBox then install VirtualBox Guest Additions)
-	- `sudo apt-get install virtualbox-guest-dkms`
 - (If running on the system with GeForce video card. Update GeForce drivers? https://askubuntu.com/questions/1030886/how-do-i-install-the-nvidia-cuda-toolkit-on-18-04-with-coffee-lake-is-it-suppo/1030901#1030901 , https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux )
 	- `sudo apt install nvidia-cuda-toolkit`
 	- `nvcc -V`
@@ -112,7 +110,6 @@ Now, go on with the Ubuntu software install & config as usual:
 	- `ubuntu-drivers devices`
 	- Look for `driver   : nvidia-driver-390 - distro non-free recommended` or similar line.
 	- If driver recommendations are acceptable then run `sudo ubuntu-drivers autoinstall`. Otherwise, run `nvidia-driver-390` (according to the driver name found after `ubuntu-drivers devices`)
-- `mkdir -p ~/dev ~/software ~/virtualbox-shared`
 - "Settings" > `Region & Language` > `Manage Installed Languages` > Install / Remove Languages... (select all languages you want to use and click Apply, OK, ...)
 - `sudo apt install ubuntu-restricted-extras` (Adobe Flash, some forgoten codecs, fonts, etc. https://en.wikipedia.org/wiki/Ubuntu-restricted-extras )
 - Install Brave browser https://brave.com/linux/#release-channel-installation
@@ -287,6 +284,9 @@ Now, go on with the Ubuntu software install & config as usual:
 	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
+	  - (If running on VirtualBox then install VirtualBox Guest Additions)
+	    - `sudo apt-get install virtualbox-guest-dkms`
+	  - `mkdir -p ~/dev ~/software ~/virtualbox-shared`
 	- (PHP)
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
