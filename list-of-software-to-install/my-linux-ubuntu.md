@@ -173,6 +173,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Dim screen when inactive: `Off`
 		- Screen Blank: `Never`
 		- Power Button behaviour: `Power Off`
+		- Show Battery Percentage: `On`  
 	- 
 	- "Keyboard"
   ```
