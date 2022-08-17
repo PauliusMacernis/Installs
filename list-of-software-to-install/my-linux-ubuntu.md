@@ -262,7 +262,10 @@ Now, go on with the Ubuntu software install & config as usual:
 	- "KolourPaint" (Microsoft Paint-alike software)
 	- "Gimp" (GNU Image Manipulation Program)
 	- `sudo apt install mysql-server`
-	- (optional) `sudo mysql_secure_installation`
+	- (optional) Secure MySQL, create a user for MySQL access
+	  - `sudo mysql` - this will log you in by default, no passwords needed so far..
+	  - `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';`  - execute this one on MySQL server after you log in to it with `sudo mysql`, do chnage the password to your own. Then exit MySQL and run the next command in the Terminal.
+	  - `sudo mysql_secure_installation`
 	- "MySQL Workbench"
 	- "Slack"
 	- "Skype"
