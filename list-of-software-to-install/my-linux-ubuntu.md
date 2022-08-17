@@ -267,6 +267,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	  - `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';`  - execute this one on MySQL server after you log in to it with `sudo mysql`, do chnage the password to your own. Then exit MySQL and run the next command in the Terminal.
 	  - `sudo mysql_secure_installation`
 	- "MySQL Workbench"
+	  - `sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service` - to avoid credentials storing error as mentioned [here](https://stackoverflow.com/questions/42671914/mysql-workbench-not-saving-passwords-in-keychain).
 	- "Slack"
 	- "Skype"
 	- `sudo apt-get install openjdk-8-jre` (SmartGit will need this)
