@@ -285,6 +285,13 @@ Now, go on with the Ubuntu software install & config as usual:
 	- (optional) "NetBeans"
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
+	- Establish VPN connection to the location of your choice
+	  - Create an account or login to https://account.protonvpn.com/
+	  - Download the config file (1. Select platform - GNU/Linux; 2. Select protocol - TCP; 3. Select config file and download - Free server configs
+; Click to download the file of the server of your choice) : https://account.protonvpn.com/downloads#openvpn-configuration-files
+          - Get Username and Password: https://account.protonvpn.com/account#openvpn
+	  - "Settings" > "Network" > VPN "+" > "Import from file..." > load the downloaded file > append useranme and password of your account we have just checked for > "Add" button > toggle the connection button to make it on > Wait for the VPN connection to be established and check if you have the IP of other place, e.g. here: https://www.whatismyip.com/
+	  - Turn on/off the connection whenever you like by toggling the connection button
 	- Sublime IDE
 	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
 	- (optional, does it exist at all?) "MonoDevelop"
