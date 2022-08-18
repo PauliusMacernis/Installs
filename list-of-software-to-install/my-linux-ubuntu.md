@@ -282,7 +282,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `git config --list`
 	- "FileZilla"
 	- "KDiff3"
-	- "NetBeans"
+	- (optional) "NetBeans"
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
 	- Sublime IDE
