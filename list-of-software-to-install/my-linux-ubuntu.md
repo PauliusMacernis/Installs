@@ -285,6 +285,8 @@ Now, go on with the Ubuntu software install & config as usual:
 	- (optional) "NetBeans"
 	- "GtkHash"
 	- "Telegram" (Official desktop version of Telegram messaging app)
+		- Login to all phone numbers (aka. accounts) on the mobile phone. In case of VoIP service usage (e.g. you host a number at Fongo), use the code verification option with the voice which appears to be an option in case the code verification option with the sms message does not work for you in ~3 minutes of the trying. And this will most likely be the case for Fongo and alike users because Fongo does not receive sms messages from Telegram verification but receives voice calls well.
+		- Only then we set up Telegram appication on desktop. In order top set up it on desktop, we will need to scan the QR code provided by the Telegram desktop app.
 	- Establish VPN connection to the location of your choice  
 		- Create an account or login to https://account.protonvpn.com/
 		- Download the config file (1. Select platform - GNU/Linux; 2. Select protocol - TCP; 3. Select config file and download - Free server configs
