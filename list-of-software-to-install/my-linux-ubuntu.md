@@ -295,7 +295,12 @@ Now, go on with the Ubuntu software install & config as usual:
 		- "Settings" > "Network" > VPN "+" > "Import from file..." > load the downloaded file > append useranme and password of your account we have just checked for > "Add" button > toggle the connection button to make it on > Wait for the VPN connection to be established and check if you have the IP of other place, e.g. here: https://www.whatismyip.com/
 		- Turn on/off the connection whenever you like by toggling the connection button
 	- "Signal"
-	- Sublime IDE
+	- Sublime IDE (aka. Sublime Text)
+		- `wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg`
+		- `echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list`
+		- `sudo apt-get update`
+		- `sudo apt-get install sublime-text`
+		- `sudo apt-get install apt-transport-https`
 	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
 	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
