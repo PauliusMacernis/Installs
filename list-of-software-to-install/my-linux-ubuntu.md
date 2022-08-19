@@ -270,7 +270,6 @@ Now, go on with the Ubuntu software install & config as usual:
 	  - `sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service` - to avoid credentials storing error as mentioned [here](https://stackoverflow.com/questions/42671914/mysql-workbench-not-saving-passwords-in-keychain).
 	- "Slack"
 	- "Skype"
-	- `sudo apt-get install openjdk-8-jre` (SmartGit will need this)
 	- `sudo apt-get install git`
 		- (Configure Git globals)
 		- `git config --global user.name "Paulius Macernis"`
@@ -301,7 +300,23 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `sudo apt-get update`
 		- `sudo apt-get install sublime-text`
 		- `sudo apt-get install apt-transport-https`
+	- JAVA
+		- ~~sudo apt-get install openjdk-8-jre (SmartGit will need this)~~  
+		- `sudo apt install openjdk-18-jdk` (JWildfire will need this)
 	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
+		- `java -version` (make sure java exists)
+		- `echo $JAVA_HOME` or check if the content in `/usr/lib/jvm/` exists (we will need the path to java if it's not detected later on; it is detected most of the times, according to the practice of mine)
+		- `mkdir ~/software/j-wildfire/`  
+		- Extract the contents of Zip-Archive found in [https://jwildfire.overwhale.com/](https://jwildfire.overwhale.com/)
+		- `java -jar j-wildfire-launcher.jar` to run it
+		- (if java is not found) Press the "Add runtime"-button in JWildfire and select the path, which was displayed under 3., for example /usr/lib/jvm/java-11-oracle
+		- To export images:
+			- "Random batch" button click
+			- Double click on the generated image you like
+			- Set "Resolution" and "Quality" dropdowns to the max or to the numbers required by yourself (the dropdowns are on the upper right corner of UI)
+			- "Render" button > Give the name and location for the output, e.g. myimage > Save
+			- Wait for the progress bar to reach 100% and complete
+			- Check the directory for the generated png file			
 	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
