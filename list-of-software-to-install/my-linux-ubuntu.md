@@ -294,6 +294,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Get Username and Password: https://account.protonvpn.com/account#openvpn
 		- "Settings" > "Network" > VPN "+" > "Import from file..." > load the downloaded file > append useranme and password of your account we have just checked for > "Add" button > toggle the connection button to make it on > Wait for the VPN connection to be established and check if you have the IP of other place, e.g. here: https://www.whatismyip.com/
 		- Turn on/off the connection whenever you like by toggling the connection button
+	- "Signal"
 	- Sublime IDE
 	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
 	- (optional, does it exist at all?) "MonoDevelop"
