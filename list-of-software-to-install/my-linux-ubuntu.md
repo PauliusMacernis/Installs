@@ -317,6 +317,7 @@ Now, go on with the Ubuntu software install & config as usual:
 			- "Render" button > Give the name and location for the output, e.g. myimage > Save
 			- Wait for the progress bar to reach 100% and complete
 			- Check the directory for the generated png file			
+	- (optional) "Sound Recorder" by The GNOME Project // I have installed this one because Kooha just stopped working and I have checked if other sound recording applications work or not. Seems like Kooha stopped working due to an [error](https://github.com/SeaDve/Kooha/issues/177) while [the other software](https://wiki.gnome.org/Apps/SoundRecorder) seems to be working well. Either way, this sound recorder seems like a nice tool to use too, so I keep it here.
 	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
