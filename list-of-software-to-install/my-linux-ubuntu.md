@@ -6,7 +6,7 @@ In case you are stuck with the too old Ubuntu 20.10 version (e.g. which is in EO
 - https://askubuntu.com/questions/1361262/how-upgrade-ubuntu-20-10-after-its-eol  
 - https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times  
 
-# Action  
+# Action  (applies to Ubuntu 22.04, other versions are not tested)
 
 Let's start with these basics:  
 
@@ -323,7 +323,11 @@ Now, go on with the Ubuntu software install & config as usual:
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- "VirtualBox" (Run several virtual systems on a single host computer)
 	  - (If running on VirtualBox then install VirtualBox Guest Additions)
-	    - `sudo apt-get install virtualbox-guest-dkms`
+	    - `sudo add-apt-repository multiverse`
+	    - `sudo apt update`  
+	    - `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
+	    - `sudo reboot`
+	    - `lsmod  | grep vbox` - once booted back up, you can confirm that Virtualbox guest additions is running on your system with this command`
 	  - `mkdir -p ~/dev ~/software ~/virtualbox-shared`
 	- (PHP)
 		- `sudo apt install php`
