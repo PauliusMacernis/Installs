@@ -42,6 +42,7 @@ Kooha ( https://github.com/SeaDve/Kooha ) - Video recorder that works in Wayland
 - `flatpak run io.github.seadve.Kooha`  
 - While the item is open - right click on the item on the toolbar and pick "Add to Favorites"
 - Test by recording anything to make sure video and audio are ok
+- In case of "No microphone source found", refer to https://github.com/SeaDve/Kooha/issues/177
 
 And then we go like that:  
 
