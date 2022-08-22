@@ -327,14 +327,29 @@ Now, go on with the Ubuntu software install & config as usual:
 	- (optional) "Sound Recorder" by The GNOME Project
 	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
-	- "VirtualBox" (Run several virtual systems on a single host computer)
-	  - (If running on VirtualBox then install VirtualBox Guest Additions)
-	    - `sudo add-apt-repository multiverse`
-	    - `sudo apt update`  
-	    - `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
-	    - `sudo reboot`
-	    - `lsmod  | grep vbox` - once booted back up, you can confirm that Virtualbox guest additions is running on your system with this command`
-	  - `mkdir -p ~/dev ~/software ~/virtualbox-shared`
+	- VirtualBox - run several virtual systems on a single host computer
+	  - "VirtualBox" - install it
+	  - Install Guest additions into each VirtualBox hosted OS, e.g. the Ubuntu 22.04 OS running on VirtualBox as a virtual machine
+	    - Host OS (aka. main OS)
+	      - `sudo apt update`  
+	      - (optional?) `sudo add-apt-repository multiverse`
+	      - `sudo apt install -y build-essential linux-headers-$(uname -r)`
+	      - (optional?) `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
+	      - `mkdir -p  ~/virtualbox-shared`
+	    - Hosted OS (aka. OS installed on VirtualBox)
+              - Then do the changes on the guest OS - Ubuntu 22.04
+	        - Install OS on the VirtualBox
+		- (optional?) `sudo apt update`
+		- (optional?) `sudo add-apt-repository multiverse`
+		- (optional?) `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
+		- Devices > Insert Guest Additions CD Image ( ...may be on `~/.config/VirtualBox/VBoxGuestAdditions_6.1.34.iso` or similar, or download it by yourself to the location you wish)
+		- `sudo mount /dev/cdrom /media` (or just check if the cd is available, because it may be mounted already by Ubuntu OS itself automatically)
+		- `cd /media`
+		- `sudo ./VBoxLinuxAdditions.run`
+		- `sudo reboot`
+		- `lsmod  | grep vbox` - once booted back up, you can confirm that Virtualbox guest additions is running on your system with this command
+	    - (optional?) `sudo reboot`
+	- `mkdir -p ~/dev ~/software`
 	- (PHP)
 		- `sudo apt install php`
 		- `sudo apt install php-xml`
