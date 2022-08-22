@@ -24,18 +24,24 @@ and change `prompt=lts` to `prompt=normal` (this will change the awareness level
 
 Then make video recording working:  
 
-Flatpack ( https://flatpak.org/setup/Ubuntu ) - a dependency for Kooha
-  - In case you do have Flatpak, check for it:  
-    - `flatpak --version` 
-  - In case you don't have Flatpak, install it:  
-    - `sudo apt install flatpak`
-    - `sudo add-apt-repository ppa:flatpak/stable`
-    - `sudo apt update`
-    - `sudo apt install flatpak`
+Flatpak ( https://flatpak.org/setup/Ubuntu ) - a dependency for Kooha
+  - Install Flatpak
+    - In case you already do have Flatpak, just check for it:  
+      - `flatpak --version` 
+    - In case you don't have Flatpak, install it, this should be enough:  
+      - `sudo apt install flatpak` 
+      - `flatpak --version`
+    - In case you still don't have Flatpack, install it like that then:
+      - `sudo add-apt-repository ppa:flatpak/stable`
+      - `sudo apt update`
+      - `sudo apt install flatpak`
+      - `flatpak --version`
+  - Now, let's make it possible to install Flatpak apps without needing the command line:
     - `sudo apt install gnome-software-plugin-flatpak`
+  - Let's now add the Flathub repository - the most known place to get Flatpak apps from:
     - `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-    - `sudo apt-add-repository -r https://ppa.launchpadcontent.net/flatpak/stable/ubuntu`
-    - restart
+    - (do we need this at all? optional?)`sudo apt-add-repository -r https://ppa.launchpadcontent.net/flatpak/stable/ubuntu`
+  - Restart
   
 Kooha ( https://github.com/SeaDve/Kooha ) - Video recorder that works in Wayland environment
 - `flatpak install flathub io.github.seadve.Kooha` (pick y/yes all the times if requested)
