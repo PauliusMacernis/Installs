@@ -329,7 +329,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- VirtualBox - run several virtual systems on a single host computer
 	  - "VirtualBox" - install it
-	  - Install Guest additions into each VirtualBox hosted OS, e.g. the Ubuntu 22.04 OS running on VirtualBox as a virtual machine
+	  - Install Guest additions into each VirtualBox hosted OS, e.g. the Ubuntu 22.04 OS running on VirtualBox as a virtual machine (in case you want more info: https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-virtualbox-guest-additions-on-ubuntu-22-04.html )
 	    - Host OS (aka. main OS)
 	      - `sudo apt update`  
 	      - (optional?) `sudo add-apt-repository multiverse` (What's multiverse? Read this: https://itsfoss.com/ubuntu-repositories/ )
