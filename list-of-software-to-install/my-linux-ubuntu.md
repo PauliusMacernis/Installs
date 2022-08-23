@@ -332,9 +332,15 @@ Now, go on with the Ubuntu software install & config as usual:
 	  - Install Guest additions into each VirtualBox hosted OS, e.g. the Ubuntu 22.04 OS running on VirtualBox as a virtual machine
 	    - Host OS (aka. main OS)
 	      - `sudo apt update`  
-	      - (optional?) `sudo add-apt-repository multiverse`
-	      - `sudo apt install -y build-essential linux-headers-$(uname -r)`
-	      - (optional?) `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
+	      - (optional?) `sudo add-apt-repository multiverse` (What's multiverse? Read this: https://itsfoss.com/ubuntu-repositories/ )
+	      - (optional) `sudo cat /etc/apt/sources.list`  (in case you are curious...)
+	      - (optional) `sudo cat /etc/apt/sources.list.d`  (in case you are very curious...)
+	      - `sudo apt install -y build-essential` (The build-essential package actually belongs to Debian. It is not a piece of software in itself. It contains a list of packages that are required to create a Debian package (deb). These packages are libc, gcc, g++, make, dpkg-dev etc. Read more: https://itsfoss.com/build-essential-ubuntu/ )
+	      - `sudo apt install -y linux-headers-$(uname -r)` (to install the sources for your kernel specific version, read more: https://superuser.com/questions/697024/what-does-apt-get-install-linux-headers-generic-do)
+	      - (optional) `apt-cache policy build-essential` (in case you wonder where "build-essential" came from.. read this: https://askubuntu.com/questions/8560/how-do-i-find-out-which-repository-a-package-comes-from ; in my case it seems it comes from the main, so adding multiverse may be redundant)
+	      - (optional) `apt-cache policy linux-headers-$(uname -r)` (Again, in my case it seems it comes from the main, so adding multiverse may be redundant)
+	      - (optional?) `sudo apt install virtualbox-guest-utils` (in my case, this comes from multiverse repo; x86 virtualization solution - non-X11 guest utilities ?; Read more:  https://packages.ubuntu.com/jammy/virtualbox-guest-utils )
+	      - (optional?) `sudo apt install virtualbox-guest-x11` (in my case, this comes from multiverse repo; This package provides the X11 guest utilities for VirtualBox. These utilities are meant to be run inside the virtual machine. They provide closer integration and improve the interactive performance; read more: https://packages.ubuntu.com/jammy/virtualbox-guest-x11 )
 	      - `mkdir -p  ~/virtualbox-shared`
 	    - Hosted OS (aka. OS installed on VirtualBox)
               - Then do the changes on the guest OS - Ubuntu 22.04
