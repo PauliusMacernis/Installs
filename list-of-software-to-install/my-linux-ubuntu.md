@@ -379,8 +379,11 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `php -m | grep mcrypt`
 		- `sudo apt-get install libcurl4-openssl-dev`
 		- `sudo systemctl restart apache2`
-	- (Graphviz - Graph Visualization Software (http://www.graphviz.org/))
+	- (Graphviz - Graph Visualization Software (http://www.graphviz.org/)) -- ~draw graphs to image
 		- `sudo apt install graphviz`
+		- `dot -V`
+		- `echo 'digraph { a -> b }' | dot -Tsvg -o ~/Desktop/output.svg` 
+		- Check the files generated, if the content is there
 	- (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
 		- `git clone https://github.com/jakobwesthoff/phuml`
 		- `cd phuml/src/app/`
