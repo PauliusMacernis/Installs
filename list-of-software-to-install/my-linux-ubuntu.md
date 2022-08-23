@@ -358,6 +358,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	- `mkdir -p ~/dev ~/software`
 	- (PHP)
 		- `sudo apt install php`
+		- `php --version`
 		- `sudo apt install php-xml`
 		- `sudo apt install php-mbstring`
 		- `sudo apt-get install php-pear`
