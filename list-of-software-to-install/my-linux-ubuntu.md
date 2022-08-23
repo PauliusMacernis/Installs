@@ -345,15 +345,15 @@ Now, go on with the Ubuntu software install & config as usual:
 	    - Hosted OS (aka. OS installed on VirtualBox)
               - Then do the changes on the guest OS - Ubuntu 22.04
 	        - Install OS on the VirtualBox
-		- (optional?) `sudo apt update`
-		- (optional?) `sudo add-apt-repository multiverse`
-		- (optional?) `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
-		- Devices > Insert Guest Additions CD Image ( ...may be on `~/.config/VirtualBox/VBoxGuestAdditions_6.1.34.iso` or similar, or download it by yourself to the location you wish)
-		- `sudo mount /dev/cdrom /media` (or just check if the cd is available, because it may be mounted already by Ubuntu OS itself automatically)
-		- `cd /media`
-		- `sudo ./VBoxLinuxAdditions.run`
-		- `sudo reboot`
-		- `lsmod  | grep vbox` - once booted back up, you can confirm that Virtualbox guest additions is running on your system with this command
+	        - (optional?) `sudo apt update`
+	        - (optional?) `sudo add-apt-repository multiverse`
+	        - (optional?) `sudo apt install virtualbox-guest-utils virtualbox-guest-x11`
+	        - Devices > Insert Guest Additions CD Image ( ...may be on `~/.config/VirtualBox/VBoxGuestAdditions_6.1.34.iso` or similar, or download it by yourself to the location you wish)
+	        - `sudo mount /dev/cdrom /media` (or just check if the cd is available, because it may be mounted already by Ubuntu OS itself automatically)
+	        - `cd /media`
+	        - `sudo ./VBoxLinuxAdditions.run`
+	        - `sudo reboot`
+	        - `lsmod  | grep vbox` - once booted back up, you can confirm that Virtualbox guest additions is running on your system with this command
 	    - (optional?) `sudo reboot`
 	- `mkdir -p ~/dev ~/software`
 	- (PHP)
