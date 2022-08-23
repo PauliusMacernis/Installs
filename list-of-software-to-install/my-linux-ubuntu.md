@@ -363,11 +363,22 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `sudo apt install php-mbstring`
 		- `sudo apt-get install php-pear`
 		- `pecl help version`
-		- `sudo apt install php-mcrypt` (does not exist in Ubuntu 18.04 LTS because of PHP 7.2)
-		- `sudo apt install php-dev` (if Ubuntu 18.04 LTS+)
-		- `sudo apt-get install libcurl4-openssl-dev` (if Ubuntu 18.04 LTS+)
+		- `php -m | egrep -i mcrypt`
+		- `sudo apt update`
+		- `sudo apt install -y build-essential`
+		- `gcc --version`
+		- `make --version`
+		- `sudo apt install php php-pear php-dev libmcrypt-dev`
+		- `which pecl`
+		- `pecl help`
 		- `sudo pecl channel-update pecl.php.net`
-		- `sudo pecl install mcrypt-1.0.1` (get the latest version number: https://pecl.php.net/package/mcrypt) (if Ubuntu 18.04 LTS)
+		- `sudo pecl update-channels`
+		- `sudo pecl search mcrypt`
+		- `sudo pecl install mcrypt`
+		- Add `extension=mcrypt.so` to the following files: `sudo nano /etc/php/*/cli/php.ini`, `sudo nano /etc/php/*/apache2/php.ini`
+		- `php -m | grep mcrypt`
+		- `sudo apt-get install libcurl4-openssl-dev`
+		- `sudo systemctl restart apache2`
 	- (Graphviz - Graph Visualization Software (http://www.graphviz.org/))
 		- `sudo apt install graphviz`
 	- (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
