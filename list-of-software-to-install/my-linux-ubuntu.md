@@ -384,7 +384,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `dot -V`
 		- `echo 'digraph { a -> b }' | dot -Tsvg -o ~/Desktop/output.svg` 
 		- Check the files generated, if the content is there
-	- (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
+	- (optional, that's more of a PHP5 tool, not really PHP7+) (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
 		- `git clone https://github.com/jakobwesthoff/phuml`
 		- `cd phuml/src/app/`
 		- `./phuml -h`
