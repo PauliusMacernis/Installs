@@ -391,15 +391,6 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `./phuml -l`
 		- (test) `./phuml -r /var/www/php_app_folder -graphviz -createAssociations false -neato output_image.png`
 		- (make a symlink to `/usr/bin/phuml` or so?)
-	- (PhpDependencyAnalysis (https://github.com/mamuz/PhpDependencyAnalysis), requires Graphviz)
-		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda.pubkey`
-		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda`
-		- `chmod +x phpda`
-		- `sudo mv phpda /usr/bin/phpda`
-		- `sudo mv phpda.pubkey /usr/bin/phpda.pubkey`
-		- `sudo phpda update`
-		- `phpda --version`
-	- (KCachegrind: https://kcachegrind.github.io - profile data visualization, e.g. PHP debugging)
 	- `sudo apt install cmake`
 	- `sudo apt install devscripts`
 	- `sudo apt-get install debhelper`
@@ -787,6 +778,15 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
+	- (PhpDependencyAnalysis (https://github.com/mamuz/PhpDependencyAnalysis), requires Graphviz)
+		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda.pubkey`
+		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda`
+		- `chmod +x phpda`
+		- `sudo mv phpda /usr/bin/phpda`
+		- `sudo mv phpda.pubkey /usr/bin/phpda.pubkey`
+		- `sudo phpda update`
+		- `phpda --version`
+	- (KCachegrind: https://kcachegrind.github.io - profile data visualization, e.g. PHP debugging)
 	- youtube-dl (media downloader):
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
