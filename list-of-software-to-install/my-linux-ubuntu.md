@@ -390,7 +390,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	- `sudo apt-get install extra-cmake-modules`
 	- `sudo apt-get install kdevelop-pg-qt`
 	- `sudo apt-get install kdevplatform-dev`
-	- `sudo apt-get install kdoctools-dev`
+	- `audo apt-get install kdoctools5` ~~`sudo apt-get install kdoctools-dev`~~
 	- `sudo apt-get install kinit-dev`
 	- `sudo apt-get install libboost-dev`
 	- `sudo apt-get install libkf5crash-dev`
