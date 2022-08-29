@@ -384,13 +384,6 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `dot -V`
 		- `echo 'digraph { a -> b }' | dot -Tsvg -o ~/Desktop/output.svg` 
 		- Check the files generated, if the content is there
-	- (optional, that's more of a PHP5 tool, not really PHP7+) (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
-		- `git clone https://github.com/jakobwesthoff/phuml`
-		- `cd phuml/src/app/`
-		- `./phuml -h`
-		- `./phuml -l`
-		- (test) `./phuml -r /var/www/php_app_folder -graphviz -createAssociations false -neato output_image.png`
-		- (make a symlink to `/usr/bin/phuml` or so?)
 	- `sudo apt install cmake`
 	- `sudo apt install devscripts`
 	- `sudo apt-get install debhelper`
@@ -778,6 +771,13 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
+	- - (optional, that's more of a PHP5 tool, not really PHP7+) (phUML (https://github.com/jakobwesthoff/phuml), requires Graphviz)
+		- `git clone https://github.com/jakobwesthoff/phuml`
+		- `cd phuml/src/app/`
+		- `./phuml -h`
+		- `./phuml -l`
+		- (test) `./phuml -r /var/www/php_app_folder -graphviz -createAssociations false -neato output_image.png`
+		- (make a symlink to `/usr/bin/phuml` or so?)
 	- (PhpDependencyAnalysis (https://github.com/mamuz/PhpDependencyAnalysis), requires Graphviz)
 		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda.pubkey`
 		- `curl -OsSL https://raw.github.com/mamuz/PhpDependencyAnalysis/master/download/phpda`
