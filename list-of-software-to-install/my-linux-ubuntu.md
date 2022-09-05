@@ -403,9 +403,9 @@ Now, go on with the Ubuntu software install & config as usual:
 	- `sudo apt-get install rlwrap` (Clojure dependency)
 	- Install Clojure (https://clojure.org/guides/getting_started#_installation_on_linux)
 		- (check the link above for the newer install instructions, the following instructions may be too old though) 
-		- `curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh`
-		- `chmod +x linux-install-1.9.0.381.sh`
-		- `sudo ./linux-install-1.9.0.381.sh`
+		- `curl -O https://download.clojure.org/install/linux-install-1.11.1.1155.sh`
+		- `chmod +x linux-install-1.11.1.1155.sh`
+		- `sudo ./linux-install-1.11.1.1155.sh`
 	- Install Leiningen (https://leiningen.org/)
 		- Download the lein script: https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 		- Place it on your `$PATH` where your shell can find it (eg. into `/usr/bin` dir)
