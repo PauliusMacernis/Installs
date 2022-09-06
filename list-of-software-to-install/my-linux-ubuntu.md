@@ -412,15 +412,17 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Set it to be executable (`sudo chmod a+x /usr/bin/lein`)
 		- Run it (`lein`) and it will download the self-install package
 	- Install [Umbrello] (https://umbrello.kde.org/)
-		- `mkdir -p ~/software/umbrello`
-		- `cd ~/software/umbrello`
-		- `dget https://archive.neon.kde.org/user/pool/main/u/umbrello/umbrello_18.04.1-0neon+16.04+xenial+build43.dsc`
-		- `dpkg-source -x umbrello_18.04.1-0neon+16.04+xenial+build43.dsc`
-		- `cd umbrello-18.04.1/`
-		- `dch -i` (in case we want to change the changelog)
-		- `dpkg-buildpackage -rfakeroot`
-		- `cd ..`
-		- `sudo dpkg -i umbrello_18.04.1-0neon+16.04+xenial+build43_amd64.deb`
+		- "Ubuntu Software" > search for Umbrello > Download (at the time of my search snap version has been available)
+		- (optional) If "Ubuntu Software" has not been available:
+			- `mkdir -p ~/software/umbrello`
+			- `cd ~/software/umbrello`
+			- `dget https://archive.neon.kde.org/user/pool/main/u/umbrello/umbrello_18.04.1-0neon+16.04+xenial+build43.dsc`
+			- `dpkg-source -x umbrello_18.04.1-0neon+16.04+xenial+build43.dsc`
+			- `cd umbrello-18.04.1/`
+			- `dch -i` (in case we want to change the changelog)
+			- `dpkg-buildpackage -rfakeroot`
+			- `cd ..`
+			- `sudo dpkg -i umbrello_18.04.1-0neon+16.04+xenial+build43_amd64.deb`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq"
 	- "Eclipse" (Extensible Tool Platform and Java IDE)
