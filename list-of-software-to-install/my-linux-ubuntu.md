@@ -300,6 +300,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Get Username and Password: https://account.protonvpn.com/account#openvpn
 		- "Settings" > "Network" > VPN "+" > "Import from file..." > load the downloaded file > append useranme and password of your account we have just checked for > "Add" button > toggle the connection button to make it on > Wait for the VPN connection to be established and check if you have the IP of other place, e.g. here: https://www.whatismyip.com/
 		- Turn on/off the connection whenever you like by toggling the connection button
+		- (optional) For logs, debuging, etc: `tail -f /var/log/syslog`
 	- "Signal"
 	- Sublime IDE (aka. Sublime Text)
 		- `wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg`
@@ -469,7 +470,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-1_amd64.deb`
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/universe/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5ubuntu1_amd64.deb`
 		- (ignore)`sudo dpkg -i libgstreamer*.deb`
-	- (OpenVPN with SSL) (https://www.my-private-network.co.uk/ubuntu-ssl-setup/)
+	- ~~(OpenVPN with SSL) (https://www.my-private-network.co.uk/ubuntu-ssl-setup/)
 		- `sudo apt install openvpn`
 		- `openvpn --version`
 		- `sudo apt-get install network-manager-openvpn-gnome`
@@ -498,7 +499,7 @@ Now, go on with the Ubuntu software install & config as usual:
 				- OK
 		- (optional) Add
 		- (optional) In the icon area in the top right of the screen, left click on the Network Manager icon again. Choose VPN Connections and click on the connection you have just created. The icon should animate for a while and then have a little padlock on it to denote that the VPN has connected. Authenticate the connection with your My Private Network password as necessary. Check your IP address again, it should not be the same anymore.
-		- (optional) For logs, debuging, etc: `tail -f /var/log/syslog`
+		- (optional) For logs, debuging, etc: `tail -f /var/log/syslog`~~
 - VMware Player
 	- `sudo apt install build-essential`
 	- Download installation file (don't wory if txt-alike): https://www.vmware.com/products/workstation-player.html
