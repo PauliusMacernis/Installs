@@ -499,7 +499,7 @@ Now, go on with the Ubuntu software install & config as usual:
 				- ~~OK~~
 		- ~~(optional) Add~~
 		- ~~(optional) In the icon area in the top right of the screen, left click on the Network Manager icon again. Choose VPN Connections and click on the connection you have just created. The icon should animate for a while and then have a little padlock on it to denote that the VPN has connected. Authenticate the connection with your My Private Network password as necessary. Check your IP address again, it should not be the same anymore.~~
-		- ~~(optional) For logs, debuging, etc: `tail -f /var/log/syslog`~~~~
+		- ~~(optional) For logs, debuging, etc: `tail -f /var/log/syslog`~~
 - VMware Player
 	- `sudo apt install build-essential`
 	- Download installation file (don't wory if txt-alike): https://www.vmware.com/products/workstation-player.html
