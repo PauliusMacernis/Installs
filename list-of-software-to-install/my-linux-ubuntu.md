@@ -425,7 +425,7 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `sudo dpkg -i umbrello_18.04.1-0neon+16.04+xenial+build43_amd64.deb`
 	- "Wireshark" ( https://www.wireshark.org/ )
 	- "notepadqq" (in case of several install options found, look for the one which is of the newer version)
-	- "Eclipse" (Extensible Tool Platform and Java IDE)
+	- (optional) "Eclipse" (Extensible Tool Platform and Java IDE)
 		- (Papyrus)
 			- Help > Check for Updates...
 			- Help > Install new software... > 
@@ -436,7 +436,7 @@ Now, go on with the Ubuntu software install & config as usual:
 			- Help > Check for Updates...
 			- Do you trust these certificates? Select All > Accept selected
 			- Restart Now
-	- Vidyo (16.10 - works, 18.04 - does not work)
+	- (optional) Vidyo (16.10 - works, 18.04 - does not work)
 		- Download Vidyo installer (.deb) file from here: http://information-technology.web.cern.ch/services/fe/downloads/Vidyo
 		- Rename the file to `vidyodesktop.deb` and place under home (`~`) dir
 		- `cd ~`
@@ -446,7 +446,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Replace the entire Depends: line by copying and pasting the following: `Depends: libxss1,libaudio2,libasound2,libqt4-network`
 		- `dpkg-deb -b vidyobuild vidyodesktop-custom.deb`
 		- `sudo dpkg -i vidyodesktop-custom.deb`
-	- (Stride)
+	- (optional) (Stride)
 		- `sudo sh -c 'echo "deb https://packages.atlassian.com/debian/stride-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-stride.list'`
 		- `wget -O - https://packages.atlassian.com/api/gpg/key/public | sudo apt-key add -`
 		- `sudo apt-get update`
@@ -465,7 +465,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /opt/HipChat4/lib/libcrypto.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
 		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so.1.0.0` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
 		- ~~`sudo ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /opt/HipChat4/lib/libssl.so` (see https://jira.atlassian.com/browse/HCPUB-6249 )~~
-	- (ignore)(Toggl Desktop tracker)
+	- (optional)(ignore)(Toggl Desktop tracker)
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-1_amd64.deb`
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/universe/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5ubuntu1_amd64.deb`
 		- (ignore)`sudo dpkg -i libgstreamer*.deb`
