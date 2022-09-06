@@ -470,36 +470,36 @@ Now, go on with the Ubuntu software install & config as usual:
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-1_amd64.deb`
 		- (ignore)`wget http://fr.archive.ubuntu.com/ubuntu/pool/universe/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5ubuntu1_amd64.deb`
 		- (ignore)`sudo dpkg -i libgstreamer*.deb`
-	- ~~(OpenVPN with SSL) (https://www.my-private-network.co.uk/ubuntu-ssl-setup/)
-		- `sudo apt install openvpn`
-		- `openvpn --version`
-		- `sudo apt-get install network-manager-openvpn-gnome`
-		- (optional) Download the [ca.crt](https://www.my-private-network.co.uk/files/ca.crt) certificate file and [tls-auth.key](https://www.my-private-network.co.uk/files/tls-auth.key) file
-		- (optional) "Settings" > Network > VPN > + > OpenVPN
-			- Name: `MPNGBR`
-			- Gateway: `fre.mypn.co`
-			- Authentication:
-				- Type: Password
-				- Username: MyUsername
-				- Password: MyPassword
-				- CA certificate: choose the ca.crt file you downloaded earlier
-			- Advanced
-				- Security
-					- Cipher: AES-256-CBC
-					- Use custom size of cipher key: off
-					- HMAC Authentication: SHA-256
-				- TLS Authentication
-					- Subject Match: (leave it empty)
-					- Verify peer (Server) certificate usage signature: On
-						- Remote peer certificate TLS type: Server
-					- Additional TLS authentication or encryption
-						- Mode: TLS-Auth
-						- Key file: select the downloaded tls-auth.key file that you’ve downloaded earlier
-						- Key Direction: 1
-				- OK
-		- (optional) Add
-		- (optional) In the icon area in the top right of the screen, left click on the Network Manager icon again. Choose VPN Connections and click on the connection you have just created. The icon should animate for a while and then have a little padlock on it to denote that the VPN has connected. Authenticate the connection with your My Private Network password as necessary. Check your IP address again, it should not be the same anymore.
-		- (optional) For logs, debuging, etc: `tail -f /var/log/syslog`~~
+	- ~~(OpenVPN with SSL) (https://www.my-private-network.co.uk/ubuntu-ssl-setup/)~~
+		- ~~`sudo apt install openvpn`~~
+		- ~~`openvpn --version`~~
+		- ~~`sudo apt-get install network-manager-openvpn-gnome`~~
+		- ~~(optional) Download the [ca.crt](https://www.my-private-network.co.uk/files/ca.crt) certificate file and [tls-auth.key](https://www.my-private-network.co.uk/files/tls-auth.key) file~~
+		- ~~(optional) "Settings" > Network > VPN > + > OpenVPN~~
+			- ~~Name: `MPNGBR`~~
+			- ~~Gateway: `fre.mypn.co`~~
+			- ~~Authentication:~~
+				- ~~Type: Password~~
+				- ~~Username: MyUsername~~
+				- ~~Password: MyPassword~~
+				- ~~CA certificate: choose the ca.crt file you downloaded earlier~~
+			- ~~Advanced~~
+				- ~~Security~~
+					- ~~Cipher: AES-256-CBC~~
+					- ~~Use custom size of cipher key: off~~
+					- ~~HMAC Authentication: SHA-256~~
+				- ~~TLS Authentication~~
+					- ~~Subject Match: (leave it empty)~~
+					- ~~Verify peer (Server) certificate usage signature: On~~
+						- ~~Remote peer certificate TLS type: Server~~
+					- ~~Additional TLS authentication or encryption~~
+						- ~~Mode: TLS-Auth~~
+						- ~~Key file: select the downloaded tls-auth.key file that you’ve downloaded earlier~~
+						- ~~Key Direction: 1~~
+				- ~~OK~~
+		- ~~(optional) Add~~
+		- ~~(optional) In the icon area in the top right of the screen, left click on the Network Manager icon again. Choose VPN Connections and click on the connection you have just created. The icon should animate for a while and then have a little padlock on it to denote that the VPN has connected. Authenticate the connection with your My Private Network password as necessary. Check your IP address again, it should not be the same anymore.~~
+		- ~~(optional) For logs, debuging, etc: `tail -f /var/log/syslog`~~~~
 - VMware Player
 	- `sudo apt install build-essential`
 	- Download installation file (don't wory if txt-alike): https://www.vmware.com/products/workstation-player.html
