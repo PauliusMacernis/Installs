@@ -424,7 +424,7 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `cd ..`
 			- `sudo dpkg -i umbrello_18.04.1-0neon+16.04+xenial+build43_amd64.deb`
 	- "Wireshark" ( https://www.wireshark.org/ )
-	- "notepadqq"
+	- "notepadqq" (in case of several install options found, look for the one which is of the newer version)
 	- "Eclipse" (Extensible Tool Platform and Java IDE)
 		- (Papyrus)
 			- Help > Check for Updates...
