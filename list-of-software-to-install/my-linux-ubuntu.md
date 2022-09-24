@@ -526,8 +526,8 @@ Now, go on with the Ubuntu software install & config as usual:
 		- [Java (JRE)](https://www.oracle.com/technetwork/java/javase/downloads/)
 		- [Adobe PDF reader](https://get.adobe.com/reader/)
 		- [VLC media player](https://www.videolan.org/vlc/)
-		- [Microsoft Office: Word, Excel, etc.](https://www.microsoft.com/en-us/download/office.aspx)
-		- [CCleaner](https://www.ccleaner.com/ccleaner/download)
+		- (optional?) [Microsoft Office: Word, Excel, etc.](https://www.microsoft.com/en-us/download/office.aspx)
+		- (optional?) [CCleaner](https://www.ccleaner.com/ccleaner/download)
 		- (optional) [Azuon](http://azuon.com/)
 		- (optional) https://www.avg.com/en-ww/tuneup-utilities
 		- (optional) https://www.adobe.com/creativecloud/
