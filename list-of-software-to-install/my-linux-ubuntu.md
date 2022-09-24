@@ -430,7 +430,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- (Papyrus)
 			- Help > Check for Updates...
 			- Help > Install new software... > 
-				- Work with: `http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/oxygen/` > Select all > Next
+				- Work with: `https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2022-06/` > Select all > Next
 				- Keep my installation the same and modify the items being installed to be compatible > Next
 				- Next
 				- Accept all licenses > Finish
