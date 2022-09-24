@@ -611,11 +611,14 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `env | grep DOCKER_HOST` If this command returns a value, the Docker client is set to connect to a Docker daemon running on that host. If it is unset, the Docker client is set to connect to the Docker daemon running on the local host.
 		- `docker --version`
 		- (Install Docker Compose: https://docs.docker.com/compose/install/)
-		- [Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose`
-		- `sudo chmod +x /usr/local/bin/docker-compose`
-		- [Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://raw.githubusercontent.com/docker/compose/1.21.0/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose`
-		- Relaunch all launched terminals to utilize completion.
-		- `docker-compose --version`
+		- `sudo apt-get update`
+		- `sudo apt-get install docker-compose-plugin`
+		- ~~[Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose`~~
+		- ~~`sudo chmod +x /usr/local/bin/docker-compose`~~
+		- ~~[Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://raw.githubusercontent.com/docker/compose/1.21.0/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose`~~
+		- ~~Relaunch all launched terminals to utilize completion.~~
+		- ~~`docker-compose --version`~~
+		- `docker compose version`~~
 		- (Install Docker Machine: https://docs.docker.com/machine/install-machine/ )
 		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
