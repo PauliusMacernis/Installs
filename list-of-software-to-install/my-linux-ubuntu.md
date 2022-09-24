@@ -505,9 +505,9 @@ Now, go on with the Ubuntu software install & config as usual:
 	- Download installation file (don't wory if txt-alike): https://www.vmware.com/products/workstation-player.html
 	- Make the file executable: `chmod +x VMware-Player*`
 	- Run the installation file: `sudo ./Downloads/VMware-Player*`
-- (optional, and may not be needed at all in case you have Windows as the second OS on the computer anyways)Configure VirtualBox for Windows10 to host:
+- (optional) Configure VirtualBox for Windows10 to host:
 	- "virtualBox"
-	- New
+	- "Machine" > "New"
 	- Name: `Windows 10`, Type: `Microsoft Windows`, Version: `Windows 10 (64-bit)`
 	- ...
 	- Right click on the new Machine 
@@ -528,7 +528,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- [VLC media player](https://www.videolan.org/vlc/)
 		- [Microsoft Office: Word, Excel, etc.](https://www.microsoft.com/en-us/download/office.aspx)
 		- [CCleaner](https://www.ccleaner.com/ccleaner/download)
-		- [Azuon](http://azuon.com/)
+		- (optional) [Azuon](http://azuon.com/)
 		- (optional) https://www.avg.com/en-ww/tuneup-utilities
 		- (optional) https://www.adobe.com/creativecloud/
 		- (optional) https://www.daemon-tools.cc/products/dtLite
