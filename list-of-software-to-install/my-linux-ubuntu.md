@@ -308,9 +308,19 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `sudo apt-get update`
 		- `sudo apt-get install sublime-text`
 		- `sudo apt-get install apt-transport-https`
-	- JAVA
+	- Java (JDK):
+	        - `sudo apt-get update`
 		- ~~sudo apt-get install openjdk-8-jre (SmartGit will need this)~~  
 		- `sudo apt install openjdk-18-jdk` (JWildfire will need this)
+		- ~~~`sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)~~
+		- ~~`sudo apt-get update`~~
+		- ~~`sudo apt-get install oracle-java8-installer` (or `sudo apt-get install oracle-java9-installer` for newer)~~
+		- ~~Accept license terms~~
+		- ~~(ignore this) `sudo apt install oracle-java8-set-default`~~
+		- `sudo update-alternatives --config java`
+		- Select java8-oracle version or another you would like to set for the use (default is usually fine, e.g. manual mode)
+		- `java -version`
+		- `javac -version`
 	- JWildfire ( https://jwildfire.overwhale.com/ ) - for generating fractals
 		- `java -version` (make sure java exists)
 		- `echo $JAVA_HOME` or check if the content in `/usr/lib/jvm/` exists (we will need the path to java if it's not detected later on; it is detected most of the times, according to the practice of mine)
@@ -534,17 +544,6 @@ Now, go on with the Ubuntu software install & config as usual:
 		- (optional) https://www.daemon-tools.cc/products/dtLite
 		- (optional) [BLU Studio Energy 2 USB Driver](https://androidmtk.com/download-blu-usb-drivers)
 - Install additional software manualy:
-	- Java JDK:
-		- `sudo apt-get update`
-		- `sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)
-		- `sudo apt-get update`
-		- `sudo apt-get install oracle-java8-installer` (or `sudo apt-get install oracle-java9-installer` for newer)
-		- Accept license terms
-		- (ignore this) `sudo apt install oracle-java8-set-default`
-		- `sudo update-alternatives --config java`
-		- Select java8-oracle version (default is fine if java8-oracle, e.g. manual mode)
-		- `java -version`
-		- `javac -version`
 	- IntelliJ IDEA:
 		- Download the installation pack (`tar.gz`): https://www.jetbrains.com/idea/download/#section=linux
 		- Extract it to `/home/paulius/software/intellij` or elsewhere.
