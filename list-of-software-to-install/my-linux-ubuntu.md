@@ -505,7 +505,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	- Download installation file (don't wory if txt-alike): https://www.vmware.com/products/workstation-player.html
 	- Make the file executable: `chmod +x VMware-Player*`
 	- Run the installation file: `sudo ./Downloads/VMware-Player*`
-- Configure VirtualBox for Windows10 to host:
+- (optional, and may not be needed at all in case you have Windows as the second OS on the computer anyways)Configure VirtualBox for Windows10 to host:
 	- "virtualBox"
 	- New
 	- Name: `Windows 10`, Type: `Microsoft Windows`, Version: `Windows 10 (64-bit)`
