@@ -679,9 +679,9 @@ Now, go on with the Ubuntu software install & config as usual:
 		- (Configure PHPStorm)
 		- File > Settings > Plugins > Install, enable and configure these:
 			- PHP Annotations
-			- Symfony Plugin
+			- Symfony Support
 			- PHP Toolbox
-			- SensioLabInsight (inspection)
+			- SensioLabsInsight
 			- Lines Sorter
 			- Php Inspections (EA Extended)
 			- nginx support
