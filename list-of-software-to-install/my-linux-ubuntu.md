@@ -753,7 +753,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- PHP Mess Detector ( https://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm )
 	- ArgoUML:
 		- `mkdir ~/software/argouml`
-		- Download from `http://argouml.tigris.org/`
+		- Download from `http://argouml.tigris.org/` or `http://argouml-downloads.tigris.org/`
 		- Extract the content to `~/software/argouml`
 		- (Follow `~/software/argouml/README.txt`)
 		- `java -jar ~/software/argouml/argouml.jar` will run the app
