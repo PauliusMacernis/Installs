@@ -622,7 +622,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- (Install Docker Machine: https://docs.docker.com/machine/install-machine/ )
 		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
-		  base=https://github.com/docker/machine/releases/download/v0.14.0 &&
+		  base=https://github.com/docker/machine/releases/download/v0.16.2 &&
   		  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
   		  sudo install /tmp/docker-machine /usr/local/bin/docker-machine
 		  ```
@@ -630,7 +630,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `docker-machine --version`
 		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
-		  base=https://raw.githubusercontent.com/docker/machine/v0.14.0
+		  base=https://raw.githubusercontent.com/docker/machine/v0.16.2
 		  for i in docker-machine-prompt.bash docker-machine-wrapper.bash docker-machine.bash
 		  do
 		    sudo wget "$base/contrib/completion/bash/${i}" -P /etc/bash_completion.d
