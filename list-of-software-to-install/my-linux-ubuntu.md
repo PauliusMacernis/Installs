@@ -310,7 +310,6 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `sudo apt-get install apt-transport-https`
 	- Java (JDK):
 	        - `sudo apt-get update`
-		- ~~sudo apt-get install openjdk-8-jre (SmartGit will need this)~~
 		- `sudo apt install openjdk-18-jdk` (JWildfire will need this)
 		- ~~`sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)~~
 		- ~~`sudo apt-get update`~~
@@ -657,16 +656,16 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `composer --version`
 		- `composer self-update`
 		- `composer --version`
-	- SmartGit: 
-		- `mkdir ~/software/smartgit`
-		- Download from `https://www.syntevo.com/smartgit/download/`
-		- Extract the content to `~/software/smartgit`
-		- (Follow `~/software/smartgit/readme-linux.txt`)
-		- `~/software/smartgit/bin/smartgit.sh`
-		- `~/software/smartgit/bin/add-menuitem.sh`
-		- `update-java-alternatives --list`
-		- `Repository` > `Add or Create...` for each project you are developing.
-		- `Git-Flow (arrow)` > `Configure...` > `Full (feature, release, hotfix, support branches` > `OK`
+	- "SmartGit" - it has previosuly been the need to do the installation manualy, now you install it automatically via flatpack: 
+		- ~~`mkdir ~/software/smartgit`~~
+		- ~~Download from `https://www.syntevo.com/smartgit/download/`~~
+		- ~~Extract the content to `~/software/smartgit`~~
+		- ~~(Follow `~/software/smartgit/readme-linux.txt`)~~
+		- ~~`~/software/smartgit/bin/smartgit.sh`~~
+		- ~~`~/software/smartgit/bin/add-menuitem.sh`~~
+		- ~~`update-java-alternatives --list`~~
+		- ~~`Repository` > `Add or Create...` for each project you are developing.~~
+		- ~~`Git-Flow (arrow)` > `Configure...` > `Full (feature, release, hotfix, support branches` > `OK`~~
 	- PHPStorm:
 		- `sudo nano /etc/sysctl.conf`
 			- Add the line: `fs.inotify.max_user_watches = 524288`, save it.
