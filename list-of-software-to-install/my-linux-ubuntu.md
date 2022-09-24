@@ -618,7 +618,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- ~~[Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://raw.githubusercontent.com/docker/compose/1.21.0/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose`~~
 		- ~~Relaunch all launched terminals to utilize completion.~~
 		- ~~`docker-compose --version`~~
-		- `docker compose version`~~
+		- `docker compose version`
 		- (Install Docker Machine: https://docs.docker.com/machine/install-machine/ )
 		- [Check for the latest version number](https://github.com/docker/machine/releases), edit and run the command:
 		  ```
