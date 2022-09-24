@@ -549,24 +549,24 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Extract it to `/home/paulius/software/intellij` or elsewhere.
 		- `cd /home/paulius/software/intellij/bin`
 		- `./idea.sh`
-		- Do not import settings (or import if you want) > OK
-		- Dracula theme (or any other theme you want) > Next
-		- Create a desktop entry for integration with system application menu: check, For all users: check > Next
-		- Create script for opening files and projects from the command line: check, `/usr/local/bin/idea` > Next
-		- Plugins (defaults are ok): Next
-		- Install Scala and IDE Features Trainer plugins > Start using IntelliJ IDEA
-		- Configure IntelliJ IDEA (`Configure` > `Project Defaults` > `Project Structure` > `Project Settings` > `Project`):
-			- Project SDK: `New...` > `JDK` > Select JDK we have installed, like `/usr/lib/jvm/java-8-oracle` > OK
-			- Project language level: `SDK default`
-			- `OK`
+		- Do not import settings (or import if you want)
+		- Dracula theme (or any other theme you want)
+		- "Create Desktop entry..." for integration with system application menu: check, For all users: check > Next. In case you don't see such choice to create the entry, look for a little toggle icon on the bottom left corner of an intro window (it is the one you see after closing all projects), click on it and see if you may find a similar link in there.
+		- ~~Create script for opening files and projects from the command line: check, `/usr/local/bin/idea`~~
+		- Plugins (defaults are ok)
+		- ~~Install Scala and IDE Features Trainer plugins > Start using IntelliJ IDEA~~
+		- ~~Configure IntelliJ IDEA (`Configure` > `Project Defaults` > `Project Structure` > `Project Settings` > `Project`):~~
+			- ~~Project SDK: `New...` > `JDK` > Select JDK we have installed, like `/usr/lib/jvm/java-8-oracle` > OK~~
+			- ~~Project language level: `SDK default`~~
+			- ~~`OK`~~
 		- Configure IntelliJ IDEA (`Configure` > `Settings`):
 			- `Editor` > `General` > `Auto import`:
 				- Add unambiguous imports on the fly: checked
 				- Optimize imports on the fly (for current project): checked
 				- `Apply`
-			- `Editor` > `General` > `Appearance`:
-				- Show line numbers: checked
-				- `OK`		
+			- ~~`Editor` > `General` > `Appearance`:~~
+				- ~~Show line numbers: checked~~
+				- ~~`OK`~~
 	- Docker CE:  
 		- ( Follow: https://docs.docker.com/install/linux/docker-ce/ubuntu/ )
 		- `sudo apt-get remove docker docker-engine docker.io`
