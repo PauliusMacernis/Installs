@@ -312,7 +312,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	        - `sudo apt-get update`
 		- ~~sudo apt-get install openjdk-8-jre (SmartGit will need this)~~
 		- `sudo apt install openjdk-18-jdk` (JWildfire will need this)
-		- ~~~`sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)~~
+		- ~~`sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)~~
 		- ~~`sudo apt-get update`~~
 		- ~~`sudo apt-get install oracle-java8-installer` (or `sudo apt-get install oracle-java9-installer` for newer)~~
 		- ~~Accept license terms~~
