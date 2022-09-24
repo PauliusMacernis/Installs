@@ -310,7 +310,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- `sudo apt-get install apt-transport-https`
 	- Java (JDK):
 	        - `sudo apt-get update`
-		- ~~sudo apt-get install openjdk-8-jre (SmartGit will need this)~~  
+		- ~~sudo apt-get install openjdk-8-jre (SmartGit will need this)~~
 		- `sudo apt install openjdk-18-jdk` (JWildfire will need this)
 		- ~~~`sudo add-apt-repository ppa:webupd8team/java` (click `Enter` if asked)~~
 		- ~~`sudo apt-get update`~~
