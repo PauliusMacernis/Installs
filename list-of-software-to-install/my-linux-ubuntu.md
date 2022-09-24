@@ -437,21 +437,21 @@ Now, go on with the Ubuntu software install & config as usual:
 			- Help > Check for Updates...
 			- Do you trust these certificates? Select All > Accept selected
 			- Restart Now
-	- (optional) Vidyo (16.10 - works, 18.04 - does not work)
-		- Download Vidyo installer (.deb) file from here: http://information-technology.web.cern.ch/services/fe/downloads/Vidyo
-		- Rename the file to `vidyodesktop.deb` and place under home (`~`) dir
-		- `cd ~`
-		- `dpkg-deb -x vidyodesktop.deb vidyobuild`
-		- `dpkg-deb --control vidyodesktop.deb vidyobuild/DEBIAN`
-		- `nano vidyobuild/DEBIAN/control`
-		- Replace the entire Depends: line by copying and pasting the following: `Depends: libxss1,libaudio2,libasound2,libqt4-network`
-		- `dpkg-deb -b vidyobuild vidyodesktop-custom.deb`
-		- `sudo dpkg -i vidyodesktop-custom.deb`
-	- (optional) (Stride)
-		- `sudo sh -c 'echo "deb https://packages.atlassian.com/debian/stride-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-stride.list'`
-		- `wget -O - https://packages.atlassian.com/api/gpg/key/public | sudo apt-key add -`
-		- `sudo apt-get update`
-		- `sudo apt-get install stride`
+	- ~~(optional) Vidyo (16.10 - works, 18.04 - does not work)~~  
+		- ~~Download Vidyo installer (.deb) file from here: http://information-technology.web.cern.ch/services/fe/downloads/Vidyo~~
+		- ~~Rename the file to `vidyodesktop.deb` and place under home (`~`) dir~~
+		- ~~`cd ~`~~
+		- ~~`dpkg-deb -x vidyodesktop.deb vidyobuild`~~
+		- ~~`dpkg-deb --control vidyodesktop.deb vidyobuild/DEBIAN`~~
+		- ~~`nano vidyobuild/DEBIAN/control`~~
+		- ~~Replace the entire Depends: line by copying and pasting the following: `Depends: libxss1,libaudio2,libasound2,libqt4-network`~~
+		- ~~`dpkg-deb -b vidyobuild vidyodesktop-custom.deb`~~
+		- ~~`sudo dpkg -i vidyodesktop-custom.deb`~~
+	- ~~(optional) (Stride)~~
+		- ~~`sudo sh -c 'echo "deb https://packages.atlassian.com/debian/stride-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-stride.list'`~~
+		- ~~`wget -O - https://packages.atlassian.com/api/gpg/key/public | sudo apt-key add -`~~
+		- ~~`sudo apt-get update`~~
+		- ~~`sudo apt-get install stride`~~
 	- ~~(HipChat for Ubuntu 17.10, follow: https://www.hipchat.com/downloads , Upgraded to Stride)~~
 		- ~~`sudo sh -c 'echo "deb https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client $(lsb_release -c -s) main" > /etc/apt/sources.list.d/atlassian-hipchat4.list'`~~
 		- ~~`wget -O - https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public | sudo apt-key add -`~~
