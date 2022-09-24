@@ -751,7 +751,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Extra keyboard shortcut needed? For example, for `phpcbf`?
 			- `Settings` -> `Keymap`
 		- PHP Mess Detector ( https://confluence.jetbrains.com/display/PhpStorm/PHP+Mess+Detector+in+PhpStorm )
-	- ArgoUML:
+	- ArgoUML (not able [to download the software](http://argouml-downloads.tigris.org/nonav/argouml-0.34/ArgoUML-0.34.tar.gz) on 25th of Sept, 2022):
 		- `mkdir ~/software/argouml`
 		- Download from `http://argouml.tigris.org/` or `http://argouml-downloads.tigris.org/`
 		- Extract the content to `~/software/argouml`
