@@ -569,43 +569,48 @@ Now, go on with the Ubuntu software install & config as usual:
 				- ~~`OK`~~
 	- Docker CE:  
 		- ( Follow: https://docs.docker.com/install/linux/docker-ce/ubuntu/ )
+		- (optional) `sudo apt remove docker-desktop` - Uninstall the tech preview or beta version of Docker Desktop for Linux
+		- (optional) `rm -r $HOME/.docker/desktop`
+		- (optional) `sudo rm /usr/local/bin/com.docker.cli`
+		- (optional) `sudo apt purge docker-desktop`
+		- (optional) `rm -rf ~/.config/systemd/user/docker-desktop.service`
+		- (optional) `rm -rf ~/.local/share/systemd/user/docker-desktop.service`
 		- `sudo apt-get remove docker docker-engine docker.io`
 		- `sudo apt-get update`
 		- 
 		  ```
 		  sudo apt-get install \
-		  apt-transport-https \
-		  ca-certificates \
-		  curl \
-		  software-properties-common
+    		  ca-certificates \
+    		  curl \
+    		  gnupg \
+    		  lsb-release
 		  ```
 		
-		- `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-		- `sudo apt-key fingerprint 0EBFCD88`
+		- `sudo mkdir -p /etc/apt/keyrings`
+		- `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg`
 		- 
 		  ```
-		  sudo add-apt-repository \
-		  "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-		  $(lsb_release -cs) \
-		  stable"
+		  echo \
+  		  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  		  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
    		  ```
 		  
 		- `sudo apt-get update`
-		- `sudo apt-get install docker-ce`, if Ubuntu 18.04 LTS then: `sudo apt install docker`, `sudo apt install docker.io`
+		- `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin`
 		- `sudo docker run hello-world`
 		- (Follow: https://docs.docker.com/install/linux/linux-postinstall/ )
 		- `sudo groupadd docker`
 		- `sudo usermod -aG docker $USER`
-		- Log out and log back in so that the `docker` group membership is re-evaluated.
+		- Log out and log back in so that the `docker` group membership is re-evaluated. Or the alternative is to use `newgrp docker`
 		- `docker run hello-world`
 		- `sudo chown "$USER":"$USER" /home/"$USER"/.docker -R`
-		- `sudo chmod g+rwx "/home/$USER/.docker" -R`
-		- `sudo systemctl enable docker` to start Docker service on system boot.
+		- `sudo chmod g+rwx "$HOME/.docker" -R`
+		- (optional) `sudo systemctl enable docker.service` and `sudo systemctl enable containerd.service` to start Docker service on system boot.
 		- `echo manual | sudo tee /etc/init/docker.override` to disable loading Docker service via `upstart` on startup
 		- `sudo chkconfig docker off`  to disable loading Docker service via `chconfig` on startup
 		- `env | grep DOCKER_HOST` If this command returns a value, the Docker client is set to connect to a Docker daemon running on that host. If it is unset, the Docker client is set to connect to the Docker daemon running on the local host.
 		- `docker --version`
-		- (Install Docker Compose: https://docs.docker.com/compose/install/ )
+		- (Install Docker Compose: https://docs.docker.com/compose/install/)
 		- [Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose`
 		- `sudo chmod +x /usr/local/bin/docker-compose`
 		- [Check for the latest version number](https://github.com/docker/compose/releases), edit and run the command: `sudo curl -L https://raw.githubusercontent.com/docker/compose/1.21.0/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose`
