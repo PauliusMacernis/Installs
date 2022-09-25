@@ -776,9 +776,9 @@ Now, go on with the Ubuntu software install & config as usual:
 	- youtube-dl (media downloader):
 		- `sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
 		- `sudo chmod a+rx /usr/local/bin/youtube-dl`
-		- Test it: `youtube-dl https://www.youtube.com/watch?v=FM7MFYoylVs`
-	- Chef Development Kit
-		- Download and install: https://downloads.chef.io/chefdk/3.9.0#ubuntu
+		- Test it: `youtube-dl https://www.youtube.com/watch?v=FM7MFYoylVs` (Python seems to be the dependency, it will not work without it, 25th of Sept, 2022)
+	- Chef Workstation (previously known as Chef Development Kit: https://downloads.chef.io/chefdk/3.9.0#ubuntu)
+		- Download and install, but there are no version for the Ubuntu 22.04 on 25th of Sept, 2022. See for the updates: https://www.chef.io/downloads/tools/workstation?os=ubuntu
 	- TBD: Anbox ( https://anbox.io/ ):
 		- Install Kernel Modules ( https://docs.anbox.io/userguide/install_kernel_modules.html )
 		- Other ( https://docs.anbox.io/userguide/install.html )
