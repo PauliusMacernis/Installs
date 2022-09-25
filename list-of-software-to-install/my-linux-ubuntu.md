@@ -833,7 +833,7 @@ Now, go on with the Ubuntu software install & config as usual:
 - (optional, does it exist at all?) "MonoDevelop"
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
-	- [Pick Windows software and install it](my-windows-10.md)
+	- [Pick Windows software and install it](my-windows-10.md). Pay attention to the quick launch (aka. \*.Desktop) files generated. Sometimes the application generates the file on it's own into `~/.local/share/applications/wine/Programs/` while sometimes not and so you should create and save your own file to the same or another location Ubuntu 22 would pick it from, e.g. `/usr/share/applications/`. You need just one such \*.Desktop file per application, otherwise you will have quick launch icons duplicated. Now, consider the following software to be installed:
 		- http://www.prestosoft.com/edp_examdiff.asp
 			- `mkdir ~/software/windows/ExamDiff`
 			- `cd ~/software/windows/ExamDiff`
