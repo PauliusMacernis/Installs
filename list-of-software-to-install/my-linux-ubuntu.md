@@ -779,10 +779,10 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Test it: `youtube-dl https://www.youtube.com/watch?v=FM7MFYoylVs` (Python seems to be the dependency, it will not work without it, 25th of Sept, 2022)
 	- Chef Workstation (previously known as Chef Development Kit: https://downloads.chef.io/chefdk/3.9.0#ubuntu)
 		- Download and install, but there are no version for the Ubuntu 22.04 on 25th of Sept, 2022. See for the updates: https://www.chef.io/downloads/tools/workstation?os=ubuntu
-	- TBD: Anbox ( https://anbox.io/ ) -- In regards to installing kernel modules, Ubuntu version 22.04 is not supported yet ([no release files in the repo](https://ppa.launchpadcontent.net/morphis/anbox-support/ubuntu/dists/)), so there is no easy enough way to install Anbox on Ubuntu 22.04 at the moment, - 25 of Sept, 2022:
+	- TBD: Anbox ( https://anbox.io/ ) - Run Android apps on Linux -- In regards to installing kernel modules, Ubuntu version 22.04 is not supported yet ([no release files in the repo](https://ppa.launchpadcontent.net/morphis/anbox-support/ubuntu/dists/)), so there is no easy enough way to install Anbox on Ubuntu 22.04 at the moment, - 25 of Sept, 2022:
 		- Install Kernel Modules ( https://docs.anbox.io/userguide/install_kernel_modules.html )
 		- Other ( https://docs.anbox.io/userguide/install.html )
-	- TBD: Darling ( https://darlinghq.org/, https://docs.darlinghq.org/build-instructions.html )
+	- TBD: Darling ( https://darlinghq.org/, https://docs.darlinghq.org/build-instructions.html ) - Run Mac software on Linux -- Ubuntu 22.04 version is not supported yet, - 25th of Sept, 2022
 	- TBD: snap ( https://snapcraft.io/docs/getting-started#heading--install ) -- it may be installed by default already.
 	- Wine + Mono
 		- (Clean up if needed)
