@@ -1059,7 +1059,7 @@ Now, go on with the Ubuntu software install & config as usual:
     - `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
     - `sudo apt-get update && sudo apt-get install yarn`
     - `yarn --version`
-  - Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
+  - (optional) Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
   - `npm i -g nodemon` -- restart the application automatically whenever there is a change in the application
 - ngrok https://dashboard.ngrok.com/get-started/setup
 - GUI customizations
