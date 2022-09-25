@@ -1087,9 +1087,10 @@ Now, go on with the Ubuntu software install & config as usual:
     - `sudo apt-get install lame vorbis-tools`
     - `sudo apt-get install libsndfile1`
   - Audacity (probably the most comprehensive one out of all mentioned audio tools in this section)
-    - `sudo add-apt-repository ppa:ubuntuhandbook1/audacity`
-    - `sudo apt update`
-    - (if the above does not work, just download the binary from [https://www.audacityteam.org/download/linux/](https://www.audacityteam.org/download/linux/) and run it in a simple way, e.g. `./audacity-linux-3.1.3-x86_64.AppImage`)
+    - Install it by looking for "Audacity" within the apps lauchcer. Install by using flathub or snap.
+    - ~~`sudo add-apt-repository ppa:ubuntuhandbook1/audacity`~~
+    - ~~`sudo apt update`~~
+    - ~~(if the above does not work, just download the binary from [https://www.audacityteam.org/download/linux/](https://www.audacityteam.org/download/linux/) and run it in a simple way, e.g. `./audacity-linux-3.1.3-x86_64.AppImage`)~~
   - snapd ("dependency" for mp3gain)
     - `sudo apt update`
     - `sudo apt install snapd`
