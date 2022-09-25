@@ -333,7 +333,21 @@ Now, go on with the Ubuntu software install & config as usual:
 			- Set "Resolution" and "Quality" dropdowns to the max or to the numbers required by yourself (the dropdowns are on the upper right corner of UI)
 			- "Render" button > Give the name and location for the output, e.g. myimage > Save
 			- Wait for the progress bar to reach 100% and complete
-			- Check the directory for the generated png file			
+			- Check the directory for the generated png file
+		- To make it start after looking for the app in the app launcher:
+			- `touch ~/j-wildfire.desktop`
+			- Make the content of `*.desktop` file look like this:
+			```
+			[Desktop Entry]
+			Name=JWildfire (generate fractals)
+			Comment=JWildfire is a free and user-friendly image-processing software, mostly known for its sophisticated flame-fractal-generator.
+			Exec=java -jar /home/paulius/software/j-wildfire/j-wildfire-launcher.jar
+			Terminal=false
+			Type=Application
+			Icon=wine-j-wildfire
+			Categories=Wine-Programs-Accessories;
+			```
+			- `sudo mv ~/j-wildfire.desktop /usr/share/applications/j-wildfire.desktop`
 	- (optional) "Sound Recorder" by The GNOME Project
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- VirtualBox - run several virtual systems on a single host computer
