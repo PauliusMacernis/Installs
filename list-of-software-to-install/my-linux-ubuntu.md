@@ -335,7 +335,6 @@ Now, go on with the Ubuntu software install & config as usual:
 			- Wait for the progress bar to reach 100% and complete
 			- Check the directory for the generated png file			
 	- (optional) "Sound Recorder" by The GNOME Project
-	- (optional, does it exist at all?) "MonoDevelop"
 	- "VLC media player" (Read, capture, broadcast your multimedia streams)
 	- VirtualBox - run several virtual systems on a single host computer
 	  - "VirtualBox" - install it
@@ -831,6 +830,7 @@ Now, go on with the Ubuntu software install & config as usual:
 				- or copy Windows fonts (if have any) to: `/usr/share/fonts/` (`gksu nautilus /usr/share/fonts`)
 	- `sudo apt update`
 	- `sudo apt-get upgrade`
+- (optional, does it exist at all?) "MonoDevelop"
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
 	- [Pick Windows software and install it](my-windows-10.md)
