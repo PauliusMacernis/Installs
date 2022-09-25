@@ -839,20 +839,21 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `cd ~/software/windows/ExamDiff`
 			- (Download the software to current dir, e.g. https://www.prestosoft.com/download/ed193_setup.exe )
 			- `wine start ed193_setup.exe`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files\ \(x86\)/ExamDiff/ExamDiff.exe` or `wine "C:/Program Files (x86)/ExamDiff/ExamDiff.exe"`
-			- `touch ~/wine-exam-diff.desktop`
-			- Make the content of *.desktop file look like this:
-			```
-			[Desktop Entry]
-			Name=ExamDiff (via Wine)
-			Comment=Compares two files for differences.
-			Exec=wine "C:/Program Files (x86)/ExamDiff/ExamDiff.exe"
-			Terminal=false
-			Type=Application
-			Icon=wine-file-exam-diff
-			Categories=Wine-Programs-Accessories;
-			```
-			- `sudo mv ~/wine-exam-diff.desktop /usr/share/applications/wine-exam-diff.desktop`
+			- Test it: search for "ExamDiff" within the installed programm icons OR `wine start /unix ~/.wine/drive_c/Program\ Files\ \(x86\)/ExamDiff/ExamDiff.exe` or `wine "C:/Program Files (x86)/ExamDiff/ExamDiff.exe"`
+			- In case no program appears in the search, go with these commands:
+				- `touch ~/wine-exam-diff.desktop`
+				- Make the content of *.desktop file look like this:
+				```
+				[Desktop Entry]
+				Name=ExamDiff (via Wine)
+				Comment=Compares two files for differences.
+				Exec=wine "C:/Program Files (x86)/ExamDiff/ExamDiff.exe"
+				Terminal=false
+				Type=Application
+				Icon=wine-file-exam-diff
+				Categories=Wine-Programs-Accessories;
+				```
+				- `sudo mv ~/wine-exam-diff.desktop /usr/share/applications/wine-exam-diff.desktop`
 		- http://encodingchecker.codeplex.com/ , https://github.com/amrali-eg/EncodingChecker/
 			- `cd ~/`
 			- `wget https://github.com/amrali-eg/EncodingChecker/blob/master/App/EncodingChecker.exe?raw=true -O EncodingChecker.exe`
@@ -880,22 +881,22 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `cd ~/`
 			- `mkdir ~/software/windows/HeidiSQL`
 			- `cd ~/software/windows/HeidiSQL`
-			- `wget https://www.heidisql.com/installers/HeidiSQL_9.5.0.5196_Setup.exe -O HeidiSQL_Setup.exe`
+			- `wget https://www.heidisql.com/installers/HeidiSQL_12.1.0.6537_Setup.exe -O HeidiSQL_Setup.exe`
 			- `wine start HeidiSQL_Setup.exe`
 			- Answer questions of Install Wizzard
 			- Click `Run the application` button at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe`
+			- Test it: search for "HeidiSQL" within the installed programm icons OR `wine start /unix ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe`
 		- https://notepad-plus-plus.org/
 			- `cd ~/`
 			- `mkdir ~/software/windows/npp`
 			- `cd ~/software/windows/npp`
-			- `wget https://notepad-plus-plus.org/repository/7.x/7.5.6/npp.7.5.6.Installer.exe -O npp.exe` (32bit)
+			- Download the install package from https://notepad-plus-plus.org/downloads/ to the just created directory and rename the new file to `npp.exe`
 			- `wine start npp.exe`
 			- Answer questions of Install Wizzard
 			- Check `Run the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe`
+			- Test it: search for "Notepad++" within the installed programm icons or do `env WINEPREFIX="/home/paulius/.wine/dosdevices/h:/home/paulius/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\Notepad++.lnk`
 		- (skip this, not working) https://quick-html-color-picker.en.uptodown.com/windows
 			- Download from (https://quick-html-color-picker.en.uptodown.com/windows) to `~/software/windows/quick-html-color-picker/quick-html-color-picker-1.0.exe`
 			- Test it: `wine start /unix ~/software/windows/quick-html-color-picker/quick-html-color-picker-1.0.exe`
@@ -903,12 +904,12 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `cd ~/`
 			- `mkdir ~/software/windows/diffmerge`
 			- `cd ~/software/windows/diffmerge`
-			- `wget http://download.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi -O DiffMerge.msi` (32bit)
+			- Download the latest 64-bit version installer file from https://sourcegear.com/diffmerge/downloads.html to the new directory and rename it to `DiffMerge.msi`
 			- `wine start DiffMerge.msi`
 			- Answer questions of Install Wizzard
 			- Check `Run the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/SourceGear/Common/DiffMerge/sgdm.exe`
+			- Test it: `wine start "C:/Program Files/SourceGear/Common/DiffMerge/sgdm.exe"`
 		- https://vistanita-duplicate-finder.soft32.com/
 			- `mkdir ~/software/windows/vistanita-duplicate-finder`
 			- Download from (https://vistanita-duplicate-finder.soft32.com/) to `~/software/windows/vistanita-duplicate-finder/vdf.exe`
@@ -916,28 +917,29 @@ Now, go on with the Ubuntu software install & config as usual:
 			- Answer questions of Install Wizzard
 			- Check `Run the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/Vistanita/DF/vdf.exe`
-			- `touch ~/wine-vistanitaduplicatefinder.desktop`
-			- Make the content of `*.desktop` file look like this:
-			```
-			[Desktop Entry]
-			Name=Vistanita Duplicate Finder (via Wine)
-			Comment=Vistanita Duplicate Finder is a program which allows you to find duplicate files on your hard disk. It can compare all types of files even if they have different names. As it performs byte by byte comparison.
-			Exec=wine "C:/Program Files/Vistanita/DF/vdf.exe"
-			Terminal=false
-			Type=Application
-			Icon=wine-vistanita-duplicate-finder
-			Categories=Wine-Programs-Accessories;
-			```
-			- `sudo mv ~/wine-vistanitaduplicatefinder.desktop /usr/share/applications/wine-vistanitaduplicatefinder.desktop`
+			- Test it: `wine "C:/users/Public/Desktop/Vistanita Duplicate Finder.lnk"`
+			- If running the test command does not look friendly enough, you may add this software between other software installed, use the next steps to do so:
+			  - `touch ~/wine-vistanitaduplicatefinder.desktop`
+			  - Make the content of `*.desktop` file look like this:
+			  ```
+			  [Desktop Entry]
+			  Name=Vistanita Duplicate Finder (via Wine)
+			  Comment=Vistanita Duplicate Finder is a program which allows you to find duplicate files on your hard disk. It can compare all types of files even if they have different names. As it performs byte by byte comparison.
+			  Exec=wine "C:/users/Public/Desktop/Vistanita Duplicate Finder.lnk"
+			  Terminal=false
+			  Type=Application
+			  Icon=wine-vistanita-duplicate-finder
+			  Categories=Wine-Programs-Accessories;
+			  ```
+			  - `sudo mv ~/wine-vistanitaduplicatefinder.desktop /usr/share/applications/wine-vistanitaduplicatefinder.desktop`
 		- http://winmerge.org/
 			- `mkdir ~/software/windows/winmerge`
-			- `wget http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe -O ~/software/windows/winmerge/WinMerge-Setup.exe`
+			- Download the latest installer file and place it to `~/software/windows/winmerge/WinMerge-Setup.exe`
 			- `wine start /unix ~/software/windows/winmerge/WinMerge-Setup.exe`
 			- Answer questions of Install Wizzard
 			- Check `Launch the application` at the end of the installation.
 			- Right click with the mouse on Icon in Ubuntu bar > `Add to Favorites`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/WinMerge/WinMergeU.exe`
+			- Test it by looking for "WinMerge" within the apps installed or run the following: `env WINEPREFIX="/home/paulius/.wine/dosdevices/h:/home/paulius/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\WinMerge.lnk`
 	
 - `sudo apt-get install ttf-mscorefonts-installer` (to install Microsoft fonts, for example "Times New Roman")
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
