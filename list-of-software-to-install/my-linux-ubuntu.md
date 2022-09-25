@@ -1049,8 +1049,8 @@ Now, go on with the Ubuntu software install & config as usual:
   - TypeScript
     - `sudo npm install -g typescript && tsc --version`, - see https://www.typescriptlang.org/download  
   - (optional) other
-    - `sudo apt install libssl1.0-dev`
-    - `sudo apt install nodejs-dev`
+    - `sudo apt install libssl-dev`
+    - `sudo apt install libnode-dev`
     - `sudo apt install node-gyp`    
   - (optional) `sudo aptitude install npm` - install a package with aptitude  
   - Yarn (https://yarnpkg.com):
