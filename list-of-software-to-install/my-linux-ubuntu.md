@@ -840,6 +840,19 @@ Now, go on with the Ubuntu software install & config as usual:
 			- (Download the software to current dir, e.g. https://www.prestosoft.com/download/ed193_setup.exe )
 			- `wine start ed193_setup.exe`
 			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files\ \(x86\)/ExamDiff/ExamDiff.exe`
+			- `touch ~/wine-exam-diff.desktop`
+			- Make the content of *.desktop file look like this:
+			```
+			[Desktop Entry]
+			Name=ExamDiff (via Wine)
+			Comment=Compares two files for differences.
+			Exec=wine "C:/Program Files (x86)/ExamDiff/ExamDiff.exe"
+			Terminal=false
+			Type=Application
+			Icon=wine-file-exam-diff
+			Categories=Wine-Programs-Accessories;
+			```
+			- `sudo mv ~/wine-exam-diff.desktop /usr/share/applications/wine-exam-diff.desktop`
 		- http://encodingchecker.codeplex.com/ , https://github.com/amrali-eg/EncodingChecker/
 			- `cd ~/`
 			- `wget https://github.com/amrali-eg/EncodingChecker/blob/master/App/EncodingChecker.exe?raw=true -O EncodingChecker.exe`
