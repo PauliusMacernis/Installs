@@ -837,17 +837,18 @@ Now, go on with the Ubuntu software install & config as usual:
 		- http://www.prestosoft.com/edp_examdiff.asp
 			- `mkdir ~/software/windows/ExamDiff`
 			- `cd ~/software/windows/ExamDiff`
-			- (Download the software to current dir)
-			- `wine start ed19_setup.exe`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files/ExamDiff/ExamDiff.exe`
-		- http://encodingchecker.codeplex.com/
+			- (Download the software to current dir, e.g. https://www.prestosoft.com/download/ed193_setup.exe )
+			- `wine start ed193_setup.exe`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files\ \(x86\)/ExamDiff/ExamDiff.exe`
+		- http://encodingchecker.codeplex.com/ , https://github.com/amrali-eg/EncodingChecker/
 			- `cd ~/`
-			- `wget https://codeplexarchive.blob.core.windows.net/archive/projects/EncodingChecker/EncodingChecker.zip -O encodingchecker.zip`
+			- `wget https://github.com/amrali-eg/EncodingChecker/blob/master/App/EncodingChecker.exe?raw=true -O EncodingChecker.exe`
 			- `mkdir ~/software/windows/encoding_checker`
-			- `unzip ~/encodingchecker.zip -d ~/software/windows/encoding_checker`
-			- `rm ~/encodingchecker.zip`
-			- `cd ~/software/windows/encoding_checker`
-			- `unzip ~/software/windows/encoding_checker/releases/0/661fe6e2-7846-4be6-9b03-ed9346b255be -d ~/software/windows/encoding_checker`
+			- ~~`unzip ~/encodingchecker.zip -d ~/software/windows/encoding_checker`~~
+			- ~~`rm ~/encodingchecker.zip`~~
+			- ~~`cd ~/software/windows/encoding_checker`~~
+			- ~~`unzip ~/software/windows/encoding_checker/releases/0/661fe6e2-7846-4be6-9b03-ed9346b255be -d ~/software/windows/encoding_checker`~~
+			- `wine start EncodingChecker.exe`
 			- Test it: `wine start EncodingChecker.exe`
 			- `touch ~/wine-encodingchecker.desktop`
 			- Make the content of `*.desktop` file look like this:
