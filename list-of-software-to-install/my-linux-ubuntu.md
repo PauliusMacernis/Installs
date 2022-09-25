@@ -833,7 +833,7 @@ Now, go on with the Ubuntu software install & config as usual:
 - (optional, does it exist at all?) "MonoDevelop"
 - Install software via Wine:
 	- // how to// `winefile` (Go to Shell > My Computer > Control Panel > Add/Remove Program > Install (Your windows apps)
-	- [Pick Windows software and install it](my-windows-10.md). Pay attention to the quick launch (aka. \*.Desktop) files generated. Sometimes the application generates the file on it's own into `~/.local/share/applications/wine/Programs/` while sometimes not and so you should create and save your own file to the same or another location Ubuntu 22 would pick it from, e.g. `/usr/share/applications/`. You need just one such \*.Desktop file per application, otherwise you will have quick launch icons duplicated. Now, consider the following software to be installed:
+	- [Pick Windows software and install it](my-windows-10.md). Pay attention to the quick launch (aka. \*.desktop) files generated. Sometimes the application generates the file on it's own into `~/.local/share/applications/wine/Programs/` while sometimes not and so you should create and save your own file to the same or another location Ubuntu 22 would pick it from, e.g. `/usr/share/applications/`. You need just one such \*.desktop file per application, otherwise you will have quick launch icons duplicated. Now, consider the following software to be installed:
 		- http://www.prestosoft.com/edp_examdiff.asp
 			- `mkdir ~/software/windows/ExamDiff`
 			- `cd ~/software/windows/ExamDiff`
@@ -943,7 +943,7 @@ Now, go on with the Ubuntu software install & config as usual:
 	
 - `sudo apt-get install ttf-mscorefonts-installer` (to install Microsoft fonts, for example "Times New Roman")
 - `mkdir ~/dev` (this will be for all dev projects like websites, phone apps, etc. to store)
-- If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
+- If still cannot find applications by just typing then create `*.desktop` files in `/usr/share/applications` or `~/.local/share/applications/wine/Programs/` by using the `*.desktop` template we made before. This is for invoking the program (e.g. wine-compatible) via quick launch.
 - "Online Accounts" - add online accounts
 - `Tweaks` > `Startup Applications` and pick applications to startup on boot
 - `journalctl --verify` - Check the systemd journal file for internal consistency.
