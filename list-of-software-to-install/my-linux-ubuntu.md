@@ -839,7 +839,7 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `cd ~/software/windows/ExamDiff`
 			- (Download the software to current dir, e.g. https://www.prestosoft.com/download/ed193_setup.exe )
 			- `wine start ed193_setup.exe`
-			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files\ \(x86\)/ExamDiff/ExamDiff.exe`
+			- Test it: `wine start /unix ~/.wine/drive_c/Program\ Files\ \(x86\)/ExamDiff/ExamDiff.exe` or `wine "C:/Program Files (x86)/ExamDiff/ExamDiff.exe"`
 			- `touch ~/wine-exam-diff.desktop`
 			- Make the content of *.desktop file look like this:
 			```
