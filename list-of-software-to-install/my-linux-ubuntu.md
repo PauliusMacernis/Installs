@@ -802,7 +802,7 @@ Now, go on with the Ubuntu software install & config as usual:
 			- `sudo dpkg --add-architecture i386` If 64 bit, enable 32 bit architecture (if you haven't already)
 			- `wget -nc https://dl.winehq.org/wine-builds/Release.key`
 			- `sudo apt-key add Release.key`
-			- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/`
+			- `sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/` (in case of the missing key error, refer to https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/ ,you will most likely need to run one extra command, e.g. something like this `https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/`)
 			- (If Ubuntu 18.04 LTS)
 				- `sudo nano /etc/apt/sources.list`
 				- Change distro: `https://dl.winehq.org/wine-builds/debian/ beaver main` to `https://dl.winehq.org/wine-builds/debian/ artful main`
