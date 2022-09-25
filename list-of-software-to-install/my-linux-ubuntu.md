@@ -1060,7 +1060,7 @@ Now, go on with the Ubuntu software install & config as usual:
     - `sudo apt-get update && sudo apt-get install yarn`
     - `yarn --version`
   - (optional) Forge CLI: https://developer.atlassian.com/platform/forge/getting-started/#install-the-forge-cli  
-  - `npm i -g nodemon` -- restart the application automatically whenever there is a change in the application
+  - `sudo npm i -g nodemon` -- restart the application automatically whenever there is a change in the application
 - ngrok https://dashboard.ngrok.com/get-started/setup
 - GUI customizations
   - Add bookmarks to the file explorer left side (Ctrl + D), e.g.:
