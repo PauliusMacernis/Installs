@@ -783,7 +783,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- Install Kernel Modules ( https://docs.anbox.io/userguide/install_kernel_modules.html )
 		- Other ( https://docs.anbox.io/userguide/install.html )
 	- TBD: Darling ( https://darlinghq.org/, https://docs.darlinghq.org/build-instructions.html ) - Run Mac software on Linux -- Ubuntu 22.04 version is not supported yet, - 25th of Sept, 2022
-	- TBD: snap ( https://snapcraft.io/docs/getting-started#heading--install ) -- it may be installed by default already.
+	- TBD: snap ( https://snapcraft.io/docs/getting-started#heading--install ) -- it may be installed by default already, check with `snap --version`
 	- Wine + Mono
 		- (Clean up if needed)
 			- `sudo apt purge win*`
