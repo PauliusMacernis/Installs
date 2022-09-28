@@ -1114,4 +1114,7 @@ Now, go on with the Ubuntu software install & config as usual:
     - `sudo apt-get update`
     - `sudo apt-get install mp3diags`
 
+- `sudo apt install tldr && tldr --update && tldr --version && tldr --about && tldr --help` - Simplified and community-driven man pages (cheatsheet style)
+
+
 
