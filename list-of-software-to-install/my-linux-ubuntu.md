@@ -1116,7 +1116,5 @@ Now, go on with the Ubuntu software install & config as usual:
 
 - `sudo apt install tldr && tldr --update && tldr --version && tldr --about && tldr --help` - Simplified and community-driven man pages (cheatsheet style)
 
-- `sudo apt install manpages-posix` - Builtins are part of the shell. Each shell has its own set of builtins. They are not independent commands and they don't have separate man pages. Luckily, the man pages of shell builtins are available in POSIX Programmer's Manual. You need to install it to access those man pages.  
-
-
+- `sudo apt install manpages-posix` - Builtins are part of the shell. Each shell has its own set of builtins. They are not independent commands and they don't have separate man pages. Luckily, the man pages of shell builtins are available in POSIX Programmer's Manual. You need to install it to access those man pages. For example, usually, we have no pages in the response if we use `man alias`. However, if we do install the manual, we get the info back.  
 
