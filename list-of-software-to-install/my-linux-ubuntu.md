@@ -1126,4 +1126,6 @@ Now, go on with the Ubuntu software install & config as usual:
 - DataSpell
   - Download & Install: https://www.jetbrains.com/dataspell/
 
+- OBS
+  - `sudo apt install obs-studio` - for more info, see https://itsfoss.com/screen-record-obs-wayland/    
 
