@@ -91,6 +91,7 @@ And then we go like that:
 			- https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi
 			- https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp
 			- https://chrome.google.com/webstore/detail/search-all-tabs/ndfnfhnlgoocpbbjjjfmiojdfcgcfomn/
+			- https://chrome.google.com/webstore/detail/formula-beautify/ilhdkahpmhggjagggfcblnjflgpgpgbd/
 			- (optional) https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden
 			- (optional) https://chrome.google.com/webstore/detail/simplescraper-%E2%80%94-a-fast-an/lnddbhdmiciimpkbilgpklcglkdegdkg
 			- (optional) https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj
