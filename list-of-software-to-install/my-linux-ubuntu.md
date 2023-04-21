@@ -1049,6 +1049,8 @@ Now, go on with the Ubuntu software install & config as usual:
         - open in browser by TechER
       - Extensions for Git:
       	- GitLens ( https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens )
+      - Extensions for Shell scripting:
+      	- ShellCheck ( https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck )
       - Restart IDE
 - Install Anki: https://apps.ankiweb.net/
 - Check for external IP: `curl ifconfig.me` ( taken from https://linuxcommandlibrary.com/basics )  
