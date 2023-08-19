@@ -568,6 +568,7 @@ Now, go on with the Ubuntu software install & config as usual:
 		- "Create Desktop entry..." for integration with system application menu: check, For all users: check > Next. In case you don't see such choice to create the entry, look for a little toggle icon on the bottom left corner of an intro window (it is the one you see after closing all projects), click on it and see if you may find a similar link in there.
 		- ~~Create script for opening files and projects from the command line: check, `/usr/local/bin/idea`~~
 		- Plugins (defaults are ok)
+  			- emmet ( https://emmet.io/ )
 		- ~~Install Scala and IDE Features Trainer plugins > Start using IntelliJ IDEA~~
 		- ~~Configure IntelliJ IDEA (`Configure` > `Project Defaults` > `Project Structure` > `Project Settings` > `Project`):~~
 			- ~~Project SDK: `New...` > `JDK` > Select JDK we have installed, like `/usr/lib/jvm/java-8-oracle` > OK~~
